@@ -1,0 +1,1004 @@
+                                drug                                 | prescription_count 
+---------------------------------------------------------------------+--------------------
+ Sodium Chloride 0.9%  Flush                                         |               9687
+ Acetaminophen                                                       |               7139
+ Heparin                                                             |               5881
+ 0.9% Sodium Chloride                                                |               5578
+ Docusate Sodium                                                     |               4501
+ Insulin                                                             |               4458
+ Senna                                                               |               3995
+ Potassium Chloride                                                  |               3340
+ Ondansetron                                                         |               3032
+ Magnesium Sulfate                                                   |               2711
+ Dextrose 50%                                                        |               2596
+ Glucagon                                                            |               2541
+ HYDROmorphone (Dilaudid)                                            |               2392
+ Bag                                                                 |               2347
+ 5% Dextrose                                                         |               2332
+ Iso-Osmotic Dextrose                                                |               2203
+ Bisacodyl                                                           |               2081
+ Morphine Sulfate                                                    |               2046
+ Lactated Ringers                                                    |               1889
+ Pantoprazole                                                        |               1744
+ Glucose Gel                                                         |               1675
+ Aspirin                                                             |               1667
+ Influenza Vaccine Quadrivalent                                      |               1628
+ Calcium Gluconate                                                   |               1621
+ Metoprolol Tartrate                                                 |               1601
+ Influenza Virus Vaccine                                             |               1580
+ Lorazepam                                                           |               1562
+ OxycoDONE (Immediate Release)                                       |               1412
+ Sodium Chloride 0.9%                                                |               1384
+ Omeprazole                                                          |               1320
+ Atorvastatin                                                        |               1188
+ Furosemide                                                          |               1177
+ Vancomycin                                                          |               1153
+ Albuterol 0.083% Neb Soln                                           |               1112
+ Gabapentin                                                          |               1085
+ SW                                                                  |               1048
+ Calcium Carbonate                                                   |               1001
+ Vial                                                                |                993
+ NS                                                                  |                984
+ Potassium Chloride Replacement (Critical Care and Oncology)         |                979
+ Vitamin D                                                           |                918
+ Multivitamins                                                       |                913
+ Levothyroxine Sodium                                                |                900
+ 0.9% Sodium Chloride (Mini Bag Plus)                                |                886
+ Pneumococcal Vac Polyvalent                                         |                883
+ Heparin Sodium                                                      |                823
+ OxyCODONE (Immediate Release)                                       |                801
+ Milk of Magnesia                                                    |                776
+ Polyethylene Glycol                                                 |                760
+ Lisinopril                                                          |                728
+ Albuterol Inhaler                                                   |                719
+ PNEUMOcoccal 23-valent polysaccharide vaccine                       |                675
+ Famotidine                                                          |                674
+ Sterile Water                                                       |                649
+ Propofol                                                            |                646
+ D5W                                                                 |                646
+ DiphenhydrAMINE                                                     |                641
+ D5 1/2NS                                                            |                624
+ Ibuprofen                                                           |                619
+ FoLIC Acid                                                          |                611
+ Metoprolol Succinate XL                                             |                604
+ Simvastatin                                                         |                603
+ LR                                                                  |                599
+ Simethicone                                                         |                549
+ Ketorolac                                                           |                549
+ Oxycodone-Acetaminophen                                             |                542
+ LORazepam                                                           |                536
+ Ranitidine                                                          |                533
+ Prochlorperazine                                                    |                527
+ CefazoLIN                                                           |                527
+ Ipratropium Bromide Neb                                             |                494
+ Sodium Bicarbonate                                                  |                489
+ TraZODone                                                           |                487
+ PredniSONE                                                          |                487
+ Heparin Flush (10 units/ml)                                         |                487
+ Diazepam                                                            |                487
+ 1/2 NS                                                              |                484
+ MetRONIDAZOLE (FLagyl)                                              |                464
+ Acetaminophen IV                                                    |                454
+ Fentanyl Citrate                                                    |                451
+ HydrALAzine                                                         |                449
+ Piperacillin-Tazobactam                                             |                448
+ CefePIME                                                            |                439
+ Aluminum-Magnesium Hydrox.-Simethicone                              |                433
+ Potassium Chl 20 mEq / 1000 mL D5 1/2 NS                            |                420
+ Metoclopramide                                                      |                410
+ Iso-Osmotic Sodium Chloride                                         |                399
+ Thiamine                                                            |                398
+ Lactulose                                                           |                397
+ Tamsulosin                                                          |                387
+ Zolpidem Tartrate                                                   |                382
+ Enoxaparin Sodium                                                   |                381
+ Amlodipine                                                          |                378
+ Warfarin                                                            |                377
+ Nitroglycerin SL                                                    |                365
+ Clopidogrel                                                         |                363
+ Acyclovir                                                           |                357
+ Ciprofloxacin HCl                                                   |                344
+ CeftriaXONE                                                         |                344
+ Ciprofloxacin IV                                                    |                335
+ Ferrous Sulfate                                                     |                333
+ Nitroglycerin                                                       |                331
+ traZODONE                                                           |                324
+ Fluticasone Propionate NASAL                                        |                324
+ Labetalol                                                           |                318
+ Soln                                                                |                316
+ Carvedilol                                                          |                311
+ Heparin Flush (100 units/ml)                                        |                310
+ Atenolol                                                            |                308
+ 0.45% Sodium Chloride                                               |                302
+ Allopurinol                                                         |                301
+ TraMADOL (Ultram)                                                   |                285
+ Sertraline                                                          |                285
+ Hydrochlorothiazide                                                 |                279
+ Citalopram                                                          |                275
+ Ipratropium-Albuterol Neb                                           |                267
+ Tacrolimus                                                          |                265
+ LeVETiracetam                                                       |                265
+ Lidocaine 5% Patch                                                  |                261
+ Cyanocobalamin                                                      |                258
+ Pravastatin                                                         |                251
+ Chlorhexidine Gluconate 0.12% Oral Rinse                            |                247
+ Levofloxacin                                                        |                245
+ Dexamethasone                                                       |                244
+ amLODIPine                                                          |                243
+ HydrALAZINE                                                         |                240
+ Fluticasone Propionate 110mcg                                       |                238
+ Fluticasone-Salmeterol Diskus (250/50)                              |                237
+ MetroNIDAZOLE                                                       |                233
+ Mirtazapine                                                         |                226
+ Azithromycin                                                        |                220
+ ClonazePAM                                                          |                218
+ Syringe                                                             |                216
+ CefTRIAXone                                                         |                216
+ Rosuvastatin Calcium                                                |                214
+ Clonazepam                                                          |                214
+ Ampicillin-Sulbactam                                                |                211
+ Oxycodone-Acetaminophen (5mg-325mg)                                 |                208
+ Losartan Potassium                                                  |                208
+ Insulin Human Regular                                               |                207
+ Mycophenolate Mofetil                                               |                205
+ Docusate Sodium (Liquid)                                            |                202
+ PHENYLEPHrine                                                       |                199
+ Diltiazem                                                           |                199
+ Tiotropium Bromide                                                  |                191
+ NORepinephrine                                                      |                188
+ Pregabalin                                                          |                187
+ Midazolam                                                           |                187
+ LevETIRAcetam                                                       |                182
+ Nicotine Patch                                                      |                180
+ Potassium Phosphate                                                 |                174
+ Naloxone                                                            |                174
+ Pantoprazole Sodium                                                 |                170
+ Isosorbide Mononitrate (Extended Release)                           |                170
+ Amiodarone                                                          |                170
+ Aspirin EC                                                          |                169
+ Spironolactone                                                      |                165
+ Latanoprost 0.005% Ophth. Soln.                                     |                162
+ TraMADol                                                            |                160
+ MethylPREDNISolone Sodium Succ                                      |                154
+ Ondansetron ODT                                                     |                153
+ Haloperidol                                                         |                153
+ Benzonatate                                                         |                153
+ sevelamer CARBONATE                                                 |                147
+ Ramelteon                                                           |                147
+ Magnesium Oxide                                                     |                146
+ Dextrose 5%                                                         |                146
+ Ascorbic Acid                                                       |                145
+ BuPROPion (Sustained Release)                                       |                144
+ HydrOXYzine                                                         |                142
+ Dibucaine                                                           |                142
+ Meropenem                                                           |                141
+ Sucralfate                                                          |                140
+ Fentanyl Patch                                                      |                140
+ QUEtiapine Fumarate                                                 |                139
+ Rifaximin                                                           |                138
+ Potassium Chloride Replacement (Oncology)                           |                137
+ Sulfameth/Trimethoprim SS                                           |                136
+ CeFAZolin                                                           |                136
+ Phytonadione                                                        |                135
+ Fluticasone-Salmeterol Diskus (500/50)                              |                133
+ Valsartan                                                           |                131
+ MetFORMIN (Glucophage)                                              |                131
+ Finasteride                                                         |                130
+ Fluconazole                                                         |                129
+ D5NS                                                                |                129
+ Multivitamins W/minerals                                            |                128
+ Methadone                                                           |                127
+ Promethazine                                                        |                125
+ NS (Mini Bag Plus)                                                  |                124
+ Cyclobenzaprine                                                     |                123
+ Ursodiol                                                            |                122
+ Escitalopram Oxalate                                                |                122
+ LaMOTrigine                                                         |                121
+ Diltiazem Extended-Release                                          |                121
+ Fluoxetine                                                          |                119
+ Calcitriol                                                          |                118
+ Tetanus-DiphTox-Acellular Pertuss (Adacel)                          |                117
+ Quetiapine Fumarate                                                 |                117
+ Clindamycin                                                         |                117
+ Venlafaxine XR                                                      |                116
+ Fish Oil (Omega 3)                                                  |                116
+ Morphine SR (MS Contin)                                             |                115
+ Lidocaine Jelly 2% (Urojet)                                         |                115
+ Topiramate (Topamax)                                                |                113
+ Apixaban                                                            |                113
+ Amitriptyline                                                       |                113
+ Brimonidine Tartrate 0.15% Ophth.                                   |                111
+ Vancomycin Oral Liquid                                              |                110
+ Nystatin Oral Suspension                                            |                110
+ ALPRAZolam                                                          |                109
+ Phenylephrine                                                       |                108
+ Neutra-Phos                                                         |                107
+ Artificial Tears                                                    |                107
+ Torsemide                                                           |                106
+ Morphine Sulfate IR                                                 |                106
+ Baclofen                                                            |                106
+ Atropine Sulfate                                                    |                106
+ OxyCODONE SR (OxyconTIN)                                            |                105
+ NiCARdipine IV                                                      |                105
+ Nephrocaps                                                          |                105
+ Digoxin                                                             |                104
+ Miconazole Powder 2%                                                |                100
+ Montelukast                                                         |                 98
+ HYDROmorphone                                                       |                 97
+ Donepezil                                                           |                 96
+ Acetaminophen-Caff-Butalbital                                       |                 96
+ Oxycodone SR (OxyconTIN)                                            |                 95
+ D5LR                                                                |                 94
+ Lidocaine Jelly 2% (Glydo)                                          |                 93
+ Sulfameth/Trimethoprim DS                                           |                 92
+ Fexofenadine                                                        |                 92
+ Meperidine                                                          |                 90
+ Loratadine                                                          |                 90
+ Duloxetine                                                          |                 90
+ Glycopyrrolate                                                      |                 89
+ Ipratropium Bromide MDI                                             |                 87
+ Hydrocodone-Acetaminophen                                           |                 87
+ Alprazolam                                                          |                 87
+ Sarna Lotion                                                        |                 86
+ Potassium Chl 20 mEq / 1000 mL NS                                   |                 85
+ Codeine Sulfate                                                     |                 85
+ 0.83% Sodium Chloride                                               |                 85
+ Tizanidine                                                          |                 83
+ Maalox/Diphenhydramine/Lidocaine                                    |                 82
+ Citalopram Hydrobromide                                             |                 82
+ Carbidopa-Levodopa (25-100)                                         |                 82
+ Albuterol-Ipratropium                                               |                 82
+ Octreotide Acetate                                                  |                 81
+ Neostigmine                                                         |                 81
+ Guaifenesin                                                         |                 80
+ CloniDINE                                                           |                 79
+ Midodrine                                                           |                 77
+ Doxycycline Hyclate                                                 |                 77
+ Timolol Maleate 0.5%                                                |                 76
+ Cetirizine                                                          |                 76
+ NIFEdipine CR                                                       |                 75
+ Dorzolamide 2%/Timolol 0.5% Ophth.                                  |                 74
+ Creon 12                                                            |                 74
+ Phenytoin Sodium                                                    |                 73
+ Fluticasone-Salmeterol Diskus (100/50)                              |                 73
+ Calcium Acetate                                                     |                 73
+ Sodium Chloride Nasal                                               |                 72
+ BuPROPion                                                           |                 72
+ Paroxetine                                                          |                 71
+ Multivitamin IV                                                     |                 70
+ Colchicine                                                          |                 70
+ Oxybutynin                                                          |                 69
+ Oxazepam                                                            |                 69
+ Mupirocin Ointment 2%                                               |                 69
+ Acetylcysteine 20%                                                  |                 69
+ LOPERamide                                                          |                 67
+ Verapamil SR                                                        |                 66
+ Sodium Phosphate                                                    |                 66
+ Lidocaine 1%                                                        |                 66
+ OLANZapine                                                          |                 65
+ Lansoprazole Oral Disintegrating Tab                                |                 65
+ Hydrocortisone Na Succ.                                             |                 65
+ Albumin 25% (12.5g / 50mL)                                          |                 65
+ Readi-Cat 2 (Barium Sulfate 2% Suspension)                          |                 64
+ Meclizine                                                           |                 64
+ Oxytocin                                                            |                 63
+ Cephalexin                                                          |                 63
+ FLUoxetine                                                          |                 62
+ Sodium Polystyrene Sulfonate                                        |                 61
+ Potassium Chloride (Powder)                                         |                 61
+ Nicotine Polacrilex                                                 |                 61
+ DULoxetine                                                          |                 60
+ Acetaminophen (Liquid)                                              |                 60
+ Isosorbide Dinitrate                                                |                 59
+ Doxazosin                                                           |                 59
+ Dermoplast Spray                                                    |                 58
+ BusPIRone                                                           |                 58
+ Bupivacaine 0.1%                                                    |                 58
+ Guaifenesin-CODEINE Phosphate                                       |                 56
+ Cepacol (Menthol)                                                   |                 56
+ Phenytoin Sodium Extended                                           |                 55
+ Guaifenesin-Dextromethorphan                                        |                 55
+ Divalproex (DELayed Release)                                        |                 55
+ Vasopressin                                                         |                 53
+ Nortriptyline                                                       |                 53
+ Norepinephrine                                                      |                 53
+ ValGANCIclovir                                                      |                 52
+ Hydroxychloroquine Sulfate                                          |                 52
+ Potassium Chl 40 mEq / 1000 mL NS                                   |                 51
+ Dexmedetomidine                                                     |                 51
+ Scopolamine Patch                                                   |                 50
+ Piperacillin-Tazobactam Na                                          |                 50
+ Phosphorus                                                          |                 50
+ Metoprolol                                                          |                 50
+ GlipiZIDE                                                           |                 50
+ Terazosin                                                           |                 49
+ LamoTRIgine                                                         |                 49
+ PrednisoLONE Acetate 1% Ophth. Susp.                                |                 48
+ DOXOrubicin                                                         |                 48
+ CycloSPORINE (Neoral) MODIFIED                                      |                 48
+ Venlafaxine                                                         |                 47
+ Risperidone                                                         |                 47
+ Propranolol                                                         |                 47
+ Captopril                                                           |                 46
+ Acetylcysteine (IV)                                                 |                 46
+ Eptifibatide                                                        |                 45
+ Albumin 5% (25g / 500mL)                                            |                 45
+ Rivaroxaban                                                         |                 44
+ OxycoDONE Liquid                                                    |                 44
+ Lidocaine 1% (For PICC/Midline Insertions)                          |                 44
+ Cisatracurium Besylate                                              |                 44
+ Prenatal Vitamins                                                   |                 43
+ Naproxen                                                            |                 43
+ Nadolol                                                             |                 43
+ Loperamide                                                          |                 43
+ Ezetimibe                                                           |                 43
+ Etoposide                                                           |                 43
+ DOPamine                                                            |                 43
+ CefTAZidime                                                         |                 43
+ Tuberculin Protein                                                  |                 41
+ Potassium Chl 40 mEq / 1000 mL D5 1/2 NS                            |                 41
+ Oxcarbazepine                                                       |                 41
+ Emtricitabine-Tenofovir (Truvada)                                   |                 41
+ Cepacol (Sore Throat Lozenge)                                       |                 41
+ CARVedilol                                                          |                 41
+ Atovaquone Suspension                                               |                 41
+ Syringe (Iso-Osmotic Dextrose)                                      |                 40
+ Diphenoxylate-Atropine                                              |                 40
+ DiCYCLOmine                                                         |                 40
+ Ampicillin Sodium                                                   |                 40
+ Amoxicillin-Clavulanic Acid                                         |                 40
+ Phenytoin                                                           |                 39
+ Memantine                                                           |                 39
+ Hydrocortisone                                                      |                 39
+ GuaiFENesin                                                         |                 39
+ Diazepam - CIWA protocol                                            |                 39
+ Albuterol                                                           |                 39
+ Potassium Chl 20 mEq / 1000 mL D5NS                                 |                 38
+ Olanzapine                                                          |                 38
+ Benztropine Mesylate                                                |                 38
+ OSELTAMivir                                                         |                 37
+ Montelukast Sodium                                                  |                 37
+ EPINEPHrine                                                         |                 37
+ Enalapril Maleate                                                   |                 37
+ CloNIDine                                                           |                 37
+ Azithromycin                                                        |                 37
+ Acetaminophen w/Codeine                                             |                 37
+ 5% Dextrose (EXCEL BAG)                                             |                 37
+ Zonisamide                                                          |                 36
+ MoviPrep                                                            |                 36
+ Hydrocerin                                                          |                 36
+ Fludrocortisone Acetate                                             |                 36
+ Cinacalcet                                                          |                 36
+ Aripiprazole                                                        |                 36
+ Raltegravir                                                         |                 35
+ Epoetin Alfa                                                        |                 35
+ Chloraseptic Throat Spray                                           |                 35
+ Artificial Tears Preserv. Free                                      |                 35
+ PHENObarbital                                                       |                 34
+ Lidocaine Viscous 2%                                                |                 34
+ RiTONAvir                                                           |                 33
+ PARoxetine                                                          |                 33
+ Linezolid                                                           |                 33
+ LaMIVudine                                                          |                 33
+ GlyBURIDE                                                           |                 33
+ Gentamicin                                                          |                 33
+ Erythromycin 0.5% Ophth Oint                                        |                 33
+ Yellow CADD Cassette                                                |                 32
+ Prazosin                                                            |                 32
+ OLANZapine (Disintegrating Tablet)                                  |                 32
+ Chlorthalidone                                                      |                 32
+ Vitamin B Complex                                                   |                 31
+ Sumatriptan Succinate                                               |                 31
+ Sotalol                                                             |                 31
+ Phenazopyridine                                                     |                 31
+ LACOSamide                                                          |                 31
+ Divalproex (EXTended Release)                                       |                 31
+ Dipyridamole-Aspirin                                                |                 31
+ BuPROPion XL (Once Daily)                                           |                 31
+ Syringe (0.9% Sodium Chloride)                                      |                 30
+ Soln.                                                               |                 30
+ Pyridoxine                                                          |                 30
+ MethylPHENIDATE (Ritalin)                                           |                 30
+ Dronabinol                                                          |                 30
+ ARIPiprazole                                                        |                 30
+ ValACYclovir                                                        |                 29
+ RisperiDONE                                                         |                 29
+ Bumetanide                                                          |                 29
+ Alteplase (Catheter Clearance)                                      |                 29
+ Vitamin E                                                           |                 28
+ Pramipexole                                                         |                 28
+ Olanzapine (Disintegrating Tablet)                                  |                 28
+ Magnesium Sulfate Replacement (Oncology)                            |                 28
+ Insulin Pump (Self Administering Medication)                        |                 28
+ GuaiFENesin ER                                                      |                 28
+ Fluticasone-Salmeterol (250/50)                                     |                 28
+ Dabigatran Etexilate                                                |                 28
+ Bacitracin Ointment                                                 |                 28
+ Anti-Thymocyte Globulin (Rabbit)                                    |                 28
+ Methimazole                                                         |                 27
+ MetFORMIN XR (Glucophage XR)                                        |                 27
+ Lidocaine 5% Ointment                                               |                 27
+ Heparin Dwell (1000 Units/mL)                                       |                 27
+ Dorzolamide 2% Ophth. Soln.                                         |                 27
+ Dofetilide                                                          |                 27
+ Clobetasol Propionate 0.05% Cream                                   |                 27
+ TiCAGRELOR                                                          |                 26
+ Methocarbamol                                                       |                 26
+ Mesna                                                               |                 26
+ Gentamicin Sulfate                                                  |                 26
+ Cholestyramine                                                      |                 26
+ Albuterol MDI                                                       |                 26
+ Albumin 5% (12.5g / 250mL)                                          |                 26
+ Triamcinolone Acetonide 0.1% Cream                                  |                 25
+ Sirolimus                                                           |                 25
+ sevelamer HYDROCHLORIDE                                             |                 25
+ Ropinirole                                                          |                 25
+ Flecainide Acetate                                                  |                 25
+ Caphosol                                                            |                 25
+ VinCRIStine (Oncovin)                                               |                 24
+ Tolterodine                                                         |                 24
+ Neomycin-Polymyxin-Bacitracin                                       |                 24
+ Magnesium Citrate                                                   |                 24
+ Lithium Carbonate                                                   |                 24
+ Gemfibrozil                                                         |                 24
+ Clotrimazole Cream                                                  |                 24
+ Verapamil                                                           |                 23
+ Nitroprusside Sodium                                                |                 23
+ Mesalamine                                                          |                 23
+ Golytely                                                            |                 23
+ Fenofibrate                                                         |                 23
+ Efavirenz                                                           |                 23
+ DICYCLOMine                                                         |                 23
+ Daptomycin                                                          |                 23
+ Clozapine                                                           |                 23
+ Clotrimazole                                                        |                 23
+ Calcium Replacement (Oncology)                                      |                 23
+ Calcium Gluconate sliding scale (Critical Care-Ionized calcium)     |                 23
+ Aztreonam                                                           |                 23
+ Artificial Tear Ointment                                            |                 23
+ OxyCODONE--Acetaminophen (5mg-325mg)                                |                 22
+ OXcarbazepine                                                       |                 22
+ Ferrous GLUCONATE                                                   |                 22
+ Dolutegravir                                                        |                 22
+ Darunavir                                                           |                 22
+ Clobetasol Propionate 0.05% Ointment                                |                 22
+ Tenofovir Disoproxil (Viread)                                       |                 21
+ Psyllium                                                            |                 21
+ OxycoDONE-Acetaminophen Elixir                                      |                 21
+ Mupirocin Nasal Ointment 2%                                         |                 21
+ Hyoscyamine                                                         |                 21
+ Hydroxyurea                                                         |                 21
+ Epidural Bag                                                        |                 21
+ Cefpodoxime Proxetil                                                |                 21
+ Valproic Acid                                                       |                 20
+ Timolol Maleate 0.25%                                               |                 20
+ Sodium Chloride 3% (Hypertonic)                                     |                 20
+ Salmeterol Xinafoate Diskus (50 mcg)                                |                 20
+ Mycophenolate Sodium DR                                             |                 20
+ Mesalamine DR                                                       |                 20
+ Fleet Enema                                                         |                 20
+ Dapsone                                                             |                 20
+ Syringe (Chemo)                                                     |                 19
+ Sildenafil                                                          |                 19
+ Oxymetazoline                                                       |                 19
+ Lidocaine 2%                                                        |                 19
+ Lidocaine-Prilocaine                                                |                 19
+ Guaifenesin ER                                                      |                 19
+ Esmolol                                                             |                 19
+ EPINEPHrine (EpiPEN)                                                |                 19
+ Enoxaparin (Prophylaxis)                                            |                 19
+ ChlorproMAZINE                                                      |                 19
+ Atazanavir                                                          |                 19
+ Amantadine                                                          |                 19
+ Zinc Sulfate                                                        |                 18
+ Triamcinolone Acetonide 0.1% Ointment                               |                 18
+ Temazepam                                                           |                 18
+ Sodium Chloride                                                     |                 18
+ RISperidone                                                         |                 18
+ Nimodipine                                                          |                 18
+ Niacin SR                                                           |                 18
+ Morphine Sulfate (Oral Soln.)                                       |                 18
+ Isotonic Sodium Chloride                                            |                 18
+ HYDROmorphone P.F.                                                  |                 18
+ Gastroview (Diatrizoate Meglumine & Sodium)                         |                 18
+ Febuxostat                                                          |                 18
+ Doxepin HCl                                                         |                 18
+ Dexamethasone Sod Phosphate                                         |                 18
+ Desmopressin Acetate                                                |                 18
+ Cepastat (Phenol) Lozenge                                           |                 18
+ Carbamazepine                                                       |                 18
+ Amoxicillin                                                         |                 18
+ rOPINIRole                                                          |                 17
+ PrimiDONE                                                           |                 17
+ Phenytoin (Suspension)                                              |                 17
+ PHENObarbital - ICU Alcohol Withdrawal (Initial Load / Rescue Dose) |                 17
+ Nicotine Lozenge                                                    |                 17
+ Metolazone                                                          |                 17
+ Ketoconazole 2%                                                     |                 17
+ Filgrastim                                                          |                 17
+ Etravirine                                                          |                 17
+ Buprenorphine-Naloxone (8mg-2mg)                                    |                 17
+ Budesonide                                                          |                 17
+ Pancrelipase 5000                                                   |                 16
+ Nitrofurantoin Monohyd (MacroBID)                                   |                 16
+ Methotrexate                                                        |                 16
+ Megestrol Acetate                                                   |                 16
+ Levalbuterol Neb                                                    |                 16
+ Ketamine                                                            |                 16
+ Hydrocortisone (Rectal) 2.5% Cream                                  |                 16
+ Hydrocodone-Acetaminophen (5mg-500mg)                               |                 16
+ Heparin Flush (1000 units/mL)                                       |                 16
+ GlipiZIDE XL                                                        |                 16
+ D10W                                                                |                 16
+ 0.9 % Sodium Chloride                                               |                 16
+ Voriconazole                                                        |                 15
+ Psyllium Powder                                                     |                 15
+ Protamine Sulfate                                                   |                 15
+ Prismasate (B32 K2)                                                 |                 15
+ pramipexole                                                         |                 15
+ Namenda                                                             |                 15
+ Hydrocodone-Acetaminophen (5mg-325mg)                               |                 15
+ Estrogens Conjugated                                                |                 15
+ Cytarabine                                                          |                 15
+ Cilostazol                                                          |                 15
+ Azathioprine                                                        |                 15
+ Aquaphor Ointment                                                   |                 15
+ Alteplase                                                           |                 15
+ Ziprasidone Hydrochloride                                           |                 14
+ Sodium Citrate                                                      |                 14
+ rifAXIMin                                                           |                 14
+ QUEtiapine extended-release                                         |                 14
+ Promethazine HCl                                                    |                 14
+ Oseltamivir                                                         |                 14
+ Nystatin Cream                                                      |                 14
+ Nitroglycerin Ointment  2%                                          |                 14
+ Milrinone                                                           |                 14
+ Lovastatin                                                          |                 14
+ Lactulose Enema                                                     |                 14
+ Doxercalciferol                                                     |                 14
+ CARBOplatin                                                         |                 14
+ Anastrozole                                                         |                 14
+ Amphetamine-Dextroamphetamine                                       |                 14
+ 0.9% NaCl (EXCEL/ViaFLO BAG)                                        |                 14
+ SulfaSALAzine_                                                      |                 13
+ Pyridostigmine Bromide                                              |                 13
+ Psyllium Wafer                                                      |                 13
+ Pioglitazone                                                        |                 13
+ Perphenazine                                                        |                 13
+ Nitroglycerin Patch                                                 |                 13
+ NIFEdipine                                                          |                 13
+ Naloxone HCl                                                        |                 13
+ Mouth Care Oral Rinse                                               |                 13
+ Miconazole 2% Cream                                                 |                 13
+ Methylene Blue 1%                                                   |                 13
+ Mannitol 20 %                                                       |                 13
+ Insulin (Regular) for Hyperkalemia                                  |                 13
+ Hydrocortisone Cream 1%                                             |                 13
+ Heparin (Hemodialysis)                                              |                 13
+ Furosemide-Heart Failure                                            |                 13
+ Fosaprepitant                                                       |                 13
+ Ferrous Gluconate                                                   |                 13
+ Erythromycin                                                        |                 13
+ DOBUTamine                                                          |                 13
+ Dextromethorphan-Guaifenesin (Sugar Free)                           |                 13
+ Ciprofloxacin                                                       |                 13
+ Bupivacaine 0.5%                                                    |                 13
+ Aluminum Hydroxide Suspension                                       |                 13
+ Ranolazine ER                                                       |                 12
+ Ramipril                                                            |                 12
+ Methylprednisolone                                                  |                 12
+ Lopinavir-Ritonavir                                                 |                 12
+ Lidocaine Jelly 2%                                                  |                 12
+ Isosorbide Mononitrate                                              |                 12
+ Ipratropium-Albuterol Inhalation Spray                              |                 12
+ Ferric Gluconate                                                    |                 12
+ Felodipine                                                          |                 12
+ Calcitonin Salmon                                                   |                 12
+ Abacavir Sulfate                                                    |                 12
+ Triamterene-Hydrochlorothiazide                                     |                 11
+ Sodium Fluoride 1.1% (Dental Gel)                                   |                 11
+ Ranitidine (Liquid)                                                 |                 11
+ Quinapril                                                           |                 11
+ Propranolol LA                                                      |                 11
+ Potassium Chl 40 mEq / 1000 mL D5NS                                 |                 11
+ Mesalamine (Rectal)                                                 |                 11
+ Indomethacin                                                        |                 11
+ Fluvoxamine Maleate                                                 |                 11
+ Entecavir                                                           |                 11
+ DULoxetine DR                                                       |                 11
+ CarBAMazepine                                                       |                 11
+ Betaxolol Ophth Susp  0.25%                                         |                 11
+ AzaTHIOprine                                                        |                 11
+ Aspirin Desensitization (Urticaria/Angioedema)                      |                 11
+ Aspirin Desensitization (Angioedema)                                |                 11
+ Aldesleukin                                                         |                 11
+ Adderall                                                            |                 11
+ Viaflex Bag                                                         |                 10
+ Sodium CITRATE 4%                                                   |                 10
+ Sevelamer                                                           |                 10
+ quiniDINE Gluconate E.R.                                            |                 10
+ Nystatin                                                            |                 10
+ NIFEdipine (Extended Release)                                       |                 10
+ Nafcillin                                                           |                 10
+ Liothyronine Sodium                                                 |                 10
+ Lidocaine                                                           |                 10
+ Ketorolac 0.5% Ophth Soln                                           |                 10
+ Hydrocortisone Cream 2.5%                                           |                 10
+ HYDROcodone-Acetaminophen (5mg-325mg)                               |                 10
+ Carbidopa-Levodopa (25-250)                                         |                 10
+ Capsaicin 0.025%                                                    |                 10
+ Tricor                                                              |                  9
+ Triamterene-HCTZ (37.5/25)                                          |                  9
+ Rituximab                                                           |                  9
+ Potassium Chl 20 mEq / 1000 mL D5LR                                 |                  9
+ Pentoxifylline                                                      |                  9
+ Penicillin G Potassium                                              |                  9
+ OxyCODONE SR (OxyCONTIN)                                            |                  9
+ Oxaliplatin Desensitization                                         |                  9
+ NiMODipine                                                          |                  9
+ Mupirocin Cream 2%                                                  |                  9
+ Moexipril                                                           |                  9
+ Lyrica                                                              |                  9
+ Insulin Regular Human (U-500)                                       |                  9
+ Esomeprazole sodium                                                 |                  9
+ Epinephrine                                                         |                  9
+ Emtricitabine-Tenofovir alafen (200mg-25mg) *DESCOVY*               |                  9
+ Dronedarone                                                         |                  9
+ Divalproex Sod. Sprinkles                                           |                  9
+ Clevidipine                                                         |                  9
+ Clarithromycin                                                      |                  9
+ Citrate Dextrose 3% (ACD-A) CRRT                                    |                  9
+ Calcium Chloride                                                    |                  9
+ Blue CADD Cassette                                                  |                  9
+ Bismuth Subsalicylate                                               |                  9
+ Bethanechol                                                         |                  9
+ Betamethasone Na. Phos/Acet                                         |                  9
+ Tamoxifen Citrate                                                   |                  8
+ Sodium Chloride 3% Inhalation Soln                                  |                  8
+ Ribavirin                                                           |                  8
+ Restasis                                                            |                  8
+ Prasugrel                                                           |                  8
+ Posaconazole Suspension                                             |                  8
+ PNEUMOcoccal Vac Polyvalent                                         |                  8
+ Phenytoin Infatab                                                   |                  8
+ Phenazopyridine HCl                                                 |                  8
+ N-Acetylcysteine                                                    |                  8
+ Misoprostol                                                         |                  8
+ Minoxidil                                                           |                  8
+ Minocycline                                                         |                  8
+ Micafungin                                                          |                  8
+ Lubiprostone                                                        |                  8
+ Leucovorin Calcium                                                  |                  8
+ Lactic Acid 12% Lotion                                              |                  8
+ Heparin Flush CVL  (100 units/ml)                                   |                  8
+ Fosphenytoin                                                        |                  8
+ Fleet Enema (Mineral Oil)                                           |                  8
+ Eplerenone                                                          |                  8
+ D5W (EXCEL BAG)                                                     |                  8
+ Cosyntropin                                                         |                  8
+ ClomiPRAMINE                                                        |                  8
+ CeftazIDIME                                                         |                  8
+ AMP                                                                 |                  8
+ 5 Syringes (NS)                                                     |                  8
+ ZIPRASidone Hydrochloride                                           |                  7
+ Xopenex Neb                                                         |                  7
+ Tirofiban                                                           |                  7
+ Thyroid                                                             |                  7
+ TB Syringe                                                          |                  7
+ Stribild                                                            |                  7
+ Silver Sulfadiazine 1% Cream                                        |                  7
+ Rifampin                                                            |                  7
+ Propofol 1000mg/100mL 100mL VIAL                                    |                  7
+ Paricalcitol                                                        |                  7
+ Niacin                                                              |                  7
+ Mirapex                                                             |                  7
+ Methylphenidate                                                     |                  7
+ Methadone (Oral Solution)  2 mg/1 mL                                |                  7
+ Magnesium Sulfate (OB)                                              |                  7
+ Lithium Carbonate SR (Lithobid)                                     |                  7
+ LevETIRAcetam Oral Solution                                         |                  7
+ Lanthanum                                                           |                  7
+ Isoniazid                                                           |                  7
+ Imipramine                                                          |                  7
+ Fleet Enema (Saline)                                                |                  7
+ Filgrastim-sndz                                                     |                  7
+ Ethanol 70% Catheter DWELL                                          |                  7
+ Epinephrine 1:1000                                                  |                  7
+ Desonide 0.05% Cream                                                |                  7
+ Collagenase Ointment                                                |                  7
+ Clopidogrel Bisulfate                                               |                  7
+ Clindamycin 1% Solution                                             |                  7
+ CISplatin                                                           |                  7
+ Carbamide Peroxide 6.5%                                             |                  7
+ Betamethasone Dipro 0.05% Oint                                      |                  7
+ Adenosine Liver Flush                                               |                  7
+ AcetaZOLamide                                                       |                  7
+ 300 mcg Vial                                                        |                  7
+ Ziprasidone                                                         |                  6
+ Valproate Sodium                                                    |                  6
+ Symbicort                                                           |                  6
+ Sulfameth/Trimethoprim Suspension                                   |                  6
+ Sodium Glycerophosphate                                             |                  6
+ RITUXimab                                                           |                  6
+ Riboflavin (Vitamin B-2)                                            |                  6
+ Racepinephrine                                                      |                  6
+ Propoxyphene Nap.-Apap (N-100)                                      |                  6
+ Propafenone HCl                                                     |                  6
+ PACLItaxel (TaxOL)                                                  |                  6
+ NS Epidural Bag                                                     |                  6
+ Morphine Sulfate (Concentrated Oral Soln)                           |                  6
+ Modafinil                                                           |                  6
+ Mexiletine                                                          |                  6
+ MethylPREDNISolone Na Suc                                           |                  6
+ Methylnaltrexone                                                    |                  6
+ Mannitol 20%                                                        |                  6
+ LaMIVudine-Zidovudine (Combivir)                                    |                  6
+ Lacosamide                                                          |                  6
+ Ibuprofen Suspension                                                |                  6
+ Hydrocodone-Acetaminophen (5mg-500mg                                |                  6
+ Heparin Flush (5000 Units/mL)                                       |                  6
+ Heparin (IABP)                                                      |                  6
+ GammaGARD Liquid                                                    |                  6
+ Fluticasone-Salmeterol (100/50)                                     |                  6
+ Fluocinonide 0.05% Cream                                            |                  6
+ Estradiol                                                           |                  6
+ Divalproex Sodium                                                   |                  6
+ Dipyridamole                                                        |                  6
+ CycloSPORINE (Sandimmune)                                           |                  6
+ Clonidine Patch 0.3 mg/24 hr                                        |                  6
+ Chlordiazepoxide HCl                                                |                  6
+ Carbidopa-Levodopa CR (25-100)                                      |                  6
+ Carbamazepine (Extended-Release)                                    |                  6
+ Betamethasone Dipro 0.05% Cream                                     |                  6
+ Arimidex                                                            |                  6
+ Argatroban                                                          |                  6
+ Amitriptyline HCl                                                   |                  6
+ Alendronate Sodium                                                  |                  6
+ albuterol sulfate                                                   |                  6
+ Theophylline SR                                                     |                  5
+ Terbinafine 1% Cream                                                |                  5
+ Syringe (Sterile Water)                                             |                  5
+ Succinylcholine                                                     |                  5
+ Ropivacaine 0.2%                                                    |                  5
+ Quetiapine extended-release                                         |                  5
+ PHENObarbital Alcohol Withdrawal Dose Taper (Days 2-7)              |                  5
+ Oseltamivir Phosphate                                               |                  5
+ Nystatin-Triamcinolone Cream                                        |                  5
+ NiCARdipine                                                         |                  5
+ Mycophenolate Mofetil Suspension                                    |                  5
+ modafinil                                                           |                  5
+ Mineral Oil                                                         |                  5
+ Methyldopa                                                          |                  5
+ MEMAntine                                                           |                  5
+ MedroxyPROGESTERone Acetate                                         |                  5
+ Lithium Carbonate CR (Eskalith)                                     |                  5
+ Lidocaine 2% P.f.                                                   |                  5
+ LeVETiracetam Oral Solution                                         |                  5
+ Letrozole                                                           |                  5
+ Ledipasvir/Sofosbuvir                                               |                  5
+ INV-GO-203-2c                                                       |                  5
+ Imipenem-Cilastatin                                                 |                  5
+ Heparin (CRRT Machine Priming)                                      |                  5
+ Gelclair                                                            |                  5
+ Fondaparinux Sodium                                                 |                  5
+ Fluocinonide 0.05% Ointment                                         |                  5
+ Ferrous Sulfate (Liquid)                                            |                  5
+ Exemestane                                                          |                  5
+ Diclofenac Sodium DR                                                |                  5
+ Desipramine                                                         |                  5
+ Cyclosporine 0.05% Ophth Emulsion                                   |                  5
+ CycloPHOSPHAMIDE                                                    |                  5
+ Cyclophosphamide                                                    |                  5
+ Creon 10                                                            |                  5
+ Clobazam                                                            |                  5
+ Celecoxib                                                           |                  5
+ Betamethasone Sodium Phos/Acet                                      |                  5
+ Aspirin (Buffered)                                                  |                  5
+ anastrozole                                                         |                  5
+ Amphetamine-Dextroamphetamine XR                                    |                  5
+ Aminocaproic Acid                                                   |                  5
+ Amiloride HCl                                                       |                  5
+ Alprostadil                                                         |                  5
+ Advair Diskus                                                       |                  5
+ 0.9% Sodium Chloride P.F. (Syringe)                                 |                  5
+ Xopenex                                                             |                  4
+ TRIAzolam                                                           |                  4
+ Tretinoin (ATRA-All Transretinoic Acid)                             |                  4
+ Syringe (NS)                                                        |                  4
+ SulfaSALAzine DR                                                    |                  4
+ Sofosbuvir                                                          |                  4
+ Rocuronium                                                          |                  4
+ Ranexa                                                              |                  4
+ Probenecid                                                          |                  4
+ Prismasate (B22 K4)                                                 |                  4
+ PrednisoLONE Acetate 0.12% Ophth. Susp.                             |                  4
+ Polymyxin B Sulfate                                                 |                  4
+ Plasma-Lyte A (pH 7.4)                                              |                  4
+ Pilocarpine 1%                                                      |                  4
+ Phenelzine Sulfate                                                  |                  4
+ Penicillin V Potassium                                              |                  4
+ OXALIplatin Desensitization                                         |                  4
+ Opium Tincture                                                      |                  4
+ Nystatin Ointment                                                   |                  4
+ Nystatin-Triamcinolone Ointment                                     |                  4
+ NS Epidural Bag (0.9% NaCl)                                         |                  4
+ Neomycin Sulfate                                                    |                  4
+ Morphine Sulfate (Oral Solution) 2 mg/mL                            |                  4
+ Metoprolol XL (Toprol XL)                                           |                  4
+ Methylphenidate SR                                                  |                  4
+ Methylergonovine Maleate                                            |                  4
+ Methotrexate Sodium                                                 |                  4
+ LevoFLOXacin                                                        |                  4
+ LaMICtal XR                                                         |                  4
+ L-Carnitine                                                         |                  4
+ Ketoconazole                                                        |                  4
+ irbesartan                                                          |                  4
+ Ifosfamide                                                          |                  4
+ Hydrocortisone Cream 0.5%                                           |                  4
+ Hydrocortisone Acetate Suppository                                  |                  4
+ GuaiFENesin-Dextromethorphan                                        |                  4
+ Glycerin Supps                                                      |                  4
+ Fondaparinux                                                        |                  4
+ Fluorometholone 0.1% Ophth Susp.                                    |                  4
+ Fludarabine Phosphate                                               |                  4
+ Everolimus                                                          |                  4
+ Ethambutol HCl                                                      |                  4
+ Emtricitabine                                                       |                  4
+ Dextroamphetamine                                                   |                  4
+ Cyclopentolate 1%                                                   |                  4
+ Cromolyn Sodium                                                     |                  4
+ cilostazol                                                          |                  4
+ Chlorothiazide Sodium                                               |                  4
+ Carbidopa-Levodopa CR (50-200)                                      |                  4
+ Carbamazepine XR                                                    |                  4
+ Calcipotriene 0.005% Cream                                          |                  4
+ Buprenorphine-Naloxone Tablet (8mg-2mg)                             |                  4
+ Buprenorphine                                                       |                  4
+ Bismuth Subsalicylate Chewable                                      |                  4
+ Bicitra                                                             |                  4
+ Betamethasone Valerate 0.1% Cream                                   |                  4
+ Benzocaine 20% Spray                                                |                  4
+ Bengay                                                              |                  4
+ Bacitracin/Polymyxin B Sulfate Opht. Oint                           |                  4
+ Avapro                                                              |                  4
+ 0.9% Sodium Chloride (EXCEL BAG)                                    |                  4
+ Zidovudine                                                          |                  3
+ Vitamin B Complex w/C                                               |                  3
+ Vitamin A                                                           |                  3
+ Viokase-8                                                           |                  3
+ Vecuronium Bromide                                                  |                  3
+ ValGANCIclovir Oral Solution                                        |                  3
+ Tucks Hemorrhoidal Oint 1%                                          |                  3
+ Trihexyphenidyl                                                     |                  3
+ Trifluoperazine HCl                                                 |                  3
+ Tretinoin 0.025% Cream                                              |                  3
+ Treprostinil Sodium                                                 |                  3
+ Ticlopidine HCl                                                     |                  3
+ TiCLOPIDINE                                                         |                  3
+ Thiothixene                                                         |                  3
+ Sulfamethoxazole-Trimethoprim                                       |                  3
+ Sodium Fluoride (Dental Gel)                                        |                  3
+ Sodium Acetate                                                      |                  3
+ Selegiline HCl                                                      |                  3
+ Salsalate                                                           |                  3
+ Sacubitril-Valsartan (24mg-26mg)                                    |                  3
+ rivastigmine                                                        |                  3
+ Repaglinide                                                         |                  3
+ Rasburicase                                                         |                  3
+ ranolazine                                                          |                  3
+ raloxifene                                                          |                  3
+ Pseudoephedrine                                                     |                  3
+ Propylthiouracil                                                    |                  3
+ Prazosin HCl                                                        |                  3
+ Posaconazole                                                        |                  3
+ Pilocarpine 4%                                                      |                  3
+ Pilocarpine 2%                                                      |                  3
+ Phenytoin Sodium (IV)                                               |                  3
+ Phenaseptic Throat Spray                                            |                  3
+ Pamidronate                                                         |                  3
+ PALIperidone ER                                                     |                  3
+ olmesartan                                                          |                  3
+ NS (Irrigation Bottle)                                              |                  3
+ NORepinephrine (in NS)                                              |                  3
+ Nevirapine                                                          |                  3
+ Neomycin/Polymyxin B Sulfate                                        |                  3
+ Nabumetone                                                          |                  3
+ Myfortic                                                            |                  3
+ Morphine                                                            |                  3
+ Miralax                                                             |                  3
+ MetronidAZOLE Topical 1 % Gel                                       |                  3
+ Methotrexate Sodium P.F.                                            |                  3
+ Methazolamide                                                       |                  3
+ Methadone (Concentrated Oral Solution) 10 mg/1 mL                   |                  3
+ Mercaptopurine                                                      |                  3
+ lurasidone                                                          |                  3
+ Levocarnitine                                                       |                  3
+ Levobunolol 0.5%                                                    |                  3
+ Levetiracetam                                                       |                  3
+ Levemir                                                             |                  3
+ Leuprolide Acetate                                                  |                  3
+ Leflunomide                                                         |                  3
+ leflunomide                                                         |                  3
+ Ketoconazole Shampoo                                                |                  3
+ Keppra                                                              |                  3
+ Ivermectin                                                          |                  3
+ Iron Polysaccharides Complex                                        |                  3
+ Irbesartan                                                          |                  3
+ INV-Hydrocortisone                                                  |                  3
+ Insulin Syringe U-500                                               |                  3
+ Hyoscyamine SO4 (Time Release)                                      |                  3
+ Hydrocortisone Oint 2.5%                                            |                  3
+ Hydrocortisone Enema                                                |                  3
+ Heparin Flush Port (10 units/mL)                                    |                  3
+ Heparin Flush PICC (100 units/ml)                                   |                  3
+ Heparin (Impella)                                                   |                  3
+ Glutamine                                                           |                  3
+ glimepiride                                                         |                  3
+ galantamine                                                         |                  3
+ Fluorouracil                                                        |                  3
+ Fentanyl                                                            |                  3
+ Etomidate                                                           |                  3
+ EpiPen                                                              |                  3
+ ENTAcapone                                                          |                  3
+ Donnatal                                                            |                  3
+ Docusate                                                            |                  3
+ Docusate                                                            |                  3
+ DiCLOXacillin                                                       |                  3
+ Dexamethasone Ophthalmic Soln 0.1%                                  |                  3
+ Desmopressin Nasal                                                  |                  3
+ Decitabine                                                          |                  3
+ Cyproheptadine                                                      |                  3
+ Comtan                                                              |                  3
+ Ciprofloxacin 0.3% Ophth Soln                                       |                  3
+ Cimetidine                                                          |                  3
+ Cetuximab                                                           |                  3
+ Celebrex                                                            |                  3
+ CARBOplatin Desensitization                                         |                  3
+ Carbidopa-Levodopa (10-100)                                         |                  3
+ Calcium Carbonate Suspension                                        |                  3
+ Buprenorphine-Naloxone Film (8mg-2mg)                               |                  3
+ Bumetanide Desensitization                                          |                  3
+ Bottle                                                              |                  3
+ Bengay Cream                                                        |                  3
+ Belladonna & Opium (16.2/30mg)                                      |                  3
+ Atropine Sulfate Ophth 1%                                           |                  3
+ Atacand                                                             |                  3
+ Aprepitant                                                          |                  3
+ Amino Acids 5%-Dextrose 15%                                         |                  3
+ aMILoride                                                           |                  3
+ Ambisome                                                            |                  3
+ Albuterol 0.5%                                                      |                  3
+ Albumin 5%                                                          |                  3
+ Adenosine                                                           |                  3
+ Adderall XR                                                         |                  3
+ 6 Syringes (NS)                                                     |                  3
+ 23.4% Sodium Chloride                                               |                  3
+ Zyrtec                                                              |                  2
+ Witch Hazel 50% Pad                                                 |                  2
+ Vigamox                                                             |                  2
+ VIal (Sterile Water)                                                |                  2
+ venetoclax                                                          |                  2
+ vancomycin                                                          |                  2
+ VALTREX                                                             |                  2
+ Triamterene                                                         |                  2
+ Tretinoin (ATRA, All-Transretinoic Acid)                            |                  2
+ Travoprost                                                          |                  2
+ Tranylcypromine Sulfate                                             |                  2
+ Trandolapril                                                        |                  2
+ Tobramycin Sulfate                                                  |                  2
+ Tobramycin Inhalation Soln                                          |                  2
+ Tobramycin 0.3% Ophth Soln                                          |                  2
+ Tobramycin-Dexamethasone Ophth Oint                                 |                  2
+ Tizanidine HCl                                                      |                  2
+ Tigecycline                                                         |                  2
+ Thrombin                                                            |                  2
+ Tetracaine 0.5% Ophth Soln                                          |                  2
+ Tetanus-Diphtheria Tox (DECAVAC)                                    |                  2
+ Testosterone 5mg Patch                                              |                  2
+ Testosterone 2 mg Patch                                             |                  2
+ Tecfidera                                                           |                  2
+ Tacrolimus Suspension                                               |                  2
+ tacrolimus                                                          |                  2
+ Syringe (Intraperitoneal)                                           |                  2
+(1000 rows)
+

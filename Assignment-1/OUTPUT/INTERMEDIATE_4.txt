@@ -1,0 +1,1004 @@
+ subject_id | hadm_id  | icd_code |                                                                                                        long_title                                                                                                        
+------------+----------+----------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+   19983009 | 25448442 | Z86711   | Personal history of pulmonary embolism
+   19983009 | 25448442 | Z7902    | Long term (current) use of antithrombotics/antiplatelets
+   19983009 | 25448442 | Z681     | Body mass index (BMI) 19.9 or less, adult
+   19983009 | 25448442 | Z66      | Do not resuscitate
+   19983009 | 25448442 | R6521    | Severe sepsis with septic shock
+   19983009 | 25448442 | R64      | Cachexia
+   19983009 | 25448442 | K7200    | Acute and subacute hepatic failure without coma
+   19983009 | 25448442 | K529     | Noninfective gastroenteritis and colitis, unspecified
+   19983009 | 25448442 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19983009 | 25448442 | J9601    | Acute respiratory failure with hypoxia
+   19983009 | 25448442 | J189     | Pneumonia, unspecified organism
+   19983009 | 25448442 | I5020    | Unspecified systolic (congestive) heart failure
+   19983009 | 25448442 | I429     | Cardiomyopathy, unspecified
+   19983009 | 25448442 | I248     | Other forms of acute ischemic heart disease
+   19983009 | 25448442 | G92      | Toxic encephalopathy
+   19983009 | 25448442 | E876     | Hypokalemia
+   19983009 | 25448442 | E872     | Acidosis
+   19983009 | 25448442 | E785     | Hyperlipidemia, unspecified
+   19983009 | 25448442 | E43      | Unspecified severe protein-calorie malnutrition
+   19983009 | 25448442 | E2740    | Unspecified adrenocortical insufficiency
+   19983009 | 25448442 | E11649   | Type 2 diabetes mellitus with hypoglycemia without coma
+   19983009 | 25448442 | E039     | Hypothyroidism, unspecified
+   19983009 | 25448442 | D65      | Disseminated intravascular coagulation [defibrination syndrome]
+   19983009 | 25448442 | D649     | Anemia, unspecified
+   19983009 | 25448442 | C786     | Secondary malignant neoplasm of retroperitoneum and peritoneum
+   19983009 | 25448442 | C7800    | Secondary malignant neoplasm of unspecified lung
+   19983009 | 25448442 | C259     | Malignant neoplasm of pancreas, unspecified
+   19983009 | 25448442 | A4151    | Sepsis due to Escherichia coli [E. coli]
+   19983009 | 25448442 | A0472    | Enterocolitis due to Clostridium difficile, not specified as recurrent
+   19970470 | 23848017 | V667     | Encounter for palliative care
+   19970470 | 23848017 | V5861    | Long-term (current) use of anticoagulants
+   19970470 | 23848017 | V4986    | Do not resuscitate status
+   19970470 | 23848017 | V1253    | Personal history of sudden cardiac arrest
+   19970470 | 23848017 | E9342    | Anticoagulants causing adverse effects in therapeutic use
+   19970470 | 23848017 | E9323    | Insulins and antidiabetic agents causing adverse effects in therapeutic use
+   19970470 | 23848017 | E8497    | Accidents occurring in residential institution
+   19970470 | 23848017 | 99592    | Severe sepsis
+   19970470 | 23848017 | 79092    | Abnormal coagulation profile
+   19970470 | 23848017 | 78552    | Septic shock
+   19970470 | 23848017 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19970470 | 23848017 | 570      | Acute and subacute necrosis of liver
+   19970470 | 23848017 | 51881    | Acute respiratory failure
+   19970470 | 23848017 | 45340    | Acute venous embolism and thrombosis of unspecified deep vessels of lower extremity
+   19970470 | 23848017 | 34831    | Metabolic encephalopathy
+   19970470 | 23848017 | 3439     | Infantile cerebral palsy, unspecified
+   19970470 | 23848017 | 29680    | Bipolar disorder, unspecified
+   19970470 | 23848017 | 2767     | Hyperpotassemia
+   19970470 | 23848017 | 2762     | Acidosis
+   19970470 | 23848017 | 25002    | Diabetes mellitus without mention of complication, type II or unspecified type, uncontrolled
+   19970470 | 23848017 | 07070    | Unspecified viral hepatitis C without hepatic coma
+   19970470 | 23848017 | 0389     | Unspecified septicemia
+   19968075 | 28592225 | Z9861    | Coronary angioplasty status
+   19968075 | 28592225 | Z9114    | Patient's other noncompliance with medication regimen
+   19968075 | 28592225 | Z8249    | Family history of ischemic heart disease and other diseases of the circulatory system
+   19968075 | 28592225 | Z781     | Physical restraint status
+   19968075 | 28592225 | Z66      | Do not resuscitate
+   19968075 | 28592225 | Z515     | Encounter for palliative care
+   19968075 | 28592225 | R570     | Cardiogenic shock
+   19968075 | 28592225 | N179     | Acute kidney failure, unspecified
+   19968075 | 28592225 | K7200    | Acute and subacute hepatic failure without coma
+   19968075 | 28592225 | J9691    | Respiratory failure, unspecified with hypoxia
+   19968075 | 28592225 | J449     | Chronic obstructive pulmonary disease, unspecified
+   19968075 | 28592225 | I739     | Peripheral vascular disease, unspecified
+   19968075 | 28592225 | I5041    | Acute combined systolic (congestive) and diastolic (congestive) heart failure
+   19968075 | 28592225 | I472     | Ventricular tachycardia
+   19968075 | 28592225 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19968075 | 28592225 | I2101    | ST elevation (STEMI) myocardial infarction involving left main coronary artery
+   19968075 | 28592225 | I110     | Hypertensive heart disease with heart failure
+   19968075 | 28592225 | F200     | Paranoid schizophrenia
+   19968075 | 28592225 | F17210   | Nicotine dependence, cigarettes, uncomplicated
+   19968075 | 28592225 | E875     | Hyperkalemia
+   19968075 | 28592225 | E872     | Acidosis
+   19968075 | 28592225 | E785     | Hyperlipidemia, unspecified
+   19968075 | 28592225 | B182     | Chronic viral hepatitis C
+   19955966 | 22895257 | V4581    | Aortocoronary bypass status
+   19955966 | 22895257 | 72973    | Nontraumatic compartment syndrome of abdomen
+   19955966 | 22895257 | 70703    | Pressure ulcer, lower back
+   19955966 | 22895257 | 5849     | Acute kidney failure, unspecified
+   19955966 | 22895257 | 5723     | Portal hypertension
+   19955966 | 22895257 | 5722     | Hepatic encephalopathy
+   19955966 | 22895257 | 5715     | Cirrhosis of liver without mention of alcohol
+   19955966 | 22895257 | 51881    | Acute respiratory failure
+   19955966 | 22895257 | 5180     | Pulmonary collapse
+   19955966 | 22895257 | 501      | Asbestosis
+   19955966 | 22895257 | 4589     | Hypotension, unspecified
+   19955966 | 22895257 | 45620    | Esophageal varices in diseases classified elsewhere, with bleeding
+   19955966 | 22895257 | 4280     | Congestive heart failure, unspecified
+   19955966 | 22895257 | 42789    | Other specified cardiac dysrhythmias
+   19955966 | 22895257 | 42731    | Atrial fibrillation
+   19955966 | 22895257 | 41400    | Coronary atherosclerosis of unspecified type of vessel, native or graft
+   19955966 | 22895257 | 39890    | Rheumatic heart disease, unspecified
+   19955966 | 22895257 | 2841     | Pancytopenia
+   19955966 | 22895257 | 2800     | Iron deficiency anemia secondary to blood loss (chronic)
+   19955966 | 22895257 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19944094 | 20794406 | Z992     | Dependence on renal dialysis
+   19944094 | 20794406 | Z87891   | Personal history of nicotine dependence
+   19944094 | 20794406 | Z66      | Do not resuscitate
+   19944094 | 20794406 | Z515     | Encounter for palliative care
+   19944094 | 20794406 | Y92239   | Unspecified place in hospital as the place of occurrence of the external cause
+   19944094 | 20794406 | T424X5A  | Adverse effect of benzodiazepines, initial encounter
+   19944094 | 20794406 | N400     | Benign prostatic hyperplasia without lower urinary tract symptoms
+   19944094 | 20794406 | N186     | End stage renal disease
+   19944094 | 20794406 | L97512   | Non-pressure chronic ulcer of other part of right foot with fat layer exposed
+   19944094 | 20794406 | J9811    | Atelectasis
+   19944094 | 20794406 | J9691    | Respiratory failure, unspecified with hypoxia
+   19944094 | 20794406 | J90      | Pleural effusion, not elsewhere classified
+   19944094 | 20794406 | I743     | Embolism and thrombosis of arteries of the lower extremities
+   19944094 | 20794406 | I7092    | Chronic total occlusion of artery of the extremities
+   19944094 | 20794406 | I4891    | Unspecified atrial fibrillation
+   19944094 | 20794406 | I314     | Cardiac tamponade
+   19944094 | 20794406 | I313     | Pericardial effusion (noninflammatory)
+   19944094 | 20794406 | I120     | Hypertensive chronic kidney disease with stage 5 chronic kidney disease or end stage renal disease
+   19944094 | 20794406 | G92      | Toxic encephalopathy
+   19944094 | 20794406 | E8770    | Fluid overload, unspecified
+   19944094 | 20794406 | E11621   | Type 2 diabetes mellitus with foot ulcer
+   19944094 | 20794406 | E1152    | Type 2 diabetes mellitus with diabetic peripheral angiopathy with gangrene
+   19944094 | 20794406 | E1122    | Type 2 diabetes mellitus with diabetic chronic kidney disease
+   19944094 | 20794406 | D72829   | Elevated white blood cell count, unspecified
+   19944094 | 20794406 | D469     | Myelodysplastic syndrome, unspecified
+   19936325 | 25009656 | R6521    | Severe sepsis with septic shock
+   19936325 | 25009656 | R570     | Cardiogenic shock
+   19936325 | 25009656 | R45851   | Suicidal ideations
+   19936325 | 25009656 | N179     | Acute kidney failure, unspecified
+   19936325 | 25009656 | K767     | Hepatorenal syndrome
+   19936325 | 25009656 | K7201    | Acute and subacute hepatic failure with coma
+   19936325 | 25009656 | K7031    | Alcoholic cirrhosis of liver with ascites
+   19936325 | 25009656 | I8510    | Secondary esophageal varices without bleeding
+   19936325 | 25009656 | F329     | Major depressive disorder, single episode, unspecified
+   19936325 | 25009656 | F1021    | Alcohol dependence, in remission
+   19936325 | 25009656 | E119     | Type 2 diabetes mellitus without complications
+   19936325 | 25009656 | D72829   | Elevated white blood cell count, unspecified
+   19936325 | 25009656 | D689     | Coagulation defect, unspecified
+   19936325 | 25009656 | A047     | Enterocolitis due to Clostridium difficile
+   19933770 | 27972684 | V707     | Examination of participant in clinical trial
+   19933770 | 27972684 | V667     | Encounter for palliative care
+   19933770 | 27972684 | E8794    | Aspiration of fluid as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19933770 | 27972684 | E8791    | Kidney dialysis as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19933770 | 27972684 | 99811    | Hemorrhage complicating a procedure
+   19933770 | 27972684 | 99673    | Other complications due to renal dialysis device, implant, and graft
+   19933770 | 27972684 | 99592    | Severe sepsis
+   19933770 | 27972684 | 78959    | Other ascites
+   19933770 | 27972684 | 78552    | Septic shock
+   19933770 | 27972684 | 5859     | Chronic kidney disease, unspecified
+   19933770 | 27972684 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19933770 | 27972684 | 5724     | Hepatorenal syndrome
+   19933770 | 27972684 | 5715     | Cirrhosis of liver without mention of alcohol
+   19933770 | 27972684 | 56723    | Spontaneous bacterial peritonitis
+   19933770 | 27972684 | 5601     | Paralytic ileus
+   19933770 | 27972684 | 51881    | Acute respiratory failure
+   19933770 | 27972684 | 49390    | Asthma, unspecified type, unspecified
+   19933770 | 27972684 | 486      | Pneumonia, organism unspecified
+   19933770 | 27972684 | 47831    | Unilateral paralysis of vocal cords or larynx, partial
+   19933770 | 27972684 | 45621    | Esophageal varices in diseases classified elsewhere, without mention of bleeding
+   19933770 | 27972684 | 42832    | Chronic diastolic heart failure
+   19933770 | 27972684 | 4280     | Congestive heart failure, unspecified
+   19933770 | 27972684 | 4275     | Cardiac arrest
+   19933770 | 27972684 | 40390    | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified
+   19933770 | 27972684 | 34590    | Epilepsy, unspecified, without mention of intractable epilepsy
+   19933770 | 27972684 | 32723    | Obstructive sleep apnea (adult)(pediatric)
+   19933770 | 27972684 | 3004     | Dysthymic disorder
+   19933770 | 27972684 | 28860    | Leukocytosis, unspecified
+   19933770 | 27972684 | 2869     | Other and unspecified coagulation defects
+   19933770 | 27972684 | 2866     | Defibrination syndrome
+   19933770 | 27972684 | 2841     | Pancytopenia
+   19933770 | 27972684 | 2768     | Hypopotassemia
+   19933770 | 27972684 | 2767     | Hyperpotassemia
+   19933770 | 27972684 | 2762     | Acidosis
+   19933770 | 27972684 | 2760     | Hyperosmolality and/or hypernatremia
+   19933770 | 27972684 | 27542    | Hypercalcemia
+   19933770 | 27972684 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19933770 | 27972684 | 07044    | Chronic hepatitis C with hepatic coma
+   19933770 | 27972684 | 03849    | Other septicemia due to gram-negative organisms
+   19931450 | 28190098 | Z9889    | Other specified postprocedural states
+   19931450 | 28190098 | Z938     | Other artificial opening status
+   19931450 | 28190098 | Z781     | Physical restraint status
+   19931450 | 28190098 | Z66      | Do not resuscitate
+   19931450 | 28190098 | Z515     | Encounter for palliative care
+   19931450 | 28190098 | R4020    | Unspecified coma
+   19931450 | 28190098 | R001     | Bradycardia, unspecified
+   19931450 | 28190098 | N179     | Acute kidney failure, unspecified
+   19931450 | 28190098 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19931450 | 28190098 | J9600    | Acute respiratory failure, unspecified whether with hypoxia or hypercapnia
+   19931450 | 28190098 | J811     | Chronic pulmonary edema
+   19931450 | 28190098 | J690     | Pneumonitis due to inhalation of food and vomit
+   19931450 | 28190098 | J15211   | Pneumonia due to Methicillin susceptible Staphylococcus aureus
+   19931450 | 28190098 | I9589    | Other hypotension
+   19931450 | 28190098 | I679     | Cerebrovascular disease, unspecified
+   19931450 | 28190098 | I67848   | Other cerebrovascular vasospasm and vasoconstriction
+   19931450 | 28190098 | I63522   | Cerebral infarction due to unspecified occlusion or stenosis of left anterior cerebral artery
+   19931450 | 28190098 | I63521   | Cerebral infarction due to unspecified occlusion or stenosis of right anterior cerebral artery
+   19931450 | 28190098 | I615     | Nontraumatic intracerebral hemorrhage, intraventricular
+   19931450 | 28190098 | I6022    | Nontraumatic subarachnoid hemorrhage from left anterior communicating artery
+   19931450 | 28190098 | I5181    | Takotsubo syndrome
+   19931450 | 28190098 | I480     | Paroxysmal atrial fibrillation
+   19931450 | 28190098 | G936     | Cerebral edema
+   19931450 | 28190098 | G932     | Benign intracranial hypertension
+   19931450 | 28190098 | G919     | Hydrocephalus, unspecified
+   19931450 | 28190098 | E870     | Hyperosmolality and hypernatremia
+   19931450 | 28190098 | E785     | Hyperlipidemia, unspecified
+   19914382 | 22124023 | Z951     | Presence of aortocoronary bypass graft
+   19914382 | 22124023 | Z87891   | Personal history of nicotine dependence
+   19914382 | 22124023 | Z515     | Encounter for palliative care
+   19914382 | 22124023 | Y929     | Unspecified place or not applicable
+   19914382 | 22124023 | Y834     | Other reconstructive surgery as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+   19914382 | 22124023 | T826XXA  | Infection and inflammatory reaction due to cardiac valve prosthesis, initial encounter
+   19914382 | 22124023 | R6521    | Severe sepsis with septic shock
+   19914382 | 22124023 | N189     | Chronic kidney disease, unspecified
+   19914382 | 22124023 | N170     | Acute kidney failure with tubular necrosis
+   19914382 | 22124023 | M109     | Gout, unspecified
+   19914382 | 22124023 | I5033    | Acute on chronic diastolic (congestive) heart failure
+   19914382 | 22124023 | I442     | Atrioventricular block, complete
+   19914382 | 22124023 | I330     | Acute and subacute infective endocarditis
+   19914382 | 22124023 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19914382 | 22124023 | I130     | Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   19914382 | 22124023 | E875     | Hyperkalemia
+   19914382 | 22124023 | E871     | Hypo-osmolality and hyponatremia
+   19914382 | 22124023 | E785     | Hyperlipidemia, unspecified
+   19914382 | 22124023 | D696     | Thrombocytopenia, unspecified
+   19914382 | 22124023 | B9689    | Other specified bacterial agents as the cause of diseases classified elsewhere
+   19914382 | 22124023 | A419     | Sepsis, unspecified organism
+   19914382 | 22124023 | A047     | Enterocolitis due to Clostridium difficile
+   19913642 | 24020868 | 79902    | Hypoxemia
+   19913642 | 24020868 | 486      | Pneumonia, organism unspecified
+   19913642 | 24020868 | 4019     | Unspecified essential hypertension
+   19899642 | 27603399 | V851     | Body Mass Index between 19-24, adult
+   19899642 | 27603399 | 99592    | Severe sepsis
+   19899642 | 27603399 | 7994     | Cachexia
+   19899642 | 27603399 | 78552    | Septic shock
+   19899642 | 27603399 | 60000    | Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)
+   19899642 | 27603399 | 51881    | Acute respiratory failure
+   19899642 | 27603399 | 5070     | Pneumonitis due to inhalation of food or vomitus
+   19899642 | 27603399 | 496      | Chronic airway obstruction, not elsewhere classified
+   19899642 | 27603399 | 4280     | Congestive heart failure, unspecified
+   19899642 | 27603399 | 42789    | Other specified cardiac dysrhythmias
+   19899642 | 27603399 | 25541    | Glucocorticoid deficiency
+   19899642 | 27603399 | 1623     | Malignant neoplasm of upper lobe, bronchus or lung
+   19899642 | 27603399 | 0389     | Unspecified septicemia
+   19897644 | 22914145 | V5865    | Long-term (current) use of steroids
+   19897644 | 22914145 | V4579    | Other acquired absence of organ
+   19897644 | 22914145 | V153     | Personal history of irradiation, presenting hazards to health
+   19897644 | 22914145 | V1046    | Personal history of malignant neoplasm of prostate
+   19897644 | 22914145 | 7140     | Rheumatoid arthritis
+   19897644 | 22914145 | 51919    | Other diseases of trachea and bronchus
+   19897644 | 22914145 | 51881    | Acute respiratory failure
+   19897644 | 22914145 | 4019     | Unspecified essential hypertension
+   19897644 | 22914145 | 3668     | Other cataract
+   19897644 | 22914145 | 27542    | Hypercalcemia
+   19897644 | 22914145 | 19889    | Secondary malignant neoplasm of other specified sites
+   19897644 | 22914145 | 1977     | Malignant neoplasm of liver, secondary
+   19897644 | 22914145 | 1973     | Secondary malignant neoplasm of other respiratory organs
+   19897644 | 22914145 | 1971     | Secondary malignant neoplasm of mediastinum
+   19897644 | 22914145 | 1961     | Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes
+   19897644 | 22914145 | 1508     | Malignant neoplasm of other specified part of esophagus
+   19897344 | 23853450 | E9478    | Other drugs and medicinal substances causing adverse effects in therapeutic use
+   19897344 | 23853450 | 99731    | Ventilator associated pneumonia
+   19897344 | 23853450 | 78551    | Cardiogenic shock
+   19897344 | 23853450 | 5990     | Urinary tract infection, site not specified
+   19897344 | 23853450 | 5849     | Acute kidney failure, unspecified
+   19897344 | 23853450 | 5715     | Cirrhosis of liver without mention of alcohol
+   19897344 | 23853450 | 5128     | Other spontaneous pneumothorax
+   19897344 | 23853450 | 4111     | Intermediate coronary syndrome
+   19897344 | 23853450 | 33399    | Other extrapyramidal diseases and abnormal movement disorders
+   19897344 | 23853450 | 3320     | Paralysis agitans
+   19897344 | 23853450 | 311      | Depressive disorder, not elsewhere classified
+   19897344 | 23853450 | 2875     | Thrombocytopenia, unspecified
+   19897344 | 23853450 | 07054    | Chronic hepatitis C without mention of hepatic coma
+   19895003 | 28467259 | Z87891   | Personal history of nicotine dependence
+   19895003 | 28467259 | R6520    | Severe sepsis without septic shock
+   19895003 | 28467259 | R571     | Hypovolemic shock
+   19895003 | 28467259 | R4020    | Unspecified coma
+   19895003 | 28467259 | N390     | Urinary tract infection, site not specified
+   19895003 | 28467259 | N179     | Acute kidney failure, unspecified
+   19895003 | 28467259 | J9601    | Acute respiratory failure with hypoxia
+   19895003 | 28467259 | J45909   | Unspecified asthma, uncomplicated
+   19895003 | 28467259 | J449     | Chronic obstructive pulmonary disease, unspecified
+   19895003 | 28467259 | I82C11   | Acute embolism and thrombosis of right internal jugular vein
+   19895003 | 28467259 | I69354   | Hemiplegia and hemiparesis following cerebral infarction affecting left non-dominant side
+   19895003 | 28467259 | I4891    | Unspecified atrial fibrillation
+   19895003 | 28467259 | I10      | Essential (primary) hypertension
+   19895003 | 28467259 | H7091    | Unspecified mastoiditis, right ear
+   19895003 | 28467259 | H409     | Unspecified glaucoma
+   19895003 | 28467259 | G92      | Toxic encephalopathy
+   19895003 | 28467259 | G08      | Intracranial and intraspinal phlebitis and thrombophlebitis
+   19895003 | 28467259 | F419     | Anxiety disorder, unspecified
+   19895003 | 28467259 | F1010    | Alcohol abuse, uncomplicated
+   19895003 | 28467259 | E870     | Hyperosmolality and hypernatremia
+   19895003 | 28467259 | E785     | Hyperlipidemia, unspecified
+   19895003 | 28467259 | E039     | Hypothyroidism, unspecified
+   19895003 | 28467259 | D696     | Thrombocytopenia, unspecified
+   19895003 | 28467259 | D65      | Disseminated intravascular coagulation [defibrination syndrome]
+   19895003 | 28467259 | D62      | Acute posthemorrhagic anemia
+   19895003 | 28467259 | D61818   | Other pancytopenia
+   19895003 | 28467259 | D589     | Hereditary hemolytic anemia, unspecified
+   19883399 | 27355975 | V4611    | Dependence on respirator, status
+   19883399 | 27355975 | V4582    | Percutaneous transluminal coronary angioplasty status
+   19883399 | 27355975 | E8798    | Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19883399 | 27355975 | 99731    | Ventilator associated pneumonia
+   19883399 | 27355975 | 99662    | Infection and inflammatory reaction due to other vascular device, implant, and graft
+   19883399 | 27355975 | 99592    | Severe sepsis
+   19883399 | 27355975 | 78001    | Coma
+   19883399 | 27355975 | 70722    | Pressure ulcer, stage II
+   19883399 | 27355975 | 70703    | Pressure ulcer, lower back
+   19883399 | 27355975 | 5990     | Urinary tract infection, site not specified
+   19883399 | 27355975 | 5932     | Cyst of kidney, acquired
+   19883399 | 27355975 | 5859     | Chronic kidney disease, unspecified
+   19883399 | 27355975 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19883399 | 27355975 | 570      | Acute and subacute necrosis of liver
+   19883399 | 27355975 | 5570     | Acute vascular insufficiency of intestine
+   19883399 | 27355975 | 51881    | Acute respiratory failure
+   19883399 | 27355975 | 5168     | Other specified alveolar and parietoalveolar pneumonopathies
+   19883399 | 27355975 | 4928     | Other emphysema
+   19883399 | 27355975 | 45341    | Acute venous embolism and thrombosis of deep vessels of proximal lower extremity
+   19883399 | 27355975 | 4439     | Peripheral vascular disease, unspecified
+   19883399 | 27355975 | 42823    | Acute on chronic systolic heart failure
+   19883399 | 27355975 | 4280     | Congestive heart failure, unspecified
+   19883399 | 27355975 | 42789    | Other specified cardiac dysrhythmias
+   19883399 | 27355975 | 4275     | Cardiac arrest
+   19883399 | 27355975 | 42611    | First degree atrioventricular block
+   19883399 | 27355975 | 41401    | Coronary atherosclerosis of native coronary artery
+   19883399 | 27355975 | 412      | Old myocardial infarction
+   19883399 | 27355975 | 40390    | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified
+   19883399 | 27355975 | 36250    | Macular degeneration (senile), unspecified
+   19883399 | 27355975 | 35981    | Critical illness myopathy
+   19883399 | 27355975 | 28984    | Heparin-induced thrombocytopenia (HIT)
+   19883399 | 27355975 | 2851     | Acute posthemorrhagic anemia
+   19883399 | 27355975 | 2841     | Pancytopenia
+   19883399 | 27355975 | 2767     | Hyperpotassemia
+   19883399 | 27355975 | 2760     | Hyperosmolality and/or hypernatremia
+   19883399 | 27355975 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19883399 | 27355975 | 0413     | Friedlander's bacillus infection in conditions classified elsewhere and of unspecified site
+   19883399 | 27355975 | 04119    | Staphylococcus infection in conditions classified elsewhere and of unspecified site, other staphylococcus
+   19883399 | 27355975 | 0389     | Unspecified septicemia
+   19874340 | 23609836 | V667     | Encounter for palliative care
+   19874340 | 23609836 | V5861    | Long-term (current) use of anticoagulants
+   19874340 | 23609836 | V4986    | Do not resuscitate status
+   19874340 | 23609836 | V1582    | Personal history of tobacco use
+   19874340 | 23609836 | V0981    | Infection with microorganisms with resistance to multiple drugs
+   19874340 | 23609836 | E8798    | Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19874340 | 23609836 | 99731    | Ventilator associated pneumonia
+   19874340 | 23609836 | 99674    | Other complications due to other vascular device, implant, and graft
+   19874340 | 23609836 | 99592    | Severe sepsis
+   19874340 | 23609836 | 78791    | Diarrhea
+   19874340 | 23609836 | 7078     | Chronic ulcer of other specified sites
+   19874340 | 23609836 | 6961     | Other psoriasis
+   19874340 | 23609836 | 6929     | Contact dermatitis and other eczema, unspecified cause
+   19874340 | 23609836 | 60000    | Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)
+   19874340 | 23609836 | 5849     | Acute kidney failure, unspecified
+   19874340 | 23609836 | 51884    | Acute and chronic respiratory failure
+   19874340 | 23609836 | 496      | Chronic airway obstruction, not elsewhere classified
+   19874340 | 23609836 | 4871     | Influenza with other respiratory manifestations
+   19874340 | 23609836 | 45381    | Acute venous embolism and thrombosis of superficial veins of upper extremity
+   19874340 | 23609836 | 42831    | Acute diastolic heart failure
+   19874340 | 23609836 | 4280     | Congestive heart failure, unspecified
+   19874340 | 23609836 | 42731    | Atrial fibrillation
+   19874340 | 23609836 | 4019     | Unspecified essential hypertension
+   19874340 | 23609836 | 2875     | Thrombocytopenia, unspecified
+   19874340 | 23609836 | 2764     | Mixed acid-base balance disorder
+   19874340 | 23609836 | 2760     | Hyperosmolality and/or hypernatremia
+   19874340 | 23609836 | 2639     | Unspecified protein-calorie malnutrition
+   19874340 | 23609836 | 25201    | Primary hyperparathyroidism
+   19874340 | 23609836 | 0389     | Unspecified septicemia
+   19873891 | 28430728 | Z7902    | Long term (current) use of antithrombotics/antiplatelets
+   19873891 | 28430728 | Z515     | Encounter for palliative care
+   19873891 | 28430728 | Y92239   | Unspecified place in hospital as the place of occurrence of the external cause
+   19873891 | 28430728 | Y848     | Other medical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+   19873891 | 28430728 | T85590A  | Other mechanical complication of bile duct prosthesis, initial encounter
+   19873891 | 28430728 | R64      | Cachexia
+   19873891 | 28430728 | R188     | Other ascites
+   19873891 | 28430728 | N390     | Urinary tract infection, site not specified
+   19873891 | 28430728 | N179     | Acute kidney failure, unspecified
+   19873891 | 28430728 | K766     | Portal hypertension
+   19873891 | 28430728 | K7469    | Other cirrhosis of liver
+   19873891 | 28430728 | K7290    | Hepatic failure, unspecified without coma
+   19873891 | 28430728 | K551     | Chronic vascular disorders of intestine
+   19873891 | 28430728 | K2270    | Barrett's esophagus without dysplasia
+   19873891 | 28430728 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19873891 | 28430728 | J95831   | Postprocedural hemorrhage of a respiratory system organ or structure following other procedure
+   19873891 | 28430728 | I8511    | Secondary esophageal varices with bleeding
+   19873891 | 28430728 | I81      | Portal vein thrombosis
+   19873891 | 28430728 | D684     | Acquired coagulation factor deficiency
+   19873891 | 28430728 | D62      | Acute posthemorrhagic anemia
+   19873891 | 28430728 | C7B09    | Secondary carcinoid tumors of other sites
+   19873891 | 28430728 | C7B02    | Secondary carcinoid tumors of liver
+   19873891 | 28430728 | C7A098   | Malignant carcinoid tumors of other sites
+   19872769 | 26828639 | 79029    | Other abnormal glucose
+   19872769 | 26828639 | 7885     | Oliguria and anuria
+   19872769 | 26828639 | 5849     | Acute kidney failure, unspecified
+   19872769 | 26828639 | 51881    | Acute respiratory failure
+   19872769 | 26828639 | 3485     | Cerebral edema
+   19872769 | 26828639 | 311      | Depressive disorder, not elsewhere classified
+   19872769 | 26828639 | 30000    | Anxiety state, unspecified
+   19872769 | 26828639 | 2768     | Hypopotassemia
+   19872769 | 26828639 | 2763     | Alkalosis
+   19872769 | 26828639 | 2762     | Acidosis
+   19872769 | 26828639 | 07020    | Viral hepatitis B with hepatic coma, acute or unspecified, without mention of hepatitis delta
+   19867017 | 24776727 | V6284    | Suicidal ideation
+   19867017 | 24776727 | V4986    | Do not resuscitate status
+   19867017 | 24776727 | V4581    | Aortocoronary bypass status
+   19867017 | 24776727 | V4365    | Knee joint replacement
+   19867017 | 24776727 | E8796    | Urinary catheterization as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19867017 | 24776727 | 99664    | Infection and inflammatory reaction due to indwelling urinary catheter
+   19867017 | 24776727 | 78959    | Other ascites
+   19867017 | 24776727 | 7885     | Oliguria and anuria
+   19867017 | 24776727 | 70710    | Ulcer of lower limb, unspecified
+   19867017 | 24776727 | 59971    | Gross hematuria
+   19867017 | 24776727 | 5990     | Urinary tract infection, site not specified
+   19867017 | 24776727 | 5856     | End stage renal disease
+   19867017 | 24776727 | 5849     | Acute kidney failure, unspecified
+   19867017 | 24776727 | 5730     | Chronic passive congestion of liver
+   19867017 | 24776727 | 45981    | Venous (peripheral) insufficiency, unspecified
+   19867017 | 24776727 | 45821    | Hypotension of hemodialysis
+   19867017 | 24776727 | 42843    | Acute on chronic combined systolic and diastolic heart failure
+   19867017 | 24776727 | 4280     | Congestive heart failure, unspecified
+   19867017 | 24776727 | 4275     | Cardiac arrest
+   19867017 | 24776727 | 42731    | Atrial fibrillation
+   19867017 | 24776727 | 4168     | Other chronic pulmonary heart diseases
+   19867017 | 24776727 | 412      | Old myocardial infarction
+   19867017 | 24776727 | 4019     | Unspecified essential hypertension
+   19867017 | 24776727 | 32723    | Obstructive sleep apnea (adult)(pediatric)
+   19867017 | 24776727 | 311      | Depressive disorder, not elsewhere classified
+   19867017 | 24776727 | 2930     | Delirium due to conditions classified elsewhere
+   19867017 | 24776727 | 28860    | Leukocytosis, unspecified
+   19867017 | 24776727 | 2809     | Iron deficiency anemia, unspecified
+   19867017 | 24776727 | 2761     | Hyposmolality and/or hyponatremia
+   19867017 | 24776727 | 25080    | Diabetes with other specified manifestations, type II or unspecified type, not stated as uncontrolled
+   19867017 | 24776727 | 04185    | Other specified bacterial infections in conditions classified elsewhere and of unspecified site, other gram-negative organisms
+   19848679 | 24728162 | V4581    | Aortocoronary bypass status
+   19848679 | 24728162 | 5859     | Chronic kidney disease, unspecified
+   19848679 | 24728162 | 51881    | Acute respiratory failure
+   19848679 | 24728162 | 49121    | Obstructive chronic bronchitis with (acute) exacerbation
+   19848679 | 24728162 | 485      | Bronchopneumonia, organism unspecified
+   19848679 | 24728162 | 42831    | Acute diastolic heart failure
+   19848679 | 24728162 | 4280     | Congestive heart failure, unspecified
+   19848679 | 24728162 | 4263     | Other left bundle branch block
+   19848679 | 24728162 | 4148     | Other specified forms of chronic ischemic heart disease
+   19848679 | 24728162 | 412      | Old myocardial infarction
+   19848679 | 24728162 | 40390    | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage I through stage IV, or unspecified
+   19848679 | 24728162 | 3051     | Tobacco use disorder
+   19848679 | 24728162 | 2767     | Hyperpotassemia
+   19848679 | 24728162 | 2720     | Pure hypercholesterolemia
+   19848679 | 24728162 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19848679 | 24728162 | 1623     | Malignant neoplasm of upper lobe, bronchus or lung
+   19844784 | 23996515 | V4582    | Percutaneous transluminal coronary angioplasty status
+   19844784 | 23996515 | 78551    | Cardiogenic shock
+   19844784 | 23996515 | 4280     | Congestive heart failure, unspecified
+   19844784 | 23996515 | 4275     | Cardiac arrest
+   19844784 | 23996515 | 42741    | Ventricular fibrillation
+   19844784 | 23996515 | 41401    | Coronary atherosclerosis of native coronary artery
+   19844784 | 23996515 | 412      | Old myocardial infarction
+   19844784 | 23996515 | 41011    | Acute myocardial infarction of other anterior wall, initial episode of care
+   19844784 | 23996515 | 28800    | Neutropenia, unspecified
+   19844784 | 23996515 | 2762     | Acidosis
+   19844784 | 23996515 | 07032    | Chronic viral hepatitis B without mention of hepatic coma without mention of hepatitis delta
+   19843554 | 23471477 | 7806     | Fever
+   19843554 | 23471477 | 51881    | Acute respiratory failure
+   19843554 | 23471477 | 43491    | Cerebral artery occlusion, unspecified with cerebral infarction
+   19843554 | 23471477 | 43331    | Occlusion and stenosis of multiple and bilateral precerebral arteries with cerebral infarction
+   19843554 | 23471477 | 4019     | Unspecified essential hypertension
+   19843554 | 23471477 | 2760     | Hyperosmolality and/or hypernatremia
+   19843554 | 23471477 | 2724     | Other and unspecified hyperlipidemia
+   19843554 | 23471477 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19839346 | 21237030 | 78959    | Other ascites
+   19839346 | 21237030 | 6238     | Other specified noninflammatory disorders of vagina
+   19839346 | 21237030 | 5859     | Chronic kidney disease, unspecified
+   19839346 | 21237030 | 5849     | Acute kidney failure, unspecified
+   19839346 | 21237030 | 5728     | Other sequelae of chronic liver disease
+   19839346 | 21237030 | 5722     | Hepatic encephalopathy
+   19839346 | 21237030 | 5716     | Biliary cirrhosis
+   19839346 | 21237030 | 5715     | Cirrhosis of liver without mention of alcohol
+   19839346 | 21237030 | 57142    | Autoimmune hepatitis
+   19839346 | 21237030 | 51881    | Acute respiratory failure
+   19839346 | 21237030 | 5070     | Pneumonitis due to inhalation of food or vomitus
+   19839346 | 21237030 | 49390    | Asthma, unspecified type, unspecified
+   19839346 | 21237030 | 4280     | Congestive heart failure, unspecified
+   19839346 | 21237030 | 4271     | Paroxysmal ventricular tachycardia
+   19839346 | 21237030 | 4168     | Other chronic pulmonary heart diseases
+   19839346 | 21237030 | 2875     | Thrombocytopenia, unspecified
+   19839346 | 21237030 | 2867     | Acquired coagulation factor deficiency
+   19839346 | 21237030 | 2763     | Alkalosis
+   19839346 | 21237030 | 2760     | Hyperosmolality and/or hypernatremia
+   19827412 | 22769592 | V5861    | Long-term (current) use of anticoagulants
+   19827412 | 22769592 | V4986    | Do not resuscitate status
+   19827412 | 22769592 | E9342    | Anticoagulants causing adverse effects in therapeutic use
+   19827412 | 22769592 | 79092    | Abnormal coagulation profile
+   19827412 | 22769592 | 78551    | Cardiogenic shock
+   19827412 | 22769592 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19827412 | 22769592 | 5733     | Hepatitis, unspecified
+   19827412 | 22769592 | 51881    | Acute respiratory failure
+   19827412 | 22769592 | 5119     | Unspecified pleural effusion
+   19827412 | 22769592 | 4280     | Congestive heart failure, unspecified
+   19827412 | 22769592 | 42731    | Atrial fibrillation
+   19827412 | 22769592 | 4263     | Other left bundle branch block
+   19827412 | 22769592 | 4240     | Mitral valve disorders
+   19827412 | 22769592 | 41071    | Subendocardial infarction, initial episode of care
+   19827412 | 22769592 | 4019     | Unspecified essential hypertension
+   19827412 | 22769592 | 2762     | Acidosis
+   19827412 | 22769592 | 2724     | Other and unspecified hyperlipidemia
+   19827412 | 22769592 | 2449     | Unspecified acquired hypothyroidism
+   19819308 | 21257989 | Z9981    | Dependence on supplemental oxygen
+   19819308 | 21257989 | Z955     | Presence of coronary angioplasty implant and graft
+   19819308 | 21257989 | Z87891   | Personal history of nicotine dependence
+   19819308 | 21257989 | Z8711    | Personal history of peptic ulcer disease
+   19819308 | 21257989 | Z7902    | Long term (current) use of antithrombotics/antiplatelets
+   19819308 | 21257989 | Z6828    | Body mass index (BMI) 28.0-28.9, adult
+   19819308 | 21257989 | Z66      | Do not resuscitate
+   19819308 | 21257989 | Y92239   | Unspecified place in hospital as the place of occurrence of the external cause
+   19819308 | 21257989 | T380X5A  | Adverse effect of glucocorticoids and synthetic analogues, initial encounter
+   19819308 | 21257989 | R918     | Other nonspecific abnormal finding of lung field
+   19819308 | 21257989 | R739     | Hyperglycemia, unspecified
+   19819308 | 21257989 | N179     | Acute kidney failure, unspecified
+   19819308 | 21257989 | K921     | Melena
+   19819308 | 21257989 | K635     | Polyp of colon
+   19819308 | 21257989 | K5730    | Diverticulosis of large intestine without perforation or abscess without bleeding
+   19819308 | 21257989 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19819308 | 21257989 | K209     | Esophagitis, unspecified
+   19819308 | 21257989 | J9601    | Acute respiratory failure with hypoxia
+   19819308 | 21257989 | J440     | Chronic obstructive pulmonary disease with (acute) lower respiratory infection
+   19819308 | 21257989 | J189     | Pneumonia, unspecified organism
+   19819308 | 21257989 | I5023    | Acute on chronic systolic (congestive) heart failure
+   19819308 | 21257989 | I480     | Paroxysmal atrial fibrillation
+   19819308 | 21257989 | I340     | Nonrheumatic mitral (valve) insufficiency
+   19819308 | 21257989 | I2720    | Pulmonary hypertension, unspecified
+   19819308 | 21257989 | I252     | Old myocardial infarction
+   19819308 | 21257989 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19819308 | 21257989 | G629     | Polyneuropathy, unspecified
+   19819308 | 21257989 | F329     | Major depressive disorder, single episode, unspecified
+   19819308 | 21257989 | F05      | Delirium due to known physiological condition
+   19819308 | 21257989 | E871     | Hypo-osmolality and hyponatremia
+   19819308 | 21257989 | E669     | Obesity, unspecified
+   19819308 | 21257989 | E039     | Hypothyroidism, unspecified
+   19819308 | 21257989 | D689     | Coagulation defect, unspecified
+   19819308 | 21257989 | D62      | Acute posthemorrhagic anemia
+   19817081 | 25021866 | Z87891   | Personal history of nicotine dependence
+   19817081 | 25021866 | Z781     | Physical restraint status
+   19817081 | 25021866 | R6521    | Severe sepsis with septic shock
+   19817081 | 25021866 | N170     | Acute kidney failure with tubular necrosis
+   19817081 | 25021866 | K7201    | Acute and subacute hepatic failure with coma
+   19817081 | 25021866 | K7030    | Alcoholic cirrhosis of liver without ascites
+   19817081 | 25021866 | J9600    | Acute respiratory failure, unspecified whether with hypoxia or hypercapnia
+   19817081 | 25021866 | I8510    | Secondary esophageal varices without bleeding
+   19817081 | 25021866 | I6782    | Cerebral ischemia
+   19817081 | 25021866 | I4891    | Unspecified atrial fibrillation
+   19817081 | 25021866 | I340     | Nonrheumatic mitral (valve) insufficiency
+   19817081 | 25021866 | G9382    | Brain death
+   19817081 | 25021866 | G936     | Cerebral edema
+   19817081 | 25021866 | G931     | Anoxic brain damage, not elsewhere classified
+   19817081 | 25021866 | F1010    | Alcohol abuse, uncomplicated
+   19817081 | 25021866 | E872     | Acidosis
+   19817081 | 25021866 | E870     | Hyperosmolality and hypernatremia
+   19817081 | 25021866 | A419     | Sepsis, unspecified organism
+   19810932 | 29764035 | Z95810   | Presence of automatic (implantable) cardiac defibrillator
+   19810932 | 29764035 | Z7901    | Long term (current) use of anticoagulants
+   19810932 | 29764035 | Z515     | Encounter for palliative care
+   19810932 | 29764035 | Y92234   | Operating room of hospital as the place of occurrence of the external cause
+   19810932 | 29764035 | Y838     | Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+   19810932 | 29764035 | R570     | Cardiogenic shock
+   19810932 | 29764035 | Q231     | Congenital insufficiency of aortic valve
+   19810932 | 29764035 | N189     | Chronic kidney disease, unspecified
+   19810932 | 29764035 | N179     | Acute kidney failure, unspecified
+   19810932 | 29764035 | J90      | Pleural effusion, not elsewhere classified
+   19810932 | 29764035 | I998     | Other disorder of circulatory system
+   19810932 | 29764035 | I9751    | Accidental puncture and laceration of a circulatory system organ or structure during a circulatory system procedure
+   19810932 | 29764035 | I5022    | Chronic systolic (congestive) heart failure
+   19810932 | 29764035 | I480     | Paroxysmal atrial fibrillation
+   19810932 | 29764035 | I472     | Ventricular tachycardia
+   19810932 | 29764035 | I314     | Cardiac tamponade
+   19810932 | 29764035 | I312     | Hemopericardium, not elsewhere classified
+   19810932 | 29764035 | I309     | Acute pericarditis, unspecified
+   19810932 | 29764035 | I255     | Ischemic cardiomyopathy
+   19810932 | 29764035 | I252     | Old myocardial infarction
+   19810932 | 29764035 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19810932 | 29764035 | I130     | Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   19810932 | 29764035 | I110     | Hypertensive heart disease with heart failure
+   19810932 | 29764035 | G4733    | Obstructive sleep apnea (adult) (pediatric)
+   19810932 | 29764035 | E872     | Acidosis
+   19810932 | 29764035 | E785     | Hyperlipidemia, unspecified
+   19810932 | 29764035 | E1122    | Type 2 diabetes mellitus with diabetic chronic kidney disease
+   19810932 | 29764035 | E039     | Hypothyroidism, unspecified
+   19810932 | 29764035 | D689     | Coagulation defect, unspecified
+   19800412 | 23914523 | Z66      | Do not resuscitate
+   19800412 | 23914523 | Y929     | Unspecified place or not applicable
+   19800412 | 23914523 | T451X1A  | Poisoning by antineoplastic and immunosuppressive drugs, accidental (unintentional), initial encounter
+   19800412 | 23914523 | R791     | Abnormal coagulation profile
+   19800412 | 23914523 | R578     | Other shock
+   19800412 | 23914523 | R5081    | Fever presenting with conditions classified elsewhere
+   19800412 | 23914523 | R0489    | Hemorrhage from other sites in respiratory passages
+   19800412 | 23914523 | N170     | Acute kidney failure with tubular necrosis
+   19800412 | 23914523 | L97229   | Non-pressure chronic ulcer of left calf with unspecified severity
+   19800412 | 23914523 | L97219   | Non-pressure chronic ulcer of right calf with unspecified severity
+   19800412 | 23914523 | L409     | Psoriasis, unspecified
+   19800412 | 23914523 | J9601    | Acute respiratory failure with hypoxia
+   19800412 | 23914523 | J189     | Pneumonia, unspecified organism
+   19800412 | 23914523 | I469     | Cardiac arrest, cause unspecified
+   19800412 | 23914523 | I10      | Essential (primary) hypertension
+   19800412 | 23914523 | F05      | Delirium due to known physiological condition
+   19800412 | 23914523 | F0390    | Unspecified dementia without behavioral disturbance
+   19800412 | 23914523 | E872     | Acidosis
+   19800412 | 23914523 | E785     | Hyperlipidemia, unspecified
+   19800412 | 23914523 | E119     | Type 2 diabetes mellitus without complications
+   19800412 | 23914523 | D709     | Neutropenia, unspecified
+   19800412 | 23914523 | D696     | Thrombocytopenia, unspecified
+   19796205 | 29475977 | V5332    | Fitting and adjustment of automatic implantable cardiac defibrillator
+   19796205 | 29475977 | V4581    | Aortocoronary bypass status
+   19796205 | 29475977 | V1254    | Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits
+   19796205 | 29475977 | E8798    | Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19796205 | 29475977 | E8783    | Surgical operation with formation of external stoma causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation
+   19796205 | 29475977 | E8782    | Surgical operation with anastomosis, bypass, or graft, with natural or artificial tissues used as implant causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation
+   19796205 | 29475977 | 99931    | Other and unspecified infection due to central venous catheter
+   19796205 | 29475977 | 99859    | Other postoperative infection
+   19796205 | 29475977 | 99831    | Disruption of internal operation (surgical) wound
+   19796205 | 29475977 | 9974     | Digestive system complications, not elsewhere classified
+   19796205 | 29475977 | 9971     | Cardiac complications, not elsewhere classified
+   19796205 | 29475977 | 99592    | Severe sepsis
+   19796205 | 29475977 | 78959    | Other ascites
+   19796205 | 29475977 | 70722    | Pressure ulcer, stage II
+   19796205 | 29475977 | 70703    | Pressure ulcer, lower back
+   19796205 | 29475977 | 5849     | Acute kidney failure, unspecified
+   19796205 | 29475977 | 5770     | Acute pancreatitis
+   19796205 | 29475977 | 56729    | Other suppurative peritonitis
+   19796205 | 29475977 | 53642    | Mechanical complication of gastrostomy
+   19796205 | 29475977 | 53081    | Esophageal reflux
+   19796205 | 29475977 | 5185     | Pulmonary insufficiency following trauma and surgery
+   19796205 | 29475977 | 496      | Chronic airway obstruction, not elsewhere classified
+   19796205 | 29475977 | 48241    | Methicillin susceptible pneumonia due to Staphylococcus aureus
+   19796205 | 29475977 | 44422    | Arterial embolism and thrombosis of lower extremity
+   19796205 | 29475977 | 4423     | Aneurysm of artery of lower extremity
+   19796205 | 29475977 | 42731    | Atrial fibrillation
+   19796205 | 29475977 | 41071    | Subendocardial infarction, initial episode of care
+   19796205 | 29475977 | 4019     | Unspecified essential hypertension
+   19796205 | 29475977 | 34830    | Encephalopathy, unspecified
+   19796205 | 29475977 | 2875     | Thrombocytopenia, unspecified
+   19796205 | 29475977 | 2768     | Hypopotassemia
+   19796205 | 29475977 | 2762     | Acidosis
+   19796205 | 29475977 | 2760     | Hyperosmolality and/or hypernatremia
+   19796205 | 29475977 | 04186    | Helicobacter pylori [H. pylori]
+   19796205 | 29475977 | 03811    | Methicillin susceptible Staphylococcus aureus septicemia
+   19788246 | 20404156 | Z87891   | Personal history of nicotine dependence
+   19788246 | 20404156 | Z8673    | Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits
+   19788246 | 20404156 | Z8551    | Personal history of malignant neoplasm of bladder
+   19788246 | 20404156 | Z8501    | Personal history of malignant neoplasm of esophagus
+   19788246 | 20404156 | Z66      | Do not resuscitate
+   19788246 | 20404156 | Z515     | Encounter for palliative care
+   19788246 | 20404156 | N189     | Chronic kidney disease, unspecified
+   19788246 | 20404156 | N179     | Acute kidney failure, unspecified
+   19788246 | 20404156 | L7632    | Postprocedural hematoma of skin and subcutaneous tissue following other procedure
+   19788246 | 20404156 | K5731    | Diverticulosis of large intestine without perforation or abscess with bleeding
+   19788246 | 20404156 | K2270    | Barrett's esophagus without dysplasia
+   19788246 | 20404156 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19788246 | 20404156 | J9602    | Acute respiratory failure with hypercapnia
+   19788246 | 20404156 | J9601    | Acute respiratory failure with hypoxia
+   19788246 | 20404156 | J449     | Chronic obstructive pulmonary disease, unspecified
+   19788246 | 20404156 | I959     | Hypotension, unspecified
+   19788246 | 20404156 | I5023    | Acute on chronic systolic (congestive) heart failure
+   19788246 | 20404156 | I471     | Supraventricular tachycardia
+   19788246 | 20404156 | I469     | Cardiac arrest, cause unspecified
+   19788246 | 20404156 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19788246 | 20404156 | I130     | Hypertensive heart and chronic kidney disease with heart failure and stage 1 through stage 4 chronic kidney disease, or unspecified chronic kidney disease
+   19788246 | 20404156 | E2740    | Unspecified adrenocortical insufficiency
+   19788246 | 20404156 | D62      | Acute posthemorrhagic anemia
+   19784491 | 28964497 | V667     | Encounter for palliative care
+   19784491 | 28964497 | V5866    | Long-term (current) use of aspirin
+   19784491 | 28964497 | V5861    | Long-term (current) use of anticoagulants
+   19784491 | 28964497 | V4987    | Physical restraints status
+   19784491 | 28964497 | V4986    | Do not resuscitate status
+   19784491 | 28964497 | V462     | Other dependence on machines, supplemental oxygen
+   19784491 | 28964497 | V433     | Heart valve replaced by other means
+   19784491 | 28964497 | V1582    | Personal history of tobacco use
+   19784491 | 28964497 | V1254    | Personal history of transient ischemic attack (TIA), and cerebral infarction without residual deficits
+   19784491 | 28964497 | 99592    | Severe sepsis
+   19784491 | 28964497 | 79092    | Abnormal coagulation profile
+   19784491 | 28964497 | 7904     | Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]
+   19784491 | 28964497 | 78552    | Septic shock
+   19784491 | 28964497 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19784491 | 28964497 | 5780     | Hematemesis
+   19784491 | 28964497 | 56210    | Diverticulosis of colon (without mention of hemorrhage)
+   19784491 | 28964497 | 51881    | Acute respiratory failure
+   19784491 | 28964497 | 496      | Chronic airway obstruction, not elsewhere classified
+   19784491 | 28964497 | 42822    | Chronic systolic heart failure
+   19784491 | 28964497 | 4280     | Congestive heart failure, unspecified
+   19784491 | 28964497 | 42731    | Atrial fibrillation
+   19784491 | 28964497 | 35781    | Chronic inflammatory demyelinating polyneuritis
+   19784491 | 28964497 | 32723    | Obstructive sleep apnea (adult)(pediatric)
+   19784491 | 28964497 | 28749    | Other secondary thrombocytopenia
+   19784491 | 28964497 | 2767     | Hyperpotassemia
+   19784491 | 28964497 | 27669    | Other fluid overload
+   19784491 | 28964497 | 2762     | Acidosis
+   19784491 | 28964497 | 2761     | Hyposmolality and/or hyponatremia
+   19784491 | 28964497 | 2724     | Other and unspecified hyperlipidemia
+   19784491 | 28964497 | 0389     | Unspecified septicemia
+   19776118 | 23798072 | Z515     | Encounter for palliative care
+   19776118 | 23798072 | R6521    | Severe sepsis with septic shock
+   19776118 | 23798072 | L97129   | Non-pressure chronic ulcer of left thigh with unspecified severity
+   19776118 | 23798072 | J9601    | Acute respiratory failure with hypoxia
+   19776118 | 23798072 | J80      | Acute respiratory distress syndrome
+   19776118 | 23798072 | J189     | Pneumonia, unspecified organism
+   19776118 | 23798072 | I252     | Old myocardial infarction
+   19776118 | 23798072 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19776118 | 23798072 | I10      | Essential (primary) hypertension
+   19776118 | 23798072 | G4733    | Obstructive sleep apnea (adult) (pediatric)
+   19776118 | 23798072 | F419     | Anxiety disorder, unspecified
+   19776118 | 23798072 | F319     | Bipolar disorder, unspecified
+   19776118 | 23798072 | E119     | Type 2 diabetes mellitus without complications
+   19776118 | 23798072 | D869     | Sarcoidosis, unspecified
+   19776118 | 23798072 | D696     | Thrombocytopenia, unspecified
+   19776118 | 23798072 | A419     | Sepsis, unspecified organism
+   19776118 | 23798072 | A047     | Enterocolitis due to Clostridium difficile
+   19757659 | 22335667 | Z96652   | Presence of left artificial knee joint
+   19757659 | 22335667 | Z96642   | Presence of left artificial hip joint
+   19757659 | 22335667 | Z955     | Presence of coronary angioplasty implant and graft
+   19757659 | 22335667 | Z950     | Presence of cardiac pacemaker
+   19757659 | 22335667 | Z87891   | Personal history of nicotine dependence
+   19757659 | 22335667 | Z006     | Encounter for examination for normal comparison and control in clinical research program
+   19757659 | 22335667 | Y92239   | Unspecified place in hospital as the place of occurrence of the external cause
+   19757659 | 22335667 | Y838     | Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+   19757659 | 22335667 | T8119XA  | Other postprocedural shock, initial encounter
+   19757659 | 22335667 | T8111XA  | Postprocedural cardiogenic shock, initial encounter
+   19757659 | 22335667 | R319     | Hematuria, unspecified
+   19757659 | 22335667 | N390     | Urinary tract infection, site not specified
+   19757659 | 22335667 | N189     | Chronic kidney disease, unspecified
+   19757659 | 22335667 | N179     | Acute kidney failure, unspecified
+   19757659 | 22335667 | K91841   | Postprocedural hemorrhage of a digestive system organ or structure following other procedure
+   19757659 | 22335667 | K219     | Gastro-esophageal reflux disease without esophagitis
+   19757659 | 22335667 | J449     | Chronic obstructive pulmonary disease, unspecified
+   19757659 | 22335667 | I5023    | Acute on chronic systolic (congestive) heart failure
+   19757659 | 22335667 | I469     | Cardiac arrest, cause unspecified
+   19757659 | 22335667 | I350     | Nonrheumatic aortic (valve) stenosis
+   19757659 | 22335667 | I2720    | Pulmonary hypertension, unspecified
+   19757659 | 22335667 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19757659 | 22335667 | H3530    | Unspecified macular degeneration
+   19757659 | 22335667 | D696     | Thrombocytopenia, unspecified
+   19757659 | 22335667 | D62      | Acute posthemorrhagic anemia
+   19757659 | 22335667 | B9689    | Other specified bacterial agents as the cause of diseases classified elsewhere
+   19747328 | 29300235 | V4986    | Do not resuscitate status
+   19747328 | 29300235 | E8798    | Other specified procedures as the cause of abnormal reaction of patient, or of later complication, without mention of misadventure at time of procedure
+   19747328 | 29300235 | E8780    | Surgical operation with transplant of whole organ causing abnormal patient reaction, or later complication, without mention of misadventure at time of operation
+   19747328 | 29300235 | 99682    | Complications of transplanted liver
+   19747328 | 29300235 | 99681    | Complications of transplanted kidney
+   19747328 | 29300235 | 99674    | Other complications due to other vascular device, implant, and graft
+   19747328 | 29300235 | 99592    | Severe sepsis
+   19747328 | 29300235 | 78552    | Septic shock
+   19747328 | 29300235 | 7823     | Edema
+   19747328 | 29300235 | 73300    | Osteoporosis, unspecified
+   19747328 | 29300235 | 5990     | Urinary tract infection, site not specified
+   19747328 | 29300235 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19747328 | 29300235 | 5712     | Alcoholic cirrhosis of liver
+   19747328 | 29300235 | 570      | Acute and subacute necrosis of liver
+   19747328 | 29300235 | 56723    | Spontaneous bacterial peritonitis
+   19747328 | 29300235 | 5601     | Paralytic ileus
+   19747328 | 29300235 | 51881    | Acute respiratory failure
+   19747328 | 29300235 | 486      | Pneumonia, organism unspecified
+   19747328 | 29300235 | 45386    | Acute venous embolism and thrombosis of internal jugular veins
+   19747328 | 29300235 | 45385    | Acute venous embolism and thrombosis of subclavian veins
+   19747328 | 29300235 | 42731    | Atrial fibrillation
+   19747328 | 29300235 | 34830    | Encephalopathy, unspecified
+   19747328 | 29300235 | 30391    | Other and unspecified alcohol dependence, continuous
+   19747328 | 29300235 | 2869     | Other and unspecified coagulation defects
+   19747328 | 29300235 | 2859     | Anemia, unspecified
+   19747328 | 29300235 | 2764     | Mixed acid-base balance disorder
+   19747328 | 29300235 | 2761     | Hyposmolality and/or hyponatremia
+   19747328 | 29300235 | 2724     | Other and unspecified hyperlipidemia
+   19747328 | 29300235 | 2639     | Unspecified protein-calorie malnutrition
+   19747328 | 29300235 | 2449     | Unspecified acquired hypothyroidism
+   19747328 | 29300235 | 0389     | Unspecified septicemia
+   19745948 | 25312762 | V667     | Encounter for palliative care
+   19745948 | 25312762 | V1582    | Personal history of tobacco use
+   19745948 | 25312762 | V153     | Personal history of irradiation, presenting hazards to health
+   19745948 | 25312762 | V1002    | Personal history of malignant neoplasm of other and unspecified oral cavity and pharynx
+   19745948 | 25312762 | 99592    | Severe sepsis
+   19745948 | 25312762 | 5849     | Acute kidney failure, unspecified
+   19745948 | 25312762 | 570      | Acute and subacute necrosis of liver
+   19745948 | 25312762 | 51189    | Other specified forms of effusion, except tuberculous
+   19745948 | 25312762 | 4928     | Other emphysema
+   19745948 | 25312762 | 4572     | Lymphangitis
+   19745948 | 25312762 | 43310    | Occlusion and stenosis of carotid artery without mention of cerebral infarction
+   19745948 | 25312762 | 4019     | Unspecified essential hypertension
+   19745948 | 25312762 | 2762     | Acidosis
+   19745948 | 25312762 | 2761     | Hyposmolality and/or hyponatremia
+   19745948 | 25312762 | 2724     | Other and unspecified hyperlipidemia
+   19745948 | 25312762 | 2449     | Unspecified acquired hypothyroidism
+   19745948 | 25312762 | 1977     | Malignant neoplasm of liver, secondary
+   19745948 | 25312762 | 1623     | Malignant neoplasm of upper lobe, bronchus or lung
+   19745948 | 25312762 | 0389     | Unspecified septicemia
+   19742659 | 20919281 | V4582    | Percutaneous transluminal coronary angioplasty status
+   19742659 | 20919281 | V4511    | Renal dialysis status
+   19742659 | 20919281 | V4502    | Automatic implantable cardiac defibrillator in situ
+   19742659 | 20919281 | V1046    | Personal history of malignant neoplasm of prostate
+   19742659 | 20919281 | 99673    | Other complications due to renal dialysis device, implant, and graft
+   19742659 | 20919281 | 78551    | Cardiogenic shock
+   19742659 | 20919281 | 71536    | Osteoarthrosis, localized, not specified whether primary or secondary, lower leg
+   19742659 | 20919281 | 70722    | Pressure ulcer, stage II
+   19742659 | 20919281 | 70703    | Pressure ulcer, lower back
+   19742659 | 20919281 | 5856     | End stage renal disease
+   19742659 | 20919281 | 5781     | Blood in stool
+   19742659 | 20919281 | 5723     | Portal hypertension
+   19742659 | 20919281 | 5712     | Alcoholic cirrhosis of liver
+   19742659 | 20919281 | 42823    | Acute on chronic systolic heart failure
+   19742659 | 20919281 | 4280     | Congestive heart failure, unspecified
+   19742659 | 20919281 | 4271     | Paroxysmal ventricular tachycardia
+   19742659 | 20919281 | 41401    | Coronary atherosclerosis of native coronary artery
+   19742659 | 20919281 | 40391    | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease
+   19742659 | 20919281 | 30390    | Other and unspecified alcohol dependence, unspecified
+   19742659 | 20919281 | 29420    | Dementia, unspecified, without behavioral disturbance
+   19742659 | 20919281 | 2875     | Thrombocytopenia, unspecified
+   19742659 | 20919281 | 2800     | Iron deficiency anemia secondary to blood loss (chronic)
+   19742659 | 20919281 | 2724     | Other and unspecified hyperlipidemia
+   19742659 | 20919281 | 20280    | Other malignant lymphomas, unspecified site, extranodal and solid organ sites
+   19742659 | 20919281 | 07054    | Chronic hepatitis C without mention of hepatic coma
+   19737870 | 23488752 | Z66      | Do not resuscitate
+   19737870 | 23488752 | R579     | Shock, unspecified
+   19737870 | 23488752 | J80      | Acute respiratory distress syndrome
+   19737870 | 23488752 | I4891    | Unspecified atrial fibrillation
+   19737870 | 23488752 | I469     | Cardiac arrest, cause unspecified
+   19737870 | 23488752 | I10      | Essential (primary) hypertension
+   19737870 | 23488752 | G936     | Cerebral edema
+   19737870 | 23488752 | G935     | Compression of brain
+   19737870 | 23488752 | F329     | Major depressive disorder, single episode, unspecified
+   19737870 | 23488752 | F1290    | Cannabis use, unspecified, uncomplicated
+   19737870 | 23488752 | E874     | Mixed disorder of acid-base balance
+   19737870 | 23488752 | E669     | Obesity, unspecified
+   19714687 | 22428707 | V667     | Encounter for palliative care
+   19714687 | 22428707 | V5866    | Long-term (current) use of aspirin
+   19714687 | 22428707 | V5865    | Long-term (current) use of steroids
+   19714687 | 22428707 | V4986    | Do not resuscitate status
+   19714687 | 22428707 | V4581    | Aortocoronary bypass status
+   19714687 | 22428707 | 79902    | Hypoxemia
+   19714687 | 22428707 | 7904     | Nonspecific elevation of levels of transaminase or lactic acid dehydrogenase [LDH]
+   19714687 | 22428707 | 79029    | Other abnormal glucose
+   19714687 | 22428707 | 7885     | Oliguria and anuria
+   19714687 | 22428707 | 78550    | Shock, unspecified
+   19714687 | 22428707 | 7821     | Rash and other nonspecific skin eruption
+   19714687 | 22428707 | 78060    | Fever, unspecified
+   19714687 | 22428707 | 59970    | Hematuria, unspecified
+   19714687 | 22428707 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19714687 | 22428707 | 51881    | Acute respiratory failure
+   19714687 | 22428707 | 51631    | Idiopathic pulmonary fibrosis
+   19714687 | 22428707 | 42789    | Other specified cardiac dysrhythmias
+   19714687 | 22428707 | 42731    | Atrial fibrillation
+   19714687 | 22428707 | 41400    | Coronary atherosclerosis of unspecified type of vessel, native or graft
+   19714687 | 22428707 | 4019     | Unspecified essential hypertension
+   19714687 | 22428707 | 28860    | Leukocytosis, unspecified
+   19714687 | 22428707 | 2859     | Anemia, unspecified
+   19714687 | 22428707 | 2767     | Hyperpotassemia
+   19714687 | 22428707 | 27669    | Other fluid overload
+   19714687 | 22428707 | 27652    | Hypovolemia
+   19714687 | 22428707 | 2762     | Acidosis
+   19714687 | 22428707 | 2724     | Other and unspecified hyperlipidemia
+   19702952 | 27136467 | 78551    | Cardiogenic shock
+   19702952 | 27136467 | 5845     | Acute kidney failure with lesion of tubular necrosis
+   19702952 | 27136467 | 5185     | Pulmonary insufficiency following trauma and surgery
+   19702952 | 27136467 | 4439     | Peripheral vascular disease, unspecified
+   19702952 | 27136467 | 42823    | Acute on chronic systolic heart failure
+   19702952 | 27136467 | 4280     | Congestive heart failure, unspecified
+   19702952 | 27136467 | 41401    | Coronary atherosclerosis of native coronary artery
+   19702952 | 27136467 | 41011    | Acute myocardial infarction of other anterior wall, initial episode of care
+   19702952 | 27136467 | 4019     | Unspecified essential hypertension
+   19702952 | 27136467 | 25000    | Diabetes mellitus without mention of complication, type II or unspecified type, not stated as uncontrolled
+   19696461 | 20819325 | Z955     | Presence of coronary angioplasty implant and graft
+   19696461 | 20819325 | Z952     | Presence of prosthetic heart valve
+   19696461 | 20819325 | Z951     | Presence of aortocoronary bypass graft
+   19696461 | 20819325 | Z87891   | Personal history of nicotine dependence
+   19696461 | 20819325 | Z794     | Long term (current) use of insulin
+   19696461 | 20819325 | Z7901    | Long term (current) use of anticoagulants
+   19696461 | 20819325 | Z66      | Do not resuscitate
+   19696461 | 20819325 | Z515     | Encounter for palliative care
+   19696461 | 20819325 | R6521    | Severe sepsis with septic shock
+   19696461 | 20819325 | R570     | Cardiogenic shock
+   19696461 | 20819325 | N170     | Acute kidney failure with tubular necrosis
+   19696461 | 20819325 | M79A21   | Nontraumatic compartment syndrome of right lower extremity
+   19696461 | 20819325 | M6282    | Rhabdomyolysis
+   19696461 | 20819325 | K7200    | Acute and subacute hepatic failure without coma
+   19696461 | 20819325 | J9602    | Acute respiratory failure with hypercapnia
+   19696461 | 20819325 | J9601    | Acute respiratory failure with hypoxia
+   19696461 | 20819325 | I5021    | Acute systolic (congestive) heart failure
+   19696461 | 20819325 | I472     | Ventricular tachycardia
+   19696461 | 20819325 | I442     | Atrioventricular block, complete
+   19696461 | 20819325 | I2510    | Atherosclerotic heart disease of native coronary artery without angina pectoris
+   19696461 | 20819325 | I110     | Hypertensive heart disease with heart failure
+   19696461 | 20819325 | I080     | Rheumatic disorders of both mitral and aortic valves
+   19696461 | 20819325 | E873     | Alkalosis
+   19696461 | 20819325 | E872     | Acidosis
+   19696461 | 20819325 | E785     | Hyperlipidemia, unspecified
+   19696461 | 20819325 | E1110    | Type 2 diabetes mellitus with ketoacidosis without coma
+   19696461 | 20819325 | D696     | Thrombocytopenia, unspecified
+   19696461 | 20819325 | D62      | Acute posthemorrhagic anemia
+   19696461 | 20819325 | A419     | Sepsis, unspecified organism
+   19696160 | 21376742 | V667     | Encounter for palliative care
+   19696160 | 21376742 | V443     | Colostomy status
+   19696160 | 21376742 | 496      | Chronic airway obstruction, not elsewhere classified
+   19696160 | 21376742 | 41401    | Coronary atherosclerosis of native coronary artery
+   19696160 | 21376742 | 412      | Old myocardial infarction
+   19696160 | 21376742 | 4019     | Unspecified essential hypertension
+   19696160 | 21376742 | 3051     | Tobacco use disorder
+   19696160 | 21376742 | 28959    | Other diseases of spleen
+   19692617 | 27904940 | V442     | Ileostomy status
+   19692617 | 27904940 | V4365    | Knee joint replacement
+   19692617 | 27904940 | V4364    | Hip joint replacement
+   19692617 | 27904940 | 99592    | Severe sepsis
+   19692617 | 27904940 | 78552    | Septic shock
+   19692617 | 27904940 | 5856     | End stage renal disease
+   19692617 | 27904940 | 5849     | Acute kidney failure, unspecified
+   19692617 | 27904940 | 570      | Acute and subacute necrosis of liver
+   19692617 | 27904940 | 51919    | Other diseases of trachea and bronchus
+   19692617 | 27904940 | 51881    | Acute respiratory failure
+   19692617 | 27904940 | 5180     | Pulmonary collapse
+   19692617 | 27904940 | 49390    | Asthma, unspecified type, unspecified
+   19692617 | 27904940 | 4846     | Pneumonia in aspergillosis
+   19692617 | 27904940 | 48241    | Methicillin susceptible pneumonia due to Staphylococcus aureus
+   19692617 | 27904940 | 4538     | Venous thrombosis nec
+   19692617 | 27904940 | 42832    | Chronic diastolic heart failure
+   19692617 | 27904940 | 4280     | Congestive heart failure, unspecified
+   19692617 | 27904940 | 42731    | Atrial fibrillation
+   19692617 | 27904940 | 4271     | Paroxysmal ventricular tachycardia
+   19692617 | 27904940 | 40391    | Hypertensive chronic kidney disease, unspecified, with chronic kidney disease stage V or end stage renal disease
+   19692617 | 27904940 | 2875     | Thrombocytopenia, unspecified
+   19692617 | 27904940 | 2761     | Hyposmolality and/or hyponatremia
+   19692617 | 27904940 | 2724     | Other and unspecified hyperlipidemia
+   19692617 | 27904940 | 261      | Nutritional marasmus
+   19692617 | 27904940 | 1173     | Aspergillosis
+   19692617 | 27904940 | 0389     | Unspecified septicemia
+   19686576 | 24958829 | Z8619    | Personal history of other infectious and parasitic diseases
+   19686576 | 24958829 | Z66      | Do not resuscitate
+   19686576 | 24958829 | Z560     | Unemployment, unspecified
+   19686576 | 24958829 | Z515     | Encounter for palliative care
+   19686576 | 24958829 | R6520    | Severe sepsis without septic shock
+   19686576 | 24958829 | L03116   | Cellulitis of left lower limb
+   19686576 | 24958829 | K7030    | Alcoholic cirrhosis of liver without ascites
+   19686576 | 24958829 | K088     | Other specified disorders of teeth and supporting structures
+   19686576 | 24958829 | J9601    | Acute respiratory failure with hypoxia
+   19686576 | 24958829 | J189     | Pneumonia, unspecified organism
+   19686576 | 24958829 | I890     | Lymphedema, not elsewhere classified
+   19686576 | 24958829 | I4891    | Unspecified atrial fibrillation
+   19686576 | 24958829 | I272     | Other secondary pulmonary hypertension
+   19686576 | 24958829 | G629     | Polyneuropathy, unspecified
+   19686576 | 24958829 | F909     | Attention-deficit hyperactivity disorder, unspecified type
+   19686576 | 24958829 | F4310    | Post-traumatic stress disorder, unspecified
+   19686576 | 24958829 | F419     | Anxiety disorder, unspecified
+   19686576 | 24958829 | F17210   | Nicotine dependence, cigarettes, uncomplicated
+   19686576 | 24958829 | F1010    | Alcohol abuse, uncomplicated
+   19686576 | 24958829 | E8809    | Other disorders of plasma-protein metabolism, not elsewhere classified
+   19686576 | 24958829 | E872     | Acidosis
+   19686576 | 24958829 | E8339    | Other disorders of phosphorus metabolism
+   19686576 | 24958829 | E119     | Type 2 diabetes mellitus without complications
+   19686576 | 24958829 | D6959    | Other secondary thrombocytopenia
+   19686576 | 24958829 | D649     | Anemia, unspecified
+   19686576 | 24958829 | D61818   | Other pancytopenia
+   19686576 | 24958829 | B1910    | Unspecified viral hepatitis B without hepatic coma
+   19686576 | 24958829 | A401     | Sepsis due to streptococcus, group B
+   19676211 | 27134485 | Z7901    | Long term (current) use of anticoagulants
+   19676211 | 27134485 | Z6834    | Body mass index (BMI) 34.0-34.9, adult
+   19676211 | 27134485 | Z66      | Do not resuscitate
+   19676211 | 27134485 | Z515     | Encounter for palliative care
+   19676211 | 27134485 | Y929     | Unspecified place or not applicable
+   19676211 | 27134485 | Y838     | Other surgical procedures as the cause of abnormal reaction of the patient, or of later complication, without mention of misadventure at the time of the procedure
+   19676211 | 27134485 | T827XXA  | Infection and inflammatory reaction due to other cardiac and vascular devices, implants and grafts, initial encounter
+   19676211 | 27134485 | R6521    | Severe sepsis with septic shock
+   19676211 | 27134485 | N170     | Acute kidney failure with tubular necrosis
+   19676211 | 27134485 | N10      | Acute pyelonephritis
+   19676211 | 27134485 | L97829   | Non-pressure chronic ulcer of other part of left lower leg with unspecified severity
+   19676211 | 27134485 | L97819   | Non-pressure chronic ulcer of other part of right lower leg with unspecified severity
+   19676211 | 27134485 | L89322   | Pressure ulcer of left buttock, stage 2
+   19676211 | 27134485 | L89312   | Pressure ulcer of right buttock, stage 2
+   19676211 | 27134485 | L89150   | Pressure ulcer of sacral region, unstageable
+   19676211 | 27134485 | K922     | Gastrointestinal hemorrhage, unspecified
+   19676211 | 27134485 | K8590    | Acute pancreatitis without necrosis or infection, unspecified
+   19676211 | 27134485 | J9612    | Chronic respiratory failure with hypercapnia
+   19676211 | 27134485 | J449     | Chronic obstructive pulmonary disease, unspecified
+   19676211 | 27134485 | I83228   | Varicose veins of left lower extremity with both ulcer of other part of lower extremity and inflammation
+   19676211 | 27134485 | I83218   | Varicose veins of right lower extremity with both ulcer of other part of lower extremity and inflammation
+   19676211 | 27134485 | I82622   | Acute embolism and thrombosis of deep veins of left upper extremity
+   19676211 | 27134485 | I69934   | Monoplegia of upper limb following unspecified cerebrovascular disease affecting left non-dominant side
+   19676211 | 27134485 | I5032    | Chronic diastolic (congestive) heart failure
+   19676211 | 27134485 | I482     | Chronic atrial fibrillation
+   19676211 | 27134485 | I472     | Ventricular tachycardia
+   19676211 | 27134485 | I330     | Acute and subacute infective endocarditis
+   19676211 | 27134485 | I110     | Hypertensive heart disease with heart failure
+   19676211 | 27134485 | G4733    | Obstructive sleep apnea (adult) (pediatric)
+   19676211 | 27134485 | E875     | Hyperkalemia
+   19676211 | 27134485 | E874     | Mixed disorder of acid-base balance
+   19676211 | 27134485 | E871     | Hypo-osmolality and hyponatremia
+   19676211 | 27134485 | E785     | Hyperlipidemia, unspecified
+   19676211 | 27134485 | E46      | Unspecified protein-calorie malnutrition
+   19676211 | 27134485 | D684     | Acquired coagulation factor deficiency
+   19676211 | 27134485 | D473     | Essential (hemorrhagic) thrombocythemia
+   19676211 | 27134485 | B965     | Pseudomonas (aeruginosa) (mallei) (pseudomallei) as the cause of diseases classified elsewhere
+   19676211 | 27134485 | A4101    | Sepsis due to Methicillin susceptible Staphylococcus aureus
+   19666055 | 27056678 | V667     | Encounter for palliative care
+   19666055 | 27056678 | 99731    | Ventilator associated pneumonia
+   19666055 | 27056678 | 99592    | Severe sepsis
+   19666055 | 27056678 | 78552    | Septic shock
+   19666055 | 27056678 | 5789     | Hemorrhage of gastrointestinal tract, unspecified
+   19666055 | 27056678 | 570      | Acute and subacute necrosis of liver
+   19666055 | 27056678 | 51881    | Acute respiratory failure
+   19666055 | 27056678 | 5070     | Pneumonitis due to inhalation of food or vomitus
+   19666055 | 27056678 | 430      | Subarachnoid hemorrhage
+   19666055 | 27056678 | 41011    | Acute myocardial infarction of other anterior wall, initial episode of care
+   19666055 | 27056678 | 4019     | Unspecified essential hypertension
+   19666055 | 27056678 | 3481     | Anoxic brain damage
+   19666055 | 27056678 | 34511    | Generalized convulsive epilepsy, with intractable epilepsy
+   19666055 | 27056678 | 2800     | Iron deficiency anemia secondary to blood loss (chronic)
+   19666055 | 27056678 | 0380     | Streptococcal septicemia
+(1000 rows)
+

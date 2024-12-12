@@ -1,0 +1,111 @@
+ subject_id | hadm_id  | distinct_diagnoses_count |             drug              
+------------+----------+--------------------------+-------------------------------
+   14642114 | 28108297 |                        5 | BuPROPion (Sustained Release)
+   12465184 | 24374143 |                        5 | Prochlorperazine
+   18387473 | 23324861 |                        4 | Prochlorperazine
+   16780307 | 25876434 |                        4 | BuPROPion (Sustained Release)
+   16773796 | 29006404 |                        4 | Prochlorperazine
+   14475001 | 21635635 |                        4 | Prochlorperazine
+   12917869 | 29698303 |                        4 | Prochlorperazine
+   11769517 | 29131931 |                        4 | Prochlorperazine
+   11087853 | 25426433 |                        4 | BuPROPion
+   19814293 | 29778296 |                        3 | BuPROPion
+   18799675 | 26553886 |                        3 | Prochlorperazine
+   18799675 | 25113250 |                        3 | Prochlorperazine
+   18660664 | 26375023 |                        3 | Prochlorperazine
+   18438612 | 24292228 |                        3 | BuPROPion (Sustained Release)
+   18306686 | 20184965 |                        3 | Prochlorperazine
+   17217213 | 28423740 |                        3 | BuPROPion (Sustained Release)
+   17051420 | 22242653 |                        3 | BuPROPion (Sustained Release)
+   16774492 | 22586440 |                        3 | BuPROPion
+   16285428 | 22599859 |                        3 | BuPROPion (Sustained Release)
+   15898350 | 28687559 |                        3 | BuPROPion (Sustained Release)
+   15669140 | 29818488 |                        3 | Prochlorperazine
+   15387461 | 22918339 |                        3 | Prochlorperazine
+   15039084 | 22182779 |                        3 | Prochlorperazine
+   14139133 | 20698366 |                        3 | Prochlorperazine
+   13117663 | 20819023 |                        3 | Prochlorperazine
+   12648153 | 22998844 |                        3 | Prochlorperazine
+   11033629 | 22667583 |                        3 | Prochlorperazine
+   10123949 | 21079617 |                        3 | BuPROPion
+   19897794 | 28035398 |                        2 | Prochlorperazine
+   19632307 | 26341869 |                        2 | Prochlorperazine
+   19517966 | 22351956 |                        2 | BuPROPion (Sustained Release)
+   19314266 | 26205929 |                        2 | Prochlorperazine
+   19247503 | 27237211 |                        2 | Prochlorperazine
+   19219392 | 23928914 |                        2 | BuPROPion (Sustained Release)
+   19028931 | 24493852 |                        2 | BuPROPion (Sustained Release)
+   18669279 | 24536959 |                        2 | Prochlorperazine
+   18655830 | 25696330 |                        2 | Prochlorperazine
+   18654749 | 25465975 |                        2 | Prochlorperazine
+   18653563 | 27414916 |                        2 | Prochlorperazine
+   18311764 | 23429466 |                        2 | BuPROPion (Sustained Release)
+   18305097 | 27855823 |                        2 | BuPROPion (Sustained Release)
+   18194969 | 24053583 |                        2 | Prochlorperazine
+   17937834 | 29459713 |                        2 | Prochlorperazine
+   17873707 | 25266335 |                        2 | Prochlorperazine
+   17797591 | 26263672 |                        2 | Prochlorperazine
+   17797591 | 24859139 |                        2 | Prochlorperazine
+   17774149 | 21276338 |                        2 | Prochlorperazine
+   17686783 | 26887073 |                        2 | Prochlorperazine
+   17662159 | 25424763 |                        2 | BuPROPion
+   17662159 | 25424763 |                        2 | Prochlorperazine
+   17662159 | 22877669 |                        2 | BuPROPion
+   17395658 | 27829776 |                        2 | Prochlorperazine
+   17340686 | 21424739 |                        2 | BuPROPion
+   17327554 | 22755354 |                        2 | Prochlorperazine
+   17217213 | 25038301 |                        2 | BuPROPion (Sustained Release)
+   17201524 | 28299638 |                        2 | Prochlorperazine
+   17201524 | 23222747 |                        2 | BuPROPion (Sustained Release)
+   17056005 | 21603505 |                        2 | BuPROPion (Sustained Release)
+   17051420 | 26531146 |                        2 | BuPROPion (Sustained Release)
+   16906975 | 23576170 |                        2 | BuPROPion (Sustained Release)
+   16403658 | 24737699 |                        2 | BuPROPion (Sustained Release)
+   16401092 | 24279344 |                        2 | BuPROPion (Sustained Release)
+   16315440 | 20594476 |                        2 | Prochlorperazine
+   15831207 | 24104491 |                        2 | Prochlorperazine
+   15768795 | 27895096 |                        2 | Prochlorperazine
+   15357459 | 24439369 |                        2 | BuPROPion (Sustained Release)
+   15040958 | 26732887 |                        2 | BuPROPion
+   15020653 | 27947974 |                        2 | BuPROPion (Sustained Release)
+   15020653 | 23275292 |                        2 | BuPROPion (Sustained Release)
+   15007517 | 20452923 |                        2 | Prochlorperazine
+   14607991 | 22677072 |                        2 | BuPROPion
+   14136350 | 29140914 |                        2 | BuPROPion (Sustained Release)
+   14136350 | 20528869 |                        2 | BuPROPion (Sustained Release)
+   13813803 | 23967674 |                        2 | Prochlorperazine
+   13574960 | 24087958 |                        2 | BuPROPion (Sustained Release)
+   13385552 | 21816061 |                        2 | Prochlorperazine
+   13376841 | 28182503 |                        2 | Prochlorperazine
+   13365002 | 20922142 |                        2 | Prochlorperazine
+   13325402 | 29203951 |                        2 | Prochlorperazine
+   13325402 | 24724625 |                        2 | Prochlorperazine
+   13312271 | 22067857 |                        2 | Prochlorperazine
+   13154192 | 24612234 |                        2 | Prochlorperazine
+   13086918 | 20541665 |                        2 | Prochlorperazine
+   13010083 | 25175872 |                        2 | BuPROPion
+   12990140 | 29022270 |                        2 | Prochlorperazine
+   12917869 | 22026428 |                        2 | Prochlorperazine
+   12885146 | 28566773 |                        2 | BuPROPion (Sustained Release)
+   12763462 | 24163453 |                        2 | Prochlorperazine
+   12743864 | 22731665 |                        2 | Prochlorperazine
+   12721568 | 28478102 |                        2 | BuPROPion
+   12468629 | 21847194 |                        2 | Prochlorperazine
+   12257902 | 27135158 |                        2 | BuPROPion (Sustained Release)
+   12119271 | 27021523 |                        2 | BuPROPion
+   11965254 | 22090741 |                        2 | Prochlorperazine
+   11820335 | 27536150 |                        2 | Prochlorperazine
+   11699665 | 22564523 |                        2 | BuPROPion (Sustained Release)
+   11268251 | 25137155 |                        2 | Prochlorperazine
+   10849254 | 25384031 |                        2 | BuPROPion (Sustained Release)
+   10847880 | 24498835 |                        2 | Prochlorperazine
+   10808282 | 27115454 |                        2 | BuPROPion (Sustained Release)
+   10509294 | 24441492 |                        2 | Prochlorperazine
+   10475701 | 21698107 |                        2 | Prochlorperazine
+   10378895 | 23271763 |                        2 | Prochlorperazine
+   10328470 | 29373761 |                        2 | Prochlorperazine
+   10104308 | 23170261 |                        2 | Prochlorperazine
+   10000935 | 26381316 |                        2 | BuPROPion
+   10000935 | 25849114 |                        2 | Prochlorperazine
+(107 rows)
+

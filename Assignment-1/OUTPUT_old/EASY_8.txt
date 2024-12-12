@@ -1,0 +1,4 @@
+ subject_id | anchor_age 
+------------+------------
+(0 rows)
+

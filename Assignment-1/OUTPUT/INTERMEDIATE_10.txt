@@ -1,0 +1,1004 @@
+ subject_id | anchor_year |                             drug                             
+------------+-------------+--------------------------------------------------------------
+   19999784 |        2119 | Viaflex Bag
+   19999784 |        2119 | Sterile Water
+   19999784 |        2119 | Sodium Chloride 0.9%  Flush
+   19999784 |        2119 | Sodium Bicarbonate
+   19999784 |        2119 | Potassium Chloride Replacement (Critical Care and Oncology) 
+   19999784 |        2119 | Potassium Chloride
+   19999784 |        2119 | Leucovorin Calcium
+   19999784 |        2119 | Heparin Flush (100 units/ml)
+   19999784 |        2119 | 5% Dextrose
+   19998878 |        2132 | Insulin
+   19997538 |        2168 | Insulin
+   19997367 |        2126 | Senna
+   19997367 |        2126 | Heparin Flush (100 units/ml)
+   19997367 |        2126 | Heparin
+   19997367 |        2126 | Acyclovir
+   19997293 |        2123 | Quetiapine Fumarate
+   19997293 |        2123 | Potassium Chloride
+   19997072 |        2164 | HYDROmorphone (Dilaudid)
+   19994772 |        2180 | Vancomycin
+   19994379 |        2128 | Sodium Chloride 0.9%
+   19994379 |        2128 | Potassium Chloride
+   19994379 |        2128 | Magnesium Sulfate
+   19994379 |        2128 | Furosemide
+   19993951 |        2139 | Potassium Chloride
+   19993951 |        2139 | Dextrose 50%
+   19993951 |        2139 | Dabigatran Etexilate
+   19992875 |        2160 | Tacrolimus
+   19992875 |        2160 | 300 mcg Vial
+   19992507 |        2164 | Lorazepam
+   19991135 |        2124 | Sodium Chloride 0.9%  Flush
+   19991135 |        2124 | 0.9% Sodium Chloride
+   19990106 |        2157 | Insulin
+   19989918 |        2174 | Magnesium Sulfate
+   19989918 |        2174 | Lorazepam
+   19989918 |        2174 | Bag
+   19989918 |        2174 | 0.9% Sodium Chloride
+   19987152 |        2145 | Lorazepam
+   19987152 |        2145 | HYDROmorphone (Dilaudid)
+   19986880 |        2185 | Furosemide
+   19986589 |        2182 | Insulin
+   19986341 |        2169 | Sodium Chloride 0.9%  Flush
+   19986341 |        2169 | Insulin
+   19985545 |        2135 | Sodium Chloride 0.9%
+   19985545 |        2135 | Ramelteon
+   19985545 |        2135 | PredniSONE
+   19985545 |        2135 | Docusate Sodium
+   19985545 |        2135 | 5% Dextrose
+   19984875 |        2118 | LevETIRAcetam
+   19984259 |        2153 | 5% Dextrose
+   19983512 |        2141 | Dapsone
+   19983009 |        2142 | Potassium Chloride
+   19981833 |        2138 | Acetaminophen
+   19981610 |        2172 | Calcium Carbonate
+   19981210 |        2143 | Tamsulosin
+   19980822 |        2184 | Bisacodyl
+   19979469 |        2200 | Dronabinol
+   19979360 |        2176 | Insulin
+   19979360 |        2176 | Furosemide
+   19979360 |        2176 | 5% Dextrose
+   19978886 |        2173 | Heparin
+   19978248 |        2146 | PredniSONE
+   19978248 |        2146 | Phenytoin Sodium Extended
+   19978119 |        2187 | Omeprazole
+   19977310 |        2148 | Vial
+   19977310 |        2148 | Simvastatin
+   19975796 |        2148 | Albuterol Inhaler
+   19975121 |        2115 | Potassium Chloride
+   19973404 |        2161 | Insulin
+   19973404 |        2161 | 0.9% Sodium Chloride
+   19973083 |        2123 | Ranitidine
+   19972786 |        2194 | Furosemide
+   19972786 |        2194 | Calcium Carbonate
+   19970563 |        2144 | Sodium Chloride 0.9%
+   19970563 |        2144 | Ondansetron
+   19970563 |        2144 | DiphenhydrAMINE
+   19970491 |        2129 | NS
+   19970491 |        2129 | MetRONIDAZOLE (FLagyl)
+   19970491 |        2129 | HYDROmorphone (Dilaudid)
+   19970491 |        2129 | 5% Dextrose
+   19970491 |        2129 | 0.9% Sodium Chloride
+   19970078 |        2186 | Sodium Chloride 0.9%  Flush
+   19970078 |        2186 | Levothyroxine Sodium
+   19969408 |        2156 | OxycoDONE (Immediate Release) 
+   19969170 |        2164 | NS
+   19968598 |        2141 | Heparin
+   19968039 |        2122 | OxyCODONE (Immediate Release)
+   19966756 |        2145 | Insulin
+   19966756 |        2145 | Furosemide
+   19966115 |        2180 | Cyanocobalamin
+   19966115 |        2180 | Carbidopa-Levodopa (25-100)
+   19965802 |        2121 | Warfarin
+   19965802 |        2121 | Metoprolol Tartrate
+   19965802 |        2121 | 5% Dextrose
+   19965802 |        2121 | 0.9% Sodium Chloride
+   19965144 |        2184 | Insulin
+   19965144 |        2184 | 5% Dextrose
+   19963323 |        2171 | Insulin
+   19963242 |        2173 | HYDROmorphone (Dilaudid)
+   19963038 |        2152 | Bisacodyl
+   19963038 |        2152 | Atorvastatin
+   19962563 |        2190 | Tamsulosin
+   19962563 |        2190 | Heparin
+   19962563 |        2190 | Albuterol 0.083% Neb Soln
+   19962418 |        2132 | Heparin Flush (10 units/ml)
+   19961611 |        2155 | Furosemide
+   19960743 |        2141 | Levothyroxine Sodium
+   19960665 |        2152 | Syringe
+   19960274 |        2188 | 0.9% Sodium Chloride
+   19960115 |        2113 | Sodium Chloride 0.9%  Flush
+   19960115 |        2113 | Glucose Gel
+   19960115 |        2113 | Calcium Gluconate
+   19960105 |        2146 | Metoprolol Tartrate
+   19960105 |        2146 | Heparin Sodium
+   19960105 |        2146 | Furosemide
+   19960105 |        2146 | 5% Dextrose
+   19960105 |        2146 | 0.9% Sodium Chloride
+   19959697 |        2156 | Senna
+   19959499 |        2169 | Levothyroxine Sodium
+   19958502 |        2131 | Pantoprazole
+   19957410 |        2168 | Tacrolimus
+   19957410 |        2168 | Sodium Chloride 0.9%  Flush
+   19957410 |        2168 | Prochlorperazine
+   19957410 |        2168 | Magnesium Sulfate
+   19957410 |        2168 | Bag
+   19957410 |        2168 | Acetaminophen
+   19956963 |        2127 | Tacrolimus
+   19956960 |        2172 | Zonisamide
+   19956723 |        2191 | 0.9% Sodium Chloride
+   19956654 |        2136 | TRIAzolam
+   19956148 |        2146 | Warfarin
+   19956148 |        2146 | Levothyroxine Sodium
+   19956148 |        2146 | Atorvastatin
+   19955371 |        2143 | Insulin
+   19955348 |        2186 | Vancomycin
+   19955348 |        2186 | Heparin Dwell (1000 Units/mL)
+   19953910 |        2146 | Tacrolimus
+   19953910 |        2146 | Acetaminophen
+   19952329 |        2180 | LORazepam
+   19952161 |        2173 | Sodium Chloride 0.9%
+   19951256 |        2149 | Sodium Chloride 0.9%
+   19950352 |        2137 | Vitamin D
+   19950146 |        2182 | 0.9% Sodium Chloride
+   19949628 |        2141 | Insulin
+   19949628 |        2141 | HYDROmorphone (Dilaudid)
+   19949313 |        2171 | ALPRAZolam
+   19947350 |        2177 | Insulin
+   19947298 |        2137 | Insulin
+   19947284 |        2132 | Sodium Chloride 0.9%
+   19947284 |        2132 | Cinacalcet
+   19946380 |        2178 | Insulin
+   19944328 |        2181 | Insulin
+   19944328 |        2181 | Docusate Sodium
+   19943755 |        2175 | Diltiazem
+   19942499 |        2188 | Insulin Regular Human (U-500)
+   19942499 |        2188 | Insulin
+   19942426 |        2110 | Insulin
+   19940963 |        2182 | 5% Dextrose
+   19940147 |        2126 | Vancomycin
+   19940147 |        2126 | Magnesium Sulfate
+   19940147 |        2126 | CycloSPORINE (Neoral) MODIFIED
+   19940147 |        2126 | Bag
+   19940147 |        2126 | Acetaminophen (Liquid)
+   19940147 |        2126 | 0.9% Sodium Chloride
+   19939579 |        2179 | 0.9% Sodium Chloride
+   19937555 |        2150 | Sodium Chloride 0.9%  Flush
+   19937555 |        2150 | Sertraline
+   19937193 |        2135 | Amlodipine
+   19936204 |        2142 | Sodium Chloride 0.9%
+   19936204 |        2142 | Iso-Osmotic Dextrose
+   19936204 |        2142 | Bag
+   19936109 |        2154 | Ipratropium Bromide Neb
+   19935090 |        2115 | Sterile Water
+   19935090 |        2115 | Glucagon
+   19935090 |        2115 | 0.9% Sodium Chloride
+   19933770 |        2157 | Insulin
+   19933258 |        2125 | Levothyroxine Sodium
+   19933011 |        2174 | Lorazepam
+   19933011 |        2174 | Heparin
+   19932242 |        2157 | Acyclovir
+   19931942 |        2128 | Ferrous Sulfate
+   19931495 |        2114 | Omeprazole
+   19931382 |        2146 | Magnesium Sulfate
+   19931382 |        2146 | Lorazepam
+   19931382 |        2146 | FoLIC Acid
+   19931382 |        2146 | Diazepam
+   19931382 |        2146 | D5NS
+   19931382 |        2146 | Bag
+   19931382 |        2146 | 0.9% Sodium Chloride
+   19930554 |        2194 | Senna
+   19930554 |        2194 | Ondansetron
+   19930554 |        2194 | Magnesium Sulfate
+   19930554 |        2194 | Insulin
+   19930554 |        2194 | Heparin Flush (100 units/ml)
+   19930554 |        2194 | Enoxaparin Sodium
+   19930554 |        2194 | Citalopram
+   19930554 |        2194 | Bisacodyl
+   19930554 |        2194 | 0.9% Sodium Chloride
+   19930293 |        2127 | Sodium Chloride 0.9%
+   19930293 |        2127 | Insulin
+   19930120 |        2170 | Metoprolol Tartrate
+   19930120 |        2170 | Methotrexate Sodium
+   19930120 |        2170 | Heparin Flush (10 units/ml)
+   19930120 |        2170 | Haloperidol
+   19929625 |        2153 | Lorazepam
+   19929286 |        2184 | Potassium Chloride
+   19929286 |        2184 | 0.9% Sodium Chloride
+   19929203 |        2150 | Acetaminophen
+   19928700 |        2119 | Lactated Ringers
+   19928175 |        2132 | Heparin Sodium
+   19928175 |        2132 | 5% Dextrose
+   19928034 |        2142 | Sodium Chloride 0.9%
+   19928034 |        2142 | Insulin
+   19928034 |        2142 | Dexamethasone
+   19928034 |        2142 | 0.9% Sodium Chloride
+   19926820 |        2162 | Albumin 25% (12.5g / 50mL)
+   19926727 |        2185 | Heparin Dwell (1000 Units/mL)
+   19926727 |        2185 | Heparin (Hemodialysis)
+   19923916 |        2133 | Potassium Chloride Replacement (Oncology)
+   19922600 |        2127 | Vancomycin Oral Liquid
+   19922600 |        2127 | Sterile Water
+   19922600 |        2127 | Potassium Chloride
+   19921471 |        2144 | Tiotropium Bromide
+   19921471 |        2144 | Sodium Chloride 0.9%  Flush
+   19921471 |        2144 | Senna
+   19921471 |        2144 | PredniSONE
+   19921471 |        2144 | Phenazopyridine
+   19921471 |        2144 | Omeprazole
+   19921471 |        2144 | OLANZapine
+   19921471 |        2144 | Nicotine Patch
+   19921471 |        2144 | Metoprolol Succinate XL
+   19921471 |        2144 | Linezolid
+   19921471 |        2144 | Docusate Sodium
+   19921471 |        2144 | Albuterol Inhaler
+   19921471 |        2144 | Albuterol 0.083% Neb Soln
+   19921471 |        2144 | Acetaminophen
+   19920914 |        2134 | Magnesium Sulfate
+   19919588 |        2118 | Metoprolol Tartrate
+   19919213 |        2194 | Warfarin
+   19918971 |        2146 | Sodium Chloride 0.9%  Flush
+   19918971 |        2146 | Ondansetron
+   19918971 |        2146 | Morphine Sulfate
+   19918971 |        2146 | LR
+   19918971 |        2146 | Acetaminophen
+   19918694 |        2182 | Simvastatin
+   19918694 |        2182 | Potassium Chloride
+   19918694 |        2182 | Metoprolol Tartrate
+   19918694 |        2182 | Magnesium Sulfate
+   19918694 |        2182 | Iso-Osmotic Dextrose
+   19918694 |        2182 | HYDROmorphone (Dilaudid)
+   19918694 |        2182 | Heparin Sodium
+   19918694 |        2182 | Citalopram
+   19918694 |        2182 | Aspirin
+   19918694 |        2182 | 5% Dextrose
+   19918413 |        2129 | Vancomycin
+   19918413 |        2129 | Sodium Chloride 0.9%
+   19918413 |        2129 | Magnesium Sulfate
+   19918413 |        2129 | Iso-Osmotic Dextrose
+   19917945 |        2124 | Ondansetron
+   19917677 |        2118 | OxycoDONE (Immediate Release) 
+   19917249 |        2180 | Iso-Osmotic Dextrose
+   19917249 |        2180 | Insulin
+   19917249 |        2180 | Dextrose 50%
+   19916239 |        2142 | Heparin
+   19909991 |        2146 | Zonisamide
+   19908221 |        2141 | Iso-Osmotic Dextrose
+   19908221 |        2141 | Insulin
+   19908221 |        2141 | Heparin Dwell (1000 Units/mL)
+   19908221 |        2141 | Fluticasone-Salmeterol Diskus (250/50) 
+   19907884 |        2180 | Sodium Chloride 0.9%  Flush
+   19907884 |        2180 | Lactated Ringers
+   19907884 |        2180 | Insulin
+   19907884 |        2180 | HYDROmorphone (Dilaudid)
+   19907884 |        2180 | Gabapentin
+   19907884 |        2180 | DiphenhydrAMINE
+   19907884 |        2180 | Carvedilol
+   19907884 |        2180 | 0.9% Sodium Chloride
+   19907774 |        2157 | Magnesium Sulfate
+   19907318 |        2183 | Insulin
+   19907191 |        2153 | Docusate Sodium
+   19907026 |        2156 | Torsemide
+   19906882 |        2157 | 0.9% Sodium Chloride
+   19906572 |        2135 | Potassium Chloride
+   19906564 |        2124 | Docusate Sodium
+   19906407 |        2189 | Sodium Chloride 0.9%  Flush
+   19906407 |        2189 | Potassium Chloride
+   19906407 |        2189 | Insulin
+   19906407 |        2189 | HYDROmorphone (Dilaudid)
+   19906407 |        2189 | 0.9% Sodium Chloride
+   19906067 |        2128 | Ondansetron
+   19906067 |        2128 | Insulin
+   19905646 |        2157 | Sodium Chloride 0.9%  Flush
+   19905646 |        2157 | Insulin
+   19905556 |        2164 | Insulin
+   19904800 |        2207 | Sodium Chloride 0.9%  Flush
+   19903197 |        2193 | OxyCODONE (Immediate Release)
+   19903197 |        2193 | Albumin 25% (12.5g / 50mL)
+   19903197 |        2193 | 5% Dextrose
+   19902204 |        2154 | Potassium Chloride
+   19901661 |        2175 | Pantoprazole
+   19901341 |        2165 | Neutra-Phos
+   19901341 |        2165 | Levothyroxine Sodium
+   19901085 |        2136 | Metoprolol Tartrate
+   19900981 |        2167 | HYDROmorphone (Dilaudid)
+   19900981 |        2167 | 0.9% Sodium Chloride
+   19900168 |        2126 | Tacrolimus
+   19900168 |        2126 | Sodium Chloride 0.9%  Flush
+   19900168 |        2126 | Metoprolol Tartrate
+   19900168 |        2126 | 5% Dextrose
+   19899194 |        2148 | Sodium Chloride 0.9%  Flush
+   19899194 |        2148 | Potassium Chloride
+   19897794 |        2172 | Valsartan
+   19897794 |        2172 | Glucagon
+   19897794 |        2172 | Atorvastatin
+   19897794 |        2172 | Acetaminophen
+   19894745 |        2180 | Magnesium Sulfate
+   19894323 |        2133 | 0.9% Sodium Chloride
+   19893114 |        2178 | Iso-Osmotic Dextrose
+   19890709 |        2169 | Docusate Sodium
+   19890665 |        2118 | Lactated Ringers
+   19890665 |        2118 | Acetaminophen IV
+   19889694 |        2160 | Tacrolimus
+   19889694 |        2160 | PredniSONE
+   19889391 |        2111 | Ondansetron
+   19889178 |        2116 | Magnesium Sulfate
+   19889178 |        2116 | Insulin
+   19887610 |        2112 | Warfarin
+   19887057 |        2149 | Bag
+   19886569 |        2126 | LaMICtal XR
+   19884674 |        2169 | Heparin
+   19884620 |        2136 | Sodium Chloride 0.9%  Flush
+   19884099 |        2163 | Potassium Chloride
+   19884054 |        2137 | Sodium Chloride 0.9%
+   19883311 |        2134 | Insulin
+   19883311 |        2134 | 0.9% Sodium Chloride
+   19882171 |        2150 | Warfarin
+   19882137 |        2162 | Mesna
+   19882137 |        2162 | LORazepam
+   19882137 |        2162 | Heparin
+   19882137 |        2162 | Baclofen
+   19881575 |        2121 | Magnesium Sulfate
+   19881575 |        2121 | Insulin
+   19881575 |        2121 | 0.9% Sodium Chloride
+   19881566 |        2170 | Warfarin
+   19881536 |        2173 | DiphenhydrAMINE
+   19881444 |        2160 | Polyethylene Glycol
+   19881376 |        2167 | Gabapentin
+   19881376 |        2167 | Acetaminophen
+   19881159 |        2153 | Sterile Water
+   19880967 |        2174 | Insulin
+   19880967 |        2174 | Furosemide
+   19880967 |        2174 | Docusate Sodium
+   19880967 |        2174 | Calcium Gluconate
+   19880967 |        2174 | Bag
+   19880967 |        2174 | 0.9% Sodium Chloride
+   19878969 |        2149 | Morphine Sulfate
+   19875779 |        2162 | Metoprolol Tartrate
+   19875779 |        2162 | 0.9% Sodium Chloride
+   19875679 |        2168 | Sodium Chloride 0.9%  Flush
+   19875679 |        2168 | Furosemide
+   19874272 |        2155 | Heparin Sodium
+   19873891 |        2127 | Omeprazole
+   19871967 |        2167 | Lisinopril
+   19871603 |        2171 | Polyethylene Glycol
+   19871603 |        2171 | Acetaminophen
+   19871603 |        2171 | 0.9% Sodium Chloride
+   19870084 |        2130 | Heparin
+   19869374 |        2157 | Furosemide
+   19868591 |        2116 | Insulin
+   19868102 |        2189 | Warfarin
+   19868102 |        2189 | Senna
+   19868102 |        2189 | Metoprolol Tartrate
+   19868102 |        2189 | Lorazepam
+   19868102 |        2189 | 0.9% Sodium Chloride
+   19867829 |        2148 | Potassium Chl 20 mEq / 1000 mL D5 1/2 NS
+   19867135 |        2189 | Lactated Ringers
+   19867135 |        2189 | HydrALAZINE
+   19866753 |        2192 | Iso-Osmotic Dextrose
+   19866753 |        2192 | Cyanocobalamin
+   19866517 |        2150 | Metoprolol Tartrate
+   19866517 |        2150 | Furosemide
+   19866517 |        2150 | Aspirin
+   19866267 |        2116 | Insulin
+   19866267 |        2116 | Furosemide
+   19865758 |        2169 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19865076 |        2169 | Heparin
+   19864406 |        2148 | Sulfameth/Trimethoprim DS
+   19864406 |        2148 | Sodium Chloride 0.9%  Flush
+   19864406 |        2148 | Potassium Chloride
+   19864406 |        2148 | Insulin
+   19864406 |        2148 | 5% Dextrose
+   19864406 |        2148 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19864406 |        2148 | 0.9% Sodium Chloride
+   19863599 |        2131 | Insulin
+   19863368 |        2121 | 0.9% Sodium Chloride
+   19861211 |        2191 | Vial
+   19861211 |        2191 | Sodium Chloride 0.9%  Flush
+   19861211 |        2191 | Potassium Chloride
+   19861211 |        2191 | Heparin Flush (10 units/ml)
+   19860377 |        2119 | SW
+   19860377 |        2119 | MethylPREDNISolone Sodium Succ
+   19860377 |        2119 | 0.9% Sodium Chloride
+   19859524 |        2145 | OxyCODONE (Immediate Release)
+   19859524 |        2145 | Metoprolol Succinate XL
+   19859524 |        2145 | Magnesium Sulfate
+   19859524 |        2145 | Furosemide
+   19859251 |        2172 | Sodium Chloride 0.9%  Flush
+   19859251 |        2172 | Potassium Chloride
+   19858494 |        2186 | Potassium Chloride
+   19858494 |        2186 | Bag
+   19858494 |        2186 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19858167 |        2177 | HYDROmorphone (Dilaudid)
+   19856996 |        2148 | Sodium Chloride 0.9%  Flush
+   19856485 |        2166 | Furosemide
+   19855099 |        2164 | Warfarin
+   19855099 |        2164 | Sodium Chloride 0.9%  Flush
+   19855099 |        2164 | Senna
+   19855099 |        2164 | Potassium Chloride
+   19855099 |        2164 | LOPERamide
+   19855099 |        2164 | Insulin
+   19855099 |        2164 | Glucagon
+   19855099 |        2164 | Furosemide
+   19855099 |        2164 | CefazoLIN
+   19855099 |        2164 | Ascorbic Acid
+   19855099 |        2164 | Apixaban
+   19854456 |        2177 | Lorazepam
+   19851462 |        2128 | Heparin
+   19851462 |        2128 | 5% Dextrose
+   19849930 |        2161 | Sodium Chloride 0.9%  Flush
+   19849930 |        2161 | Potassium Chloride
+   19849930 |        2161 | Metoprolol Succinate XL
+   19849930 |        2161 | Furosemide
+   19849930 |        2161 | Finasteride
+   19847575 |        2163 | Warfarin
+   19846911 |        2179 | Lactated Ringers
+   19846489 |        2125 | Atorvastatin
+   19845348 |        2162 | Potassium Chloride
+   19845148 |        2144 | Warfarin
+   19845148 |        2144 | Meropenem
+   19845148 |        2144 | HYDROmorphone (Dilaudid)
+   19845148 |        2144 | Heparin Flush (10 units/ml)
+   19845120 |        2178 | Potassium Chloride
+   19845120 |        2178 | Metoprolol Tartrate
+   19845120 |        2178 | 5% Dextrose
+   19844485 |        2181 | Zolpidem Tartrate
+   19844485 |        2181 | Acetaminophen
+   19843240 |        2129 | Insulin
+   19843082 |        2148 | Vancomycin
+   19843082 |        2148 | Sterile Water
+   19843082 |        2148 | Furosemide
+   19842674 |        2156 | Atorvastatin
+   19837705 |        2186 | Warfarin
+   19837705 |        2186 | HYDROmorphone (Dilaudid)
+   19837705 |        2186 | 5% Dextrose
+   19837618 |        2124 | Diltiazem
+   19837131 |        2158 | Neutra-Phos
+   19836972 |        2158 | Warfarin
+   19836124 |        2145 | Insulin
+   19835849 |        2135 | Morphine Sulfate
+   19835506 |        2166 | Lidocaine 5% Patch
+   19831856 |        2184 | traZODONE
+   19831856 |        2184 | SW
+   19831856 |        2184 | HYDROmorphone (Dilaudid)
+   19831856 |        2184 | Amlodipine
+   19831856 |        2184 | 0.9% Sodium Chloride
+   19831776 |        2147 | Morphine Sulfate
+   19831143 |        2172 | PredniSONE
+   19831143 |        2172 | Albuterol 0.083% Neb Soln
+   19830951 |        2122 | Valsartan
+   19830951 |        2122 | HydrALAzine
+   19830951 |        2122 | Furosemide
+   19830798 |        2169 | Magnesium Sulfate
+   19829815 |        2201 | Insulin
+   19827186 |        2144 | Allopurinol
+   19826668 |        2125 | Magnesium Sulfate
+   19826668 |        2125 | 0.9% Sodium Chloride
+   19826427 |        2117 | 0.9% Sodium Chloride
+   19824820 |        2139 | Lorazepam
+   19824820 |        2139 | 5% Dextrose
+   19824335 |        2129 | Potassium Chloride
+   19824335 |        2129 | Lidocaine 5% Patch
+   19824335 |        2129 | Calcium Gluconate
+   19824245 |        2176 | Sodium Chloride 0.9%
+   19824245 |        2176 | Enoxaparin Sodium
+   19824245 |        2176 | Acetaminophen (Liquid)
+   19823199 |        2174 | Insulin
+   19823199 |        2174 | Acetaminophen
+   19822698 |        2143 | Heparin
+   19822093 |        2145 | Potassium Chloride
+   19822093 |        2145 | Meropenem
+   19822093 |        2145 | Insulin
+   19822093 |        2145 | 0.9% Sodium Chloride
+   19821558 |        2148 | Insulin
+   19821558 |        2148 | Dextrose 50%
+   19821111 |        2136 | Ondansetron
+   19820782 |        2153 | Zolpidem Tartrate
+   19819996 |        2180 | Sodium Chloride 0.9%  Flush
+   19819996 |        2180 | sevelamer HYDROCHLORIDE
+   19819996 |        2180 | Potassium Chloride
+   19819996 |        2180 | Paroxetine
+   19819996 |        2180 | Gabapentin
+   19819996 |        2180 | Epoetin Alfa
+   19818243 |        2143 | Warfarin
+   19818243 |        2143 | Potassium Chloride
+   19817441 |        2151 | 5% Dextrose
+   19817081 |        2170 | Ciprofloxacin HCl
+   19816141 |        2155 | Clonazepam
+   19815126 |        2184 | 0.9% Sodium Chloride
+   19814293 |        2181 | Insulin
+   19814293 |        2181 | Heparin
+   19814293 |        2181 | Gabapentin
+   19814293 |        2181 | Diazepam
+   19813938 |        2116 | Sodium Chloride 0.9%  Flush
+   19813796 |        2169 | Heparin
+   19813794 |        2151 | Heparin
+   19813532 |        2141 | Insulin
+   19813233 |        2129 | Sodium Chloride 0.9%
+   19813160 |        2168 | Furosemide
+   19812504 |        2173 | Warfarin
+   19812504 |        2173 | Vancomycin
+   19812504 |        2173 | Sodium Chloride 0.9%  Flush
+   19812504 |        2173 | Insulin
+   19811865 |        2142 | Dextrose 50%
+   19811688 |        2189 | Furosemide
+   19810639 |        2188 | Iso-Osmotic Dextrose
+   19810639 |        2188 | Bisacodyl
+   19810100 |        2141 | Albumin 25% (12.5g / 50mL)
+   19809456 |        2169 | Phosphorus
+   19809456 |        2169 | Ipratropium Bromide MDI
+   19809456 |        2169 | Amlodipine
+   19809073 |        2196 | Syringe (0.9% Sodium Chloride)
+   19809073 |        2196 | LORazepam
+   19809073 |        2196 | Iso-Osmotic Dextrose
+   19809073 |        2196 | 0.9% Sodium Chloride
+   19808487 |        2154 | Sodium Chloride 0.9%  Flush
+   19808487 |        2154 | Insulin
+   19808487 |        2154 | 0.9% Sodium Chloride
+   19805298 |        2196 | Insulin
+   19802785 |        2134 | Digoxin
+   19802576 |        2183 | Senna
+   19802576 |        2183 | Albuterol 0.083% Neb Soln
+   19801386 |        2175 | Sodium Chloride 0.9%
+   19800781 |        2145 | Insulin
+   19799262 |        2115 | Artificial Tears
+   19799126 |        2152 | sevelamer CARBONATE
+   19798925 |        2178 | Tacrolimus
+   19798925 |        2178 | Magnesium Sulfate
+   19798578 |        2137 | Metoprolol Succinate XL
+   19798578 |        2137 | Insulin
+   19798578 |        2137 | Enoxaparin Sodium
+   19798578 |        2137 | Bag
+   19798578 |        2137 | 0.9% Sodium Chloride
+   19797689 |        2183 | Warfarin
+   19797689 |        2183 | Torsemide
+   19797689 |        2183 | Simvastatin
+   19797689 |        2183 | Senna
+   19797689 |        2183 | Metoprolol Tartrate
+   19797689 |        2183 | Furosemide
+   19797689 |        2183 | Dexamethasone Ophthalmic Soln 0.1%
+   19797687 |        2161 | Sulfameth/Trimethoprim SS
+   19797687 |        2161 | PredniSONE
+   19797687 |        2161 | Iso-Osmotic Dextrose
+   19797687 |        2161 | Acyclovir
+   19794590 |        2168 | OxycoDONE (Immediate Release) 
+   19793569 |        2135 | Ibuprofen
+   19792969 |        2135 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19791816 |        2195 | Sodium Chloride 0.9%
+   19791816 |        2195 | Potassium Chloride
+   19791816 |        2195 | Digoxin
+   19791178 |        2114 | Insulin
+   19789410 |        2198 | Insulin
+   19789403 |        2155 | Insulin
+   19789403 |        2155 | Calcium Carbonate
+   19789197 |        2133 | OxycoDONE (Immediate Release) 
+   19789144 |        2148 | 0.9% Sodium Chloride
+   19787831 |        2176 | Dextrose 50%
+   19787095 |        2161 | Potassium Chloride
+   19787095 |        2161 | OxycoDONE (Immediate Release) 
+   19786008 |        2187 | Haloperidol
+   19785715 |        2187 | Insulin
+   19785163 |        2159 | Insulin
+   19785163 |        2159 | Furosemide
+   19784491 |        2120 | Fentanyl Citrate
+   19784487 |        2156 | Magnesium Sulfate
+   19784432 |        2118 | Sterile Water
+   19784432 |        2118 | Furosemide
+   19784284 |        2128 | DiphenhydrAMINE
+   19783125 |        2161 | Bumetanide
+   19781754 |        2171 | Insulin
+   19780933 |        2182 | Lisinopril
+   19780933 |        2182 | Insulin
+   19780829 |        2147 | Sirolimus
+   19780160 |        2172 | Potassium Chloride
+   19780160 |        2172 | D5 1/2NS
+   19780160 |        2172 | 0.9% Sodium Chloride
+   19779706 |        2171 | Insulin
+   19779706 |        2171 | Bag
+   19778971 |        2186 | Potassium Chloride
+   19777976 |        2115 | Metoprolol Tartrate
+   19777911 |        2165 | Sterile Water
+   19777911 |        2165 | PredniSONE
+   19777911 |        2165 | Potassium Chloride
+   19777911 |        2165 | Magnesium Sulfate
+   19777911 |        2165 | Lorazepam
+   19777911 |        2165 | Iso-Osmotic Dextrose
+   19777911 |        2165 | Bag
+   19777120 |        2180 | Calcium Gluconate
+   19776663 |        2179 | Ferrous Sulfate
+   19776335 |        2181 | Lorazepam
+   19776126 |        2184 | Potassium Chloride
+   19775943 |        2126 | Insulin
+   19774838 |        2187 | Bag
+   19774701 |        2172 | Pravastatin
+   19774387 |        2159 | Acetaminophen
+   19774071 |        2164 | Cyclobenzaprine
+   19772551 |        2182 | Insulin
+   19770977 |        2149 | Furosemide
+   19769617 |        2127 | Sodium Chloride 0.9%  Flush
+   19769617 |        2127 | Morphine Sulfate
+   19767548 |        2188 | Neomycin-Polymyxin-Bacitracin
+   19767133 |        2135 | Vancomycin
+   19767133 |        2135 | Insulin
+   19767133 |        2135 | Heparin
+   19765968 |        2148 | Vancomycin
+   19765968 |        2148 | Potassium Chloride
+   19765968 |        2148 | Gabapentin
+   19765968 |        2148 | CefePIME
+   19765968 |        2148 | Bag
+   19765968 |        2148 | Acyclovir
+   19765968 |        2148 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19765968 |        2148 | 0.9% Sodium Chloride
+   19764805 |        2153 | Mirtazapine
+   19764408 |        2128 | traZODONE
+   19764408 |        2128 | SW
+   19764408 |        2128 | Prochlorperazine
+   19764408 |        2128 | Ondansetron
+   19764408 |        2128 | Lorazepam
+   19764408 |        2128 | Insulin
+   19764408 |        2128 | HYDROmorphone (Dilaudid)
+   19764408 |        2128 | Heparin
+   19764408 |        2128 | Duloxetine
+   19764408 |        2128 | Dextrose 50%
+   19764408 |        2128 | Amitriptyline
+   19764408 |        2128 | 0.9% Sodium Chloride
+   19763430 |        2173 | Heparin
+   19763430 |        2173 | Haloperidol
+   19763428 |        2133 | Influenza Virus Vaccine
+   19763129 |        2167 | Bag
+   19763129 |        2167 | Aztreonam
+   19763129 |        2167 | 0.9% Sodium Chloride
+   19763024 |        2148 | Insulin
+   19762156 |        2172 | Aspirin
+   19761932 |        2174 | Bisacodyl
+   19761469 |        2167 | Potassium Chloride
+   19760911 |        2110 | Insulin
+   19760462 |        2135 | Furosemide
+   19759865 |        2130 | Bag
+   19759491 |        2188 | Warfarin
+   19759491 |        2188 | TraMADOL (Ultram)
+   19759491 |        2188 | Sodium Chloride 0.9%
+   19759491 |        2188 | PredniSONE
+   19759491 |        2188 | Morphine Sulfate
+   19759491 |        2188 | Iso-Osmotic Dextrose
+   19759491 |        2188 | HYDROmorphone (Dilaudid)
+   19759491 |        2188 | Heparin Dwell (1000 Units/mL)
+   19759491 |        2188 | Epoetin Alfa
+   19759491 |        2188 | Aspirin
+   19759491 |        2188 | Acetaminophen
+   19759491 |        2188 | 5% Dextrose
+   19759233 |        2166 | Amiodarone
+   19759225 |        2140 | Sodium Chloride 0.9%  Flush
+   19759225 |        2140 | Oxycodone-Acetaminophen
+   19759225 |        2140 | Lorazepam
+   19759225 |        2140 | HYDROmorphone (Dilaudid)
+   19759225 |        2140 | FoLIC Acid
+   19759225 |        2140 | Diazepam
+   19758118 |        2142 | Bag
+   19758044 |        2156 | Insulin
+   19757915 |        2150 | Warfarin
+   19757915 |        2150 | Furosemide
+   19757720 |        2139 | Vial
+   19757720 |        2139 | Insulin
+   19757198 |        2189 | Glucagon
+   19756352 |        2125 | Fluconazole
+   19756352 |        2125 | 0.9% Sodium Chloride
+   19755599 |        2143 | Acetaminophen
+   19753816 |        2187 | Vial
+   19752350 |        2151 | Sodium Chloride 0.9%  Flush
+   19752350 |        2151 | Albuterol 0.083% Neb Soln
+   19750978 |        2140 | Vancomycin
+   19750978 |        2140 | Dextrose 50%
+   19750078 |        2127 | Insulin
+   19749184 |        2170 | Spironolactone
+   19749184 |        2170 | Sodium Chloride 0.9%  Flush
+   19749184 |        2170 | Potassium Chloride
+   19749184 |        2170 | Iso-Osmotic Dextrose
+   19747837 |        2179 | Sodium Chloride 0.9%  Flush
+   19747837 |        2179 | Bag
+   19747328 |        2151 | Tacrolimus
+   19747328 |        2151 | SW
+   19747328 |        2151 | Potassium Chloride
+   19747328 |        2151 | Metoprolol Tartrate
+   19747328 |        2151 | Magnesium Sulfate
+   19747328 |        2151 | Furosemide
+   19747328 |        2151 | 5% Dextrose
+   19747328 |        2151 | 0.9% Sodium Chloride
+   19746698 |        2182 | Metoprolol Tartrate
+   19746404 |        2166 | Valsartan
+   19743153 |        2189 | DiphenhydrAMINE
+   19743153 |        2189 | Bag
+   19743153 |        2189 | Acetaminophen
+   19743153 |        2189 | 0.9% Sodium Chloride
+   19742279 |        2146 | Heparin
+   19740429 |        2112 | Isosorbide Mononitrate (Extended Release)
+   19740429 |        2112 | Insulin
+   19739384 |        2138 | Aspirin
+   19737741 |        2153 | Sodium Chloride 0.9%
+   19737081 |        2117 | SW
+   19735459 |        2131 | Vitamin D
+   19735459 |        2131 | Sodium Chloride 0.9%  Flush
+   19735459 |        2131 | Fentanyl Citrate
+   19735459 |        2131 | Bag
+   19735084 |        2168 | Sterile Water
+   19734722 |        2126 | Sodium Chloride 0.9%
+   19734722 |        2126 | Ondansetron
+   19734722 |        2126 | LOPERamide
+   19734722 |        2126 | Enoxaparin Sodium
+   19734722 |        2126 | 0.9% Sodium Chloride
+   19733664 |        2138 | Ranitidine
+   19733664 |        2138 | Ondansetron
+   19733664 |        2138 | Glucagon
+   19733664 |        2138 | Finasteride
+   19733426 |        2163 | OxyCODONE (Immediate Release)
+   19732976 |        2186 | Acetaminophen
+   19731211 |        2146 | HYDROmorphone (Dilaudid)
+   19731136 |        2145 | 0.9% Sodium Chloride
+   19729614 |        2121 | Morphine Sulfate
+   19729614 |        2121 | Fluoxetine
+   19729614 |        2121 | Clonazepam
+   19729398 |        2141 | 0.9% Sodium Chloride
+   19728114 |        2150 | Acetaminophen
+   19727724 |        2142 | Insulin
+   19727470 |        2170 | Atorvastatin
+   19727083 |        2178 | Furosemide
+   19726468 |        2156 | Heparin Flush (10 units/ml)
+   19726468 |        2156 | Acetaminophen
+   19724632 |        2114 | Vancomycin
+   19723362 |        2141 | LACOSamide
+   19723160 |        2184 | Valsartan
+   19723160 |        2184 | Torsemide
+   19723160 |        2184 | Insulin
+   19723160 |        2184 | Heparin
+   19723160 |        2184 | Dextrose 50%
+   19721002 |        2147 | PredniSONE
+   19721002 |        2147 | Glucose Gel
+   19721002 |        2147 | Acetaminophen
+   19720832 |        2139 | Insulin
+   19717536 |        2193 | PredniSONE
+   19717536 |        2193 | Ipratropium-Albuterol Neb
+   19717536 |        2193 | 0.9% Sodium Chloride
+   19717191 |        2116 | HydrALAZINE
+   19715664 |        2152 | amLODIPine
+   19714547 |        2176 | Senna
+   19714547 |        2176 | Fluconazole
+   19714547 |        2176 | Bag
+   19714339 |        2126 | Gabapentin
+   19713198 |        2198 | Insulin
+   19713183 |        2195 | Furosemide
+   19713162 |        2130 | Metoprolol Succinate XL
+   19713100 |        2173 | Vitamin D
+   19713100 |        2173 | traZODONE
+   19713100 |        2173 | Senna
+   19713100 |        2173 | Polyethylene Glycol
+   19713100 |        2173 | Phenazopyridine
+   19713100 |        2173 | Morphine Sulfate
+   19713100 |        2173 | Miconazole Powder 2%
+   19713100 |        2173 | Metoprolol Tartrate
+   19713100 |        2173 | Metoprolol Succinate XL
+   19713100 |        2173 | Iso-Osmotic Dextrose
+   19713100 |        2173 | Heparin
+   19713100 |        2173 | Docusate Sodium
+   19713100 |        2173 | Bisacodyl
+   19713100 |        2173 | Atenolol
+   19713100 |        2173 | Acetaminophen
+   19713100 |        2173 | 0.9% Sodium Chloride
+   19712479 |        2113 | Sodium Chloride 0.9%  Flush
+   19712454 |        2148 | Warfarin
+   19711702 |        2145 | Potassium Chloride
+   19711702 |        2145 | Levothyroxine Sodium
+   19711702 |        2145 | Bag
+   19711702 |        2145 | Acetaminophen
+   19711702 |        2145 | 0.9% Sodium Chloride
+   19711171 |        2137 | Vancomycin
+   19711171 |        2137 | Sevelamer
+   19711171 |        2137 | Insulin
+   19711171 |        2137 | Gabapentin
+   19711171 |        2137 | D5W
+   19710521 |        2187 | Meclizine
+   19710054 |        2122 | Insulin
+   19708049 |        2185 | Baclofen
+   19708049 |        2185 | Acetaminophen
+   19706109 |        2199 | Heparin
+   19705666 |        2186 | Potassium Chloride
+   19705666 |        2186 | Acetaminophen
+   19703830 |        2147 | Magnesium Sulfate
+   19703830 |        2147 | Insulin
+   19703830 |        2147 | 0.9% Sodium Chloride
+   19700168 |        2147 | Vitamin D
+   19700047 |        2171 | Venlafaxine XR
+   19700047 |        2171 | Sodium Chloride 0.9%  Flush
+   19699616 |        2137 | Sodium Chloride 0.9%  Flush
+   19699040 |        2123 | HYDROmorphone (Dilaudid)
+   19699040 |        2123 | 0.9% Sodium Chloride
+   19698737 |        2129 | Multivitamins
+   19697269 |        2166 | Acetaminophen
+   19696769 |        2118 | Insulin
+   19696359 |        2131 | LORazepam
+   19695954 |        2197 | Labetalol
+   19694327 |        2172 | Potassium Chloride
+   19694311 |        2137 | Magnesium Sulfate
+   19694291 |        2114 | Morphine Sulfate
+   19694291 |        2114 | Metoprolol Tartrate
+   19694291 |        2114 | Albuterol 0.083% Neb Soln
+   19694170 |        2190 | OxycoDONE (Immediate Release) 
+   19693912 |        2142 | Senna
+   19693912 |        2142 | Clozapine
+   19693707 |        2124 | Atenolol
+   19692527 |        2171 | Omeprazole
+   19692527 |        2171 | Metoprolol Succinate XL
+   19692222 |        2193 | Warfarin
+   19692222 |        2193 | Potassium Chloride
+   19692222 |        2193 | Metoprolol Tartrate
+   19692222 |        2193 | Iso-Osmotic Dextrose
+   19692222 |        2193 | Docusate Sodium
+   19690769 |        2163 | Lidocaine 5% Patch
+   19690769 |        2163 | Heparin
+   19689884 |        2187 | Potassium Chloride
+   19689858 |        2144 | Morphine Sulfate
+   19689858 |        2144 | CefePIME
+   19689858 |        2144 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19689477 |        2136 | Insulin
+   19689477 |        2136 | Aspirin
+   19689280 |        2117 | Warfarin
+   19689280 |        2117 | Micafungin
+   19689280 |        2117 | Magnesium Sulfate
+   19689280 |        2117 | Insulin
+   19689280 |        2117 | Bag
+   19689280 |        2117 | 0.9% Sodium Chloride
+   19689262 |        2128 | Metoprolol Succinate XL
+   19688142 |        2190 | Acetaminophen
+   19687461 |        2184 | Ketorolac
+   19684911 |        2177 | Insulin
+   19684911 |        2177 | Docusate Sodium
+   19684272 |        2133 | Bag
+   19684272 |        2133 | 0.9% Sodium Chloride
+   19684072 |        2133 | Insulin
+   19683768 |        2120 | Furosemide
+   19683695 |        2133 | Vancomycin
+   19683695 |        2133 | Tacrolimus
+   19683695 |        2133 | Insulin
+   19683695 |        2133 | 5% Dextrose
+   19683159 |        2131 | Thiamine
+   19683159 |        2131 | Sodium Chloride 0.9%
+   19683159 |        2131 | Senna
+   19683159 |        2131 | Phytonadione
+   19683159 |        2131 | Heparin Dwell (1000 Units/mL)
+   19683159 |        2131 | Heparin
+   19682482 |        2123 | LeVETiracetam
+   19682346 |        2177 | Sodium Chloride 0.9%
+   19682346 |        2177 | OxycoDONE (Immediate Release) 
+   19682346 |        2177 | Insulin
+   19682346 |        2177 | Bag
+   19681961 |        2164 | Alprazolam
+   19681894 |        2193 | Sodium Chloride 0.9%  Flush
+   19681724 |        2176 | Insulin
+   19681434 |        2173 | Potassium Chloride
+   19678269 |        2182 | Insulin
+   19677806 |        2122 | Torsemide
+   19677245 |        2176 | Ranitidine
+   19677105 |        2172 | Acetaminophen
+   19676805 |        2133 | Sodium Chloride 0.9%  Flush
+   19676805 |        2133 | Metoprolol Tartrate
+   19676805 |        2133 | HYDROmorphone (Dilaudid)
+   19676805 |        2133 | Furosemide
+   19676310 |        2156 | SW
+   19676310 |        2156 | Magnesium Sulfate
+   19676310 |        2156 | DOXOrubicin
+   19676310 |        2156 | Docusate Sodium
+   19674536 |        2159 | Levothyroxine Sodium
+   19674536 |        2159 | Captopril
+   19674244 |        2189 | traZODONE
+   19674244 |        2189 | Tacrolimus
+   19674244 |        2189 | Sodium Chloride 0.9%  Flush
+   19674244 |        2189 | Sodium Chloride 0.9%
+   19674244 |        2189 | Metoprolol Tartrate
+   19674244 |        2189 | Magnesium Sulfate
+   19674244 |        2189 | Lactated Ringers
+   19674244 |        2189 | Heparin
+   19674244 |        2189 | Famotidine
+   19674244 |        2189 | CefePIME
+   19674244 |        2189 | 0.9% Sodium Chloride (Mini Bag Plus)
+   19674244 |        2189 | 0.9% Sodium Chloride
+   19671118 |        2117 | Insulin
+   19670384 |        2187 | Zolpidem Tartrate
+   19670384 |        2187 | Tacrolimus
+   19670384 |        2187 | Sirolimus
+   19670384 |        2187 | Potassium Chloride
+   19670384 |        2187 | Iso-Osmotic Dextrose
+   19670384 |        2187 | HYDROmorphone (Dilaudid)
+   19670384 |        2187 | Bag
+   19670384 |        2187 | 5% Dextrose
+   19669999 |        2143 | Multivitamins
+   19669999 |        2143 | Aluminum-Magnesium Hydrox.-Simethicone
+   19668610 |        2149 | Dexamethasone
+   19667819 |        2122 | Sodium Chloride 0.9%  Flush
+   19667819 |        2122 | Acetaminophen IV
+   19667522 |        2187 | SW
+   19667522 |        2187 | NS
+   19667522 |        2187 | Neutra-Phos
+   19667522 |        2187 | Furosemide
+   19667522 |        2187 | D5W
+   19667522 |        2187 | Allopurinol
+   19667522 |        2187 | Acyclovir
+   19667420 |        2161 | Furosemide
+   19666792 |        2143 | Furosemide
+   19666743 |        2151 | Insulin
+   19666541 |        2113 | PredniSONE
+   19666282 |        2152 | Amiodarone
+   19665025 |        2128 | 0.9% Sodium Chloride
+   19664531 |        2133 | Warfarin
+   19664531 |        2133 | Sodium Chloride 0.9%  Flush
+   19664531 |        2133 | Pravastatin
+   19663837 |        2173 | Morphine Sulfate
+   19663680 |        2132 | Etoposide
+   19661870 |        2181 | Insulin
+   19661870 |        2181 | Dextrose 50%
+   19661870 |        2181 | 5% Dextrose
+   19661729 |        2159 | Senna
+   19661729 |        2159 | HYDROmorphone (Dilaudid)
+   19660235 |        2174 | Warfarin
+   19660235 |        2174 | Terazosin
+   19660235 |        2174 | Insulin
+   19660235 |        2174 | Glucagon
+   19660235 |        2174 | 0.9% Sodium Chloride
+   19660133 |        2125 | PredniSONE
+   19659653 |        2186 | Zolpidem Tartrate
+   19659653 |        2186 | Sodium Chloride 0.9%  Flush
+   19659653 |        2186 | Insulin
+   19659653 |        2186 | Gabapentin
+   19659653 |        2186 | Acetaminophen
+   19659653 |        2186 | 0.9% Sodium Chloride
+   19658135 |        2131 | Furosemide
+   19658135 |        2131 | Entecavir
+   19657904 |        2155 | Simethicone
+   19657904 |        2155 | Senna
+   19657904 |        2155 | Ranitidine
+   19657904 |        2155 | Heparin
+   19656279 |        2125 | Warfarin
+   19656279 |        2125 | Ipratropium Bromide Neb
+   19656279 |        2125 | Gabapentin
+   19655310 |        2140 | OxyCODONE (Immediate Release)
+   19655310 |        2140 | Heparin Dwell (1000 Units/mL)
+   19655310 |        2140 | 0.9% Sodium Chloride
+   19654837 |        2174 | Iso-Osmotic Dextrose
+   19654305 |        2136 | Albumin 25% (12.5g / 50mL)
+   19654137 |        2128 | Vial
+   19654137 |        2128 | D5 1/2NS
+   19654136 |        2131 | Heparin Flush (10 units/ml)
+   19654136 |        2131 | Acetaminophen
+   19653956 |        2180 | Insulin
+   19653956 |        2180 | Bisacodyl
+   19652685 |        2160 | Labetalol
+   19652685 |        2160 | 0.9% Sodium Chloride
+   19650793 |        2150 | Potassium Chloride
+   19650283 |        2128 | Iso-Osmotic Dextrose
+   19650185 |        2173 | Heparin
+   19650110 |        2171 | Piperacillin-Tazobactam
+   19650110 |        2171 | 0.9% Sodium Chloride
+   19649250 |        2146 | Warfarin
+   19649250 |        2146 | Insulin
+   19649250 |        2146 | Heparin
+   19648488 |        2147 | Acetaminophen
+   19647994 |        2128 | Vancomycin
+   19647994 |        2128 | Insulin
+   19647910 |        2186 | Tacrolimus
+   19646586 |        2122 | Lorazepam
+   19646586 |        2122 | 0.9% Sodium Chloride
+   19646228 |        2158 | Apixaban
+   19645833 |        2127 | Simvastatin
+   19645833 |        2127 | Insulin
+   19645563 |        2136 | Ipratropium-Albuterol Neb
+   19645563 |        2136 | Insulin
+   19644467 |        2192 | Thiamine
+   19644467 |        2192 | Pantoprazole
+   19644467 |        2192 | Ondansetron
+   19644467 |        2192 | Lactulose
+   19644467 |        2192 | Insulin
+   19644467 |        2192 | HYDROmorphone (Dilaudid)
+   19644395 |        2180 | Heparin
+   19644375 |        2124 | Metoprolol Tartrate
+   19644375 |        2124 | Lorazepam
+(1000 rows)
+
