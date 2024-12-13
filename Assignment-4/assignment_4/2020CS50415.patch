@@ -1,0 +1,986 @@
+diff --git a/in/ac/iitd/src/main/java/MyCalciteConnection.java b/in/ac/iitd/src/main/java/MyCalciteConnection.java
+index 2e869ef..edb89b8 100644
+--- a/in/ac/iitd/src/main/java/MyCalciteConnection.java
++++ b/in/ac/iitd/src/main/java/MyCalciteConnection.java
+@@ -214,6 +214,25 @@ public class MyCalciteConnection {
+                 Write your code here 
+                 You can post-process the result here, if needed
+             */
++            query = query.toLowerCase();
++            if (!result.isEmpty() && query.startsWith("select")) {
++                int cnt = 1;
++                for (int i = 0; i < query.length(); i++) {
++                    cnt += (query.charAt(i) == ',') ? 1 : 0;
++                    if (query.charAt(i) == 'f' && query.charAt(i + 1) == 'r' && query.charAt(i + 2) == 'o' && query.charAt(i + 3) == 'm') {
++                        break;
++                    }
++                }
++                if (result.get(0).length > cnt) {
++                    List<Object[]> newResult = new ArrayList<>();
++                    for (Object[] row : result) {
++                        Object[] newRow = new Object[cnt];
++                        System.arraycopy(row, 0, newRow, 0, cnt);
++                        newResult.add(newRow);
++                    }
++                    return newResult;
++                }
++            }
+ 
+             return result;
+         }
+diff --git a/in/ac/iitd/src/main/java/rel/PAggregate.java b/in/ac/iitd/src/main/java/rel/PAggregate.java
+index db6dde0..8fa4e98 100644
+--- a/in/ac/iitd/src/main/java/rel/PAggregate.java
++++ b/in/ac/iitd/src/main/java/rel/PAggregate.java
+@@ -9,8 +9,9 @@ import org.apache.calcite.rel.hint.RelHint;
+ import org.apache.calcite.util.ImmutableBitSet;
+ 
+ import convention.PConvention;
++import org.apache.calcite.util.Pair;
+ 
+-import java.util.List;
++import java.util.*;
+ 
+ // Count, Min, Max, Sum, Avg
+ public class PAggregate extends Aggregate implements PRel {
+@@ -38,12 +39,23 @@ public class PAggregate extends Aggregate implements PRel {
+         return "PAggregate";
+     }
+ 
++    private PRel inputRel = null;
++    private boolean processed = false;
++
++    // HashMap to store the grouped rows
++    private final HashMap<String, List<Object[]>> groupedRows = new HashMap<>();
++
++    // Queue to store the results of the aggregate functions
++    private final Queue<Object[]> results = new LinkedList<>();
++
+     // returns true if successfully opened, false otherwise
+     @Override
+     public boolean open() {
+         logger.trace("Opening PAggregate");
+         /* Write your code here */
+-        return false;
++        inputRel = (PRel) input;
++        processed = false;
++        return inputRel.open();
+     }
+ 
+     // any postprocessing, if needed
+@@ -51,7 +63,7 @@ public class PAggregate extends Aggregate implements PRel {
+     public void close() {
+         logger.trace("Closing PAggregate");
+         /* Write your code here */
+-        return;
++        inputRel.close();
+     }
+ 
+     // returns true if there is a next row, false otherwise
+@@ -59,14 +71,140 @@ public class PAggregate extends Aggregate implements PRel {
+     public boolean hasNext() {
+         logger.trace("Checking if PAggregate has next");
+         /* Write your code here */
+-        return false;
++        if (inputRel == null) {
++            return false;
++        }
++        if (!processed) {
++            processed = true;
++            int num_cols = 0;
++            while (inputRel.hasNext()) {
++                Object[] row = inputRel.next();
++                if (num_cols == 0) {
++                    num_cols = row.length;
++                }
++                for (int gid = 0; gid < groupSets.size(); gid++) {
++                    ImmutableBitSet groupSet = groupSets.get(gid);
++                    StringBuilder groupKey = new StringBuilder();
++                    groupKey.append(gid).append(":");
++                    for (int i = groupSet.nextSetBit(0); i >= 0; i = groupSet.nextSetBit(i + 1)) {
++                        groupKey.append(row[i]).append(",");
++                    }
++                    String group = groupKey.toString();
++
++                    if (!groupedRows.containsKey(group)) {
++                        groupedRows.put(group, new ArrayList<>());
++                    }
++                    groupedRows.get(group).add(row);
++                }
++            }
++            for (Map.Entry<String, List<Object[]>> entry : groupedRows.entrySet()) {
++                String key = entry.getKey();
++                List<Object[]> group = entry.getValue();
++
++                int grp_id = Integer.parseInt(key.split(":")[0]);
++                Object[] nextRow = new Object[groupSet.cardinality() + aggCalls.size()];
++                List<Integer> aggInds = new ArrayList<>();
++                for (int i = groupSets.get(grp_id).nextSetBit(0); i >= 0; i = groupSets.get(grp_id).nextSetBit(i+1)) {
++                    nextRow[i] = group.get(0)[i];
++                }
++                int i = groupSet.cardinality();
++                for (AggregateCall aggCall : aggCalls) {
++                    aggInds.add(i);
++                    switch (aggCall.getAggregation().getName()) {
++                        case "COUNT":
++                        case "SUM":
++                        case "AVG":
++                            nextRow[i] = 0;
++                            break;
++                        case "MIN":
++                        case "MAX":
++                            nextRow[i] = null;
++                            break;
++                        default:
++                            break;
++                    }
++                    i++;
++                }
++                int row_cnt = 0;
++                HashSet<Pair<Integer, Object>> seen = new HashSet<>();
++                for (Object[] row : group) {
++                    int cnt = 0;
++                    for (AggregateCall aggCall : aggCalls) {
++                        int aggInd = -1;
++                        if (!aggCall.getArgList().isEmpty()) {
++                            aggInd = aggCall.getArgList().get(0);
++                        }
++                        int rowInd = aggInds.get(cnt++);
++                        switch (aggCall.getAggregation().getName()) {
++                            case "COUNT":
++                                if (aggCall.isDistinct()) {
++                                    if (seen.contains(new Pair<>(rowInd, row[aggInd]))) {
++                                        break;
++                                    }
++                                    seen.add(new Pair<>(rowInd, row[aggInd]));
++                                }
++                                nextRow[rowInd] = (Integer) nextRow[rowInd] + 1;
++                                break;
++                            case "MIN":
++                                if (row[aggInd] != null) {
++                                    if (nextRow[rowInd] == null) {
++                                        nextRow[rowInd] = row[aggInd];
++                                    }
++                                    nextRow[rowInd] = (((Comparable) row[aggInd]).compareTo(nextRow[aggInd]) < 0) ? row[aggInd] : nextRow[aggInd];
++                                }
++                                break;
++                            case "MAX":
++                                if (row[aggInd] != null) {
++                                    if (nextRow[rowInd] == null) {
++                                        nextRow[rowInd] = row[aggInd];
++                                    }
++                                    nextRow[rowInd] = (((Comparable) row[aggInd]).compareTo(nextRow[aggInd]) > 0) ? row[aggInd] : nextRow[aggInd];
++                                }
++                                break;
++                            case "SUM":
++                                if (row[aggInd] != null) {
++                                    if (aggCall.isDistinct()) {
++                                        if (seen.contains(new Pair<>(rowInd, row[aggInd]))) {
++                                            break;
++                                        }
++                                        seen.add(new Pair<>(rowInd, row[aggInd]));
++                                    }
++                                    Number sm = (Number) nextRow[rowInd];
++                                    Number rowValue = (Number) row[aggInd];
++                                    nextRow[rowInd] = sm.doubleValue() + rowValue.doubleValue();
++                                }
++                                break;
++                            case "AVG":
++                                if (row[aggInd] != null) {
++                                    if (aggCall.isDistinct()) {
++                                        if (seen.contains(new Pair<>(rowInd, row[aggInd]))) {
++                                            break;
++                                        }
++                                        seen.add(new Pair<>(rowInd, row[aggInd]));
++                                    }
++                                    Number av = (Number) nextRow[rowInd];
++                                    Number rowValue = (Number) row[aggInd];
++                                    nextRow[rowInd] = (av.doubleValue() * row_cnt + rowValue.doubleValue()) / (double) (row_cnt + 1);
++                                }
++                                break;
++                            default:
++                                break;
++                        }
++                    }
++                    row_cnt++;
++                }
++                results.add(nextRow);
++            }
++        }
++        return !results.isEmpty();
+     }
+ 
+     // returns the next row
+     @Override
+     public Object[] next() {
+         logger.trace("Getting next row from PAggregate");
+-        return null;
++        /* Write your code here */
++        return results.poll();
+     }
+ 
+ }
+\ No newline at end of file
+diff --git a/in/ac/iitd/src/main/java/rel/PFilter.java b/in/ac/iitd/src/main/java/rel/PFilter.java
+index c3cb696..491460e 100644
+--- a/in/ac/iitd/src/main/java/rel/PFilter.java
++++ b/in/ac/iitd/src/main/java/rel/PFilter.java
+@@ -4,9 +4,11 @@ import org.apache.calcite.plan.RelOptCluster;
+ import org.apache.calcite.plan.RelTraitSet;
+ import org.apache.calcite.rel.RelNode;
+ import org.apache.calcite.rel.core.Filter;
+-import org.apache.calcite.rex.RexNode;
++import org.apache.calcite.rex.*;
+ 
+ import convention.PConvention;
++import java.util.Arrays;
++import java.util.List;
+ 
+ 
+ public class PFilter extends Filter implements PRel {
+@@ -29,13 +31,17 @@ public class PFilter extends Filter implements PRel {
+     public String toString() {
+         return "PFilter";
+     }
++    
++    private PRel inputRel = null;
++    private Object[] nextRow = null;
+ 
+     // returns true if successfully opened, false otherwise
+     @Override
+     public boolean open(){
+         logger.trace("Opening PFilter");
+         /* Write your code here */
+-        return false;
++        inputRel = (PRel) input;
++        return inputRel.open();
+     }
+ 
+     // any postprocessing, if needed
+@@ -43,7 +49,147 @@ public class PFilter extends Filter implements PRel {
+     public void close(){
+         logger.trace("Closing PFilter");
+         /* Write your code here */
+-        return;
++        inputRel.close();
++    }
++
++    private List<Object> getValues(Object[] row, List<RexNode> operands) {
++//                SqlTypeName st = null;
++        Object op1 = null, op2 = null;
++        if (operands.get(0) instanceof RexInputRef) {
++            if (operands.get(1) instanceof RexInputRef) {
++                RexInputRef ref = (RexInputRef) operands.get(0);
++                op1 = row[ref.getIndex()];
++                ref = (RexInputRef) operands.get(1);
++                op2 = row[ref.getIndex()];
++            } else if (operands.get(1) instanceof RexLiteral) {
++                RexInputRef ref = (RexInputRef) operands.get(0);
++                op1 = row[ref.getIndex()];
++                RexLiteral literal = (RexLiteral) operands.get(1);
++                op2 = literal.getValueAs(op1.getClass());
++//                        logger.debug(op2.getClass());
++            }
++//                    st = this.getRowType().getFieldList().get(ref.getIndex()).getType().getSqlTypeName();
++        } else if (operands.get(0) instanceof RexLiteral) {
++            if (operands.get(1) instanceof RexInputRef) {
++                RexInputRef ref = (RexInputRef) operands.get(1);
++                op2 = row[ref.getIndex()];
++                RexLiteral literal = (RexLiteral) operands.get(0);
++                op1 = literal.getValueAs(op2.getClass());
++            } else if (operands.get(1) instanceof RexLiteral) {
++                RexLiteral literal = (RexLiteral) operands.get(1);
++                op2 = literal.getValue();
++                literal = (RexLiteral) operands.get(0);
++                op1 = literal.getValue();
++            }
++        }
++        return Arrays.asList(op1, op2);
++    }
++
++    private Object getValue(Object[] row, List<RexNode> operands) {
++        Object op1 = null;
++        if (operands.get(0) instanceof RexInputRef) {
++            RexInputRef ref = (RexInputRef) operands.get(0);
++            op1 = row[ref.getIndex()];
++        } else if (operands.get(0) instanceof RexLiteral) {
++            RexLiteral literal = (RexLiteral) operands.get(0);
++            op1 = literal.getValue();
++        }
++        return op1;
++    }
++
++    private boolean evaluateCondition(Object[] row, RexNode cond) {
++        RexCall call = (RexCall) cond;
++        List<RexNode> operands = call.getOperands();
++
++        Object op1, op2;
++        List<Object> values;
++        switch (call.getKind()) {
++            case EQUALS:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                return op1.equals(op2);
++            case NOT_EQUALS:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null) {
++                    return op2 != null;
++                }
++                return !op1.equals(op2);
++            case LESS_THAN:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                return ((Comparable) op1).compareTo(op2) < 0;
++            case GREATER_THAN:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                return ((Comparable) op1).compareTo(op2) > 0;
++            case LESS_THAN_OR_EQUAL:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                return ((Comparable) op1).compareTo(op2) <= 0;
++            case GREATER_THAN_OR_EQUAL:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                return ((Comparable) op1).compareTo(op2) >= 0;
++            case LIKE:
++                values = getValues(row, operands);
++                op1 = values.get(0);
++                op2 = values.get(1);
++                if (op1 == null || op2 == null) {
++                    return false;
++                }
++                if (!(op1 instanceof String) || !(op2 instanceof String)) {
++                    throw new UnsupportedOperationException("LIKE can only be used with String values");
++                }
++                String pattern = ((String) op2).replace("*", "\\*");
++                pattern = pattern.replace(".", "\\.");
++                pattern = pattern.replace("%", ".*");
++                pattern = pattern.replace("_", ".");
++                return ((String) op1).matches(pattern);
++            case IS_NULL:
++                return getValue(row, operands) == null;
++            case IS_NOT_NULL:
++                return getValue(row, operands) != null;
++            case AND:
++                boolean resAnd = true;
++                for (RexNode operand : operands) {
++                    resAnd = resAnd && evaluateCondition(row, operand);
++                }
++                return resAnd;
++//                return evaluateCondition(row, operands.get(0)) && evaluateCondition(row, operands.get(1));
++            case OR:
++                boolean resOr = false;
++                for (RexNode operand : operands) {
++                    resOr = resOr || evaluateCondition(row, operand);
++                }
++                return resOr;
++//                return evaluateCondition(row, operands.get(0)) || evaluateCondition(row, operands.get(1));
++            case NOT:
++                return !evaluateCondition(row, operands.get(0));
++            default:
++                return false;
++        }
+     }
+ 
+     // returns true if there is a next row, false otherwise
+@@ -51,6 +197,17 @@ public class PFilter extends Filter implements PRel {
+     public boolean hasNext(){
+         logger.trace("Checking if PFilter has next");
+         /* Write your code here */
++        if (inputRel == null) {
++            return false;
++        }
++        while (inputRel.hasNext()) {
++            Object[] row = inputRel.next();
++            if (evaluateCondition(row, condition)) {
++                logger.debug("Row passed filter: " + Arrays.toString(row));
++                nextRow = row;
++                return true;
++            }
++        }
+         return false;
+     }
+ 
+@@ -60,6 +217,7 @@ public class PFilter extends Filter implements PRel {
+     public Object[] next(){
+         logger.trace("Getting next row from PFilter");
+         /* Write your code here */
+-        return null;
++        assert nextRow != null;
++        return nextRow;
+     }
+ }
+diff --git a/in/ac/iitd/src/main/java/rel/PJoin.java b/in/ac/iitd/src/main/java/rel/PJoin.java
+index 9bc33f8..b9851a0 100644
+--- a/in/ac/iitd/src/main/java/rel/PJoin.java
++++ b/in/ac/iitd/src/main/java/rel/PJoin.java
+@@ -7,11 +7,15 @@ import org.apache.calcite.rel.RelNode;
+ import org.apache.calcite.rel.core.CorrelationId;
+ import org.apache.calcite.rel.core.Join;
+ import org.apache.calcite.rel.core.JoinRelType;
++import org.apache.calcite.rex.RexCall;
++import org.apache.calcite.rex.RexInputRef;
++import org.apache.calcite.rex.RexLiteral;
+ import org.apache.calcite.rex.RexNode;
+ 
+ import convention.PConvention;
++import org.apache.calcite.sql.SqlKind;
+ 
+-import java.util.Set;
++import java.util.*;
+ 
+ /*
+     * Implement Hash Join
+@@ -47,12 +51,24 @@ public class PJoin extends Join implements PRel {
+         return "PJoin";
+     }
+ 
++    private PRel leftChild = null, rightChild = null;
++    private boolean processed = false;
++    private int num_left_cols = 0;
++
++    private final HashMap<String, List<Object[]>> groupedRows = new HashMap<>();
++
++    private final Queue<Object[]> results = new LinkedList<>();
++
+     // returns true if successfully opened, false otherwise
+     @Override
+     public boolean open() {
+         logger.trace("Opening PJoin");
+         /* Write your code here */
+-        return false;
++        leftChild = (PRel) left;
++        rightChild = (PRel) right;
++        processed = false;
++        num_left_cols = left.getRowType().getFieldCount();
++        return leftChild.open() && rightChild.open();
+     }
+ 
+     // any postprocessing, if needed
+@@ -60,7 +76,51 @@ public class PJoin extends Join implements PRel {
+     public void close() {
+         logger.trace("Closing PJoin");
+         /* Write your code here */
+-        return;
++        leftChild.close();
++        rightChild.close();
++    }
++
++    private String getKey(Object[] row, RexCall operand, String table) {
++        if (operand.getKind().equals(SqlKind.AND)) {
++            StringBuilder key = new StringBuilder();
++            for (RexNode op : operand.getOperands()) {
++                key.append(getKey(row, (RexCall) op, table)).append(',');
++            }
++            return key.toString();
++        }
++        assert operand.getKind().equals(SqlKind.EQUALS);
++        RexNode op1 = operand.getOperands().get(0);
++        RexNode op2 = operand.getOperands().get(1);
++        RexInputRef ref1 = null, ref2 = null;
++        if (op1 instanceof RexInputRef) {
++            ref1 = (RexInputRef) op1;
++            if ((table.equals("left") && ref1.getIndex() < num_left_cols) ||
++                    (table.equals("right") && ref1.getIndex() >= num_left_cols)) {
++                int offset = ref1.getIndex() < num_left_cols ? 0 : num_left_cols;
++                return row[ref1.getIndex() - offset].toString();
++            }
++        }
++        if (op2 instanceof RexInputRef) {
++            ref2 = (RexInputRef) op2;
++            if ((table.equals("left") && ref2.getIndex() < num_left_cols) ||
++                    (table.equals("right") && ref2.getIndex() >= num_left_cols)) {
++                int offset = ref2.getIndex() < num_left_cols ? 0 : num_left_cols;
++                return row[ref2.getIndex() - offset].toString();
++            }
++        }
++        if (op1 instanceof RexLiteral) {
++            RexLiteral literal = (RexLiteral) op1;
++            if ((ref2 != null) || (table.equals("left"))) {
++                return Objects.requireNonNull(literal.getValue()).toString();
++            }
++        }
++        if (op2 instanceof RexLiteral) {
++            RexLiteral literal = (RexLiteral) op2;
++            if ((ref1 != null) || (table.equals("right"))) {
++                return Objects.requireNonNull(literal.getValue()).toString();
++            }
++        }
++        return null;
+     }
+ 
+     // returns true if there is a next row, false otherwise
+@@ -68,7 +128,55 @@ public class PJoin extends Join implements PRel {
+     public boolean hasNext() {
+         logger.trace("Checking if PJoin has next");
+         /* Write your code here */
+-        return false;
++        if (leftChild == null || rightChild == null) {
++            return false;
++        }
++        if (!processed) {
++            HashSet<String> matched_left_rows = new HashSet<>();
++            processed = true;
++            while (leftChild.hasNext()) {
++                Object[] leftRow = leftChild.next();
++                String key = getKey(leftRow, ((RexCall) condition), "left");
++                if (!groupedRows.containsKey(key)) {
++                    groupedRows.put(key, new ArrayList<>());
++                }
++                groupedRows.get(key).add(leftRow);
++            }
++            while (rightChild.hasNext()) {
++                Object[] rightRow = rightChild.next();
++                String key = getKey(rightRow, ((RexCall) condition), "right");
++                if (groupedRows.containsKey(key)) {
++                    matched_left_rows.add(key);
++                    for (Object[] leftRow : groupedRows.get(key)) {
++                        Object[] row = new Object[leftRow.length + rightRow.length];
++                        System.arraycopy(leftRow, 0, row, 0, leftRow.length);
++                        System.arraycopy(rightRow, 0, row, leftRow.length, rightRow.length);
++                        results.add(row);
++                    }
++                } else if (joinType.equals(JoinRelType.RIGHT) || joinType.equals(JoinRelType.FULL)) {
++                    // Right row with no matching left row
++                    Object[] row = new Object[num_left_cols + rightRow.length];
++                    Arrays.fill(row, null); // Fill left part of row with nulls
++                    System.arraycopy(rightRow, 0, row, num_left_cols, rightRow.length);
++                    results.add(row);
++                }
++            }
++            // Left rows with no matching right row
++            if (joinType.equals(JoinRelType.LEFT) || joinType.equals(JoinRelType.FULL)) {
++                for (Map.Entry<String, List<Object[]>> entry : groupedRows.entrySet()) {
++                    if (matched_left_rows.contains(entry.getKey())) {
++                        continue;
++                    }
++                    for (Object[] leftRow : entry.getValue()) {
++                        Object[] row = new Object[leftRow.length + num_left_cols];
++                        System.arraycopy(leftRow, 0, row, 0, leftRow.length);
++                        Arrays.fill(row, leftRow.length, row.length, null); // Fill right part of row with nulls
++                        results.add(row);
++                    }
++                }
++            }
++        }
++        return !results.isEmpty();
+     }
+ 
+     // returns the next row
+@@ -76,6 +184,6 @@ public class PJoin extends Join implements PRel {
+     public Object[] next() {
+         logger.trace("Getting next row from PJoin");
+         /* Write your code here */
+-        return null;
++        return results.poll();
+     }
+ }
+diff --git a/in/ac/iitd/src/main/java/rel/PProject.java b/in/ac/iitd/src/main/java/rel/PProject.java
+index dc69a91..86d53bb 100644
+--- a/in/ac/iitd/src/main/java/rel/PProject.java
++++ b/in/ac/iitd/src/main/java/rel/PProject.java
+@@ -6,9 +6,13 @@ import org.apache.calcite.plan.RelTraitSet;
+ import org.apache.calcite.rel.RelNode;
+ import org.apache.calcite.rel.core.Project;
+ import org.apache.calcite.rel.type.RelDataType;
++import org.apache.calcite.rex.RexCall;
++import org.apache.calcite.rex.RexInputRef;
++import org.apache.calcite.rex.RexLiteral;
+ import org.apache.calcite.rex.RexNode;
+ 
+ import convention.PConvention;
++import org.apache.calcite.util.NlsString;
+ 
+ import java.util.List;
+ 
+@@ -36,12 +40,16 @@ public class PProject extends Project implements PRel {
+         return "PProject";
+     }
+ 
++    private PRel inputRel = null;
++    private Object[] nextRow = null;
++
+     // returns true if successfully opened, false otherwise
+     @Override
+     public boolean open(){
+         logger.trace("Opening PProject");
+         /* Write your code here */
+-        return false;
++        inputRel = (PRel) input;
++        return inputRel.open();
+     }
+ 
+     // any postprocessing, if needed
+@@ -49,7 +57,105 @@ public class PProject extends Project implements PRel {
+     public void close(){
+         logger.trace("Closing PProject");
+         /* Write your code here */
+-        return;
++        inputRel.close();
++    }
++
++    private Object evaluateProject(RexNode project, Object[] row) {
++        if (project instanceof RexInputRef) {
++            RexInputRef inputRef = (RexInputRef) project;
++            return row[inputRef.getIndex()];
++        } else if (project instanceof RexLiteral) {
++            RexLiteral literal = (RexLiteral) project;
++            if (literal.getValue() instanceof NlsString) {
++                return ((NlsString) literal.getValue()).getValue();
++            }
++            return literal.getValue();
++        } else if (project instanceof RexCall) {
++            RexCall call = (RexCall) project;
++            List<RexNode> operands = call.getOperands();
++            Comparable op1, op2;
++            switch (call.getKind()) {
++                case PLUS:
++                    return ((Number) evaluateProject(operands.get(0), row)).doubleValue() + ((Number) evaluateProject(operands.get(1), row)).doubleValue();
++                case MINUS:
++                    return ((Number) evaluateProject(operands.get(0), row)).doubleValue() - ((Number) evaluateProject(operands.get(1), row)).doubleValue();
++                case TIMES:
++                    return ((Number) evaluateProject(operands.get(0), row)).doubleValue() * ((Number) evaluateProject(operands.get(1), row)).doubleValue();
++                case DIVIDE:
++                    return ((Number) evaluateProject(operands.get(0), row)).doubleValue() / ((Number) evaluateProject(operands.get(1), row)).doubleValue();
++                case MOD:
++                    return ((Number) evaluateProject(operands.get(0), row)).doubleValue() % ((Number) evaluateProject(operands.get(1), row)).doubleValue();
++                case MINUS_PREFIX:
++                    return -((Number) evaluateProject(operands.get(0), row)).doubleValue();
++                case AND:
++                    return ((Boolean) evaluateProject(operands.get(0), row)) && ((Boolean) evaluateProject(operands.get(1), row));
++                case OR:
++                    return ((Boolean) evaluateProject(operands.get(0), row)) || ((Boolean) evaluateProject(operands.get(1), row));
++                case NOT:
++                    return !((Boolean) evaluateProject(operands.get(0), row));
++                case EQUALS:
++                    return evaluateProject(operands.get(0), row).equals(evaluateProject(operands.get(1), row));
++                case NOT_EQUALS:
++                    return !evaluateProject(operands.get(0), row).equals(evaluateProject(operands.get(1), row));
++                case GREATER_THAN:
++                    op1 = (Comparable) evaluateProject(operands.get(0), row);
++                    op2 = (Comparable) evaluateProject(operands.get(1), row);
++                    if (op1 instanceof Number) {
++                        op1 = ((Number) op1).doubleValue();
++                    }
++                    if (op2 instanceof Number) {
++                        op2 = ((Number) op2).doubleValue();
++                    }
++                    return (op1.compareTo(op2)) > 0;
++                case GREATER_THAN_OR_EQUAL:
++                    op1 = (Comparable) evaluateProject(operands.get(0), row);
++                    op2 = (Comparable) evaluateProject(operands.get(1), row);
++                    if (op1 instanceof Number) {
++                        op1 = ((Number) op1).doubleValue();
++                    }
++                    if (op2 instanceof Number) {
++                        op2 = ((Number) op2).doubleValue();
++                    }
++                    return (op1.compareTo(op2)) >= 0;
++                case LESS_THAN:
++                    op1 = (Comparable) evaluateProject(operands.get(0), row);
++                    op2 = (Comparable) evaluateProject(operands.get(1), row);
++                    if (op1 instanceof Number) {
++                        op1 = ((Number) op1).doubleValue();
++                    }
++                    if (op2 instanceof Number) {
++                        op2 = ((Number) op2).doubleValue();
++                    }
++                    return op1.compareTo(op2) < 0;
++                case LESS_THAN_OR_EQUAL:
++                    op1 = (Comparable) evaluateProject(operands.get(0), row);
++                    op2 = (Comparable) evaluateProject(operands.get(1), row);
++                    if (op1 instanceof Number) {
++                        op1 = ((Number) op1).doubleValue();
++                    }
++                    if (op2 instanceof Number) {
++                        op2 = ((Number) op2).doubleValue();
++                    }
++                    return (op1.compareTo(op2)) <= 0;
++                case CASE:
++                    for (int i = 0; i < operands.size() - 1; i += 2) {
++                        if ((Boolean) evaluateProject(operands.get(i), row)) {
++                            return evaluateProject(operands.get(i + 1), row);
++                        }
++                    }
++                    return evaluateProject(operands.get(operands.size() - 1), row);
++                case IS_NULL:
++                    return evaluateProject(operands.get(0), row) == null;
++                case IS_NOT_NULL:
++                    return evaluateProject(operands.get(0), row) != null;
++                case CONCAT2:
++                    return evaluateProject(operands.get(0), row).toString() + evaluateProject(operands.get(1), row).toString();
++                default:
++                    throw new UnsupportedOperationException("Unsupported operator: " + call.getKind());
++            }
++        } else {
++            throw new UnsupportedOperationException("Unsupported RexNode type: " + project.getClass());
++        }
+     }
+ 
+     // returns true if there is a next row, false otherwise
+@@ -57,6 +163,24 @@ public class PProject extends Project implements PRel {
+     public boolean hasNext(){
+         logger.trace("Checking if PProject has next");
+         /* Write your code here */
++        if (input == null) {
++            return false;
++        }
++        if (inputRel.hasNext()) {
++            Object[] row = inputRel.next();
++
++            // Apply the projects to the row
++            Object[] result = new Object[this.exps.size()];
++            for (int i = 0; i < this.exps.size(); i++) {
++                RexNode project = this.exps.get(i);
++//                System.out.println(project);
++
++                // Evaluate the project against the row
++                result[i] = evaluateProject(project, row);
++            }
++            nextRow = result;
++            return true;
++        }
+         return false;
+     }
+ 
+@@ -65,6 +189,7 @@ public class PProject extends Project implements PRel {
+     public Object[] next(){
+         logger.trace("Getting next row from PProject");
+         /* Write your code here */
+-        return null;
++        assert nextRow != null;
++        return nextRow;
+     }
+ }
+diff --git a/in/ac/iitd/src/main/java/rel/PSort.java b/in/ac/iitd/src/main/java/rel/PSort.java
+index f72f7cf..7a6cb8b 100644
+--- a/in/ac/iitd/src/main/java/rel/PSort.java
++++ b/in/ac/iitd/src/main/java/rel/PSort.java
+@@ -1,19 +1,21 @@
+ package rel;
+ 
+-import java.util.List;
++import java.util.*;
+ 
+ import org.apache.calcite.plan.RelOptCluster;
+ import org.apache.calcite.plan.RelTraitSet;
+ import org.apache.calcite.rel.RelCollation;
++import org.apache.calcite.rel.RelFieldCollation;
+ import org.apache.calcite.rel.RelNode;
+ import org.apache.calcite.rel.core.Sort;
+ import org.apache.calcite.rel.hint.RelHint;
++import org.apache.calcite.rex.RexLiteral;
+ import org.apache.calcite.rex.RexNode;
+ 
+ import convention.PConvention;
+ 
+ public class PSort extends Sort implements PRel{
+-    
++
+     public PSort(
+             RelOptCluster cluster,
+             RelTraitSet traits,
+@@ -37,12 +39,63 @@ public class PSort extends Sort implements PRel{
+         return "PSort";
+     }
+ 
++    private class CustomComparator implements Comparator<Object[]> {
++        @Override
++        public int compare(Object[] row1, Object[] row2) {
++            for (RelFieldCollation fc : collation.getFieldCollations()) {
++                int index = fc.getFieldIndex();
++                if (row1[index] == null && row2[index] == null) {
++                    continue;
++                }
++                if (fc.direction.isDescending()) {
++                    if (row1[index] == null) {
++                        return -1;
++                    }
++                    if (row2[index] == null) {
++                        return 1;
++                    }
++                    if (((Comparable) row1[index]).compareTo(row2[index]) < 0) {
++                        return 1;
++                    }
++                    else if (((Comparable) row1[index]).compareTo(row2[index]) > 0) {
++                        return -1;
++                    }
++                }
++                else {
++                    if (row1[index] == null) {
++                        return 1;
++                    }
++                    if (row2[index] == null) {
++                        return -1;
++                    }
++                    if (((Comparable) row1[index]).compareTo(row2[index]) > 0) {
++                        return 1;
++                    }
++                    else if (((Comparable) row1[index]).compareTo(row2[index]) < 0) {
++                        return -1;
++                    }
++                }
++            }
++            return 0;
++        }
++
++    }
++
++    private int row_cnt = 0;
++    private PRel inputRel = null;
++    private boolean processed = false;
++
++    private final PriorityQueue<Object[]> sortedRows = new PriorityQueue<>(new CustomComparator());
++
+     // returns true if successfully opened, false otherwise
+     @Override
+     public boolean open(){
+         logger.trace("Opening PSort");
+         /* Write your code here */
+-        return false;
++        inputRel = (PRel) input;
++        processed = false;
++        row_cnt = 0;
++        return inputRel.open();
+     }
+ 
+     // any postprocessing, if needed
+@@ -50,7 +103,7 @@ public class PSort extends Sort implements PRel{
+     public void close(){
+         logger.trace("Closing PSort");
+         /* Write your code here */
+-        return;
++        inputRel.close();
+     }
+ 
+     // returns true if there is a next row, false otherwise
+@@ -58,7 +111,26 @@ public class PSort extends Sort implements PRel{
+     public boolean hasNext(){
+         logger.trace("Checking if PSort has next");
+         /* Write your code here */
+-        return false;
++        if (inputRel == null) {
++            return false;
++        }
++        if (!processed) {
++            processed = true;
++            while (inputRel.hasNext()) {
++                Object[] row = inputRel.next();
++                sortedRows.add(row);
++            }
++            if (offset != null) {
++                for (int i = 0; i < RexLiteral.intValue(offset); i++) {
++                    sortedRows.poll();
++                }
++            }
++        }
++        if ((fetch != null) && (row_cnt >= RexLiteral.intValue(fetch))) {
++            return false;
++        }
++        row_cnt++;
++        return !sortedRows.isEmpty();
+     }
+ 
+     // returns the next row
+@@ -66,7 +138,7 @@ public class PSort extends Sort implements PRel{
+     public Object[] next(){
+         logger.trace("Getting next row from PSort");
+         /* Write your code here */
+-        return null;
++        return sortedRows.poll();
+     }
+ 
+ }
+diff --git a/in/ac/iitd/src/main/java/rules/PRules.java b/in/ac/iitd/src/main/java/rules/PRules.java
+index 5d32509..3c8858c 100644
+--- a/in/ac/iitd/src/main/java/rules/PRules.java
++++ b/in/ac/iitd/src/main/java/rules/PRules.java
+@@ -14,9 +14,7 @@ import org.apache.calcite.rel.logical.LogicalTableScan;
+ import org.apache.calcite.rel.logical.LogicalSort;
+ 
+ import convention.PConvention;
+-import rel.PFilter;
+-import rel.PProject;
+-import rel.PTableScan;
++import rel.*;
+ import org.checkerframework.checker.nullness.qual.Nullable;
+ 
+ 
+@@ -123,7 +121,17 @@ public class PRules {
+         @Override
+         public @Nullable RelNode convert(RelNode relNode) {
+             /* Write your code here */
+-            return null;
++            final LogicalJoin join = (LogicalJoin) relNode;
++            return new PJoin(
++                    relNode.getCluster(),
++                    relNode.getTraitSet().replace(PConvention.INSTANCE),
++                    convert(join.getLeft(), join.getLeft().getTraitSet().
++                            replace(PConvention.INSTANCE)),
++                    convert(join.getRight(), join.getRight().getTraitSet().
++                            replace(PConvention.INSTANCE)),
++                    join.getCondition(),
++                    join.getVariablesSet(),
++                    join.getJoinType());
+         }
+     }
+ 
+@@ -141,7 +149,16 @@ public class PRules {
+         @Override
+         public @Nullable RelNode convert(RelNode relNode) {
+             /* Write your code here */
+-            return null;
++            final LogicalAggregate aggregate = (LogicalAggregate) relNode;
++            return new PAggregate(
++                    relNode.getCluster(),
++                    relNode.getTraitSet().replace(PConvention.INSTANCE),
++                    aggregate.getHints(),
++                    convert(aggregate.getInput(), aggregate.getInput().getTraitSet().
++                            replace(PConvention.INSTANCE)),
++                    aggregate.getGroupSet(),
++                    aggregate.getGroupSets(),
++                    aggregate.getAggCallList());
+         }
+     }
+ 
+@@ -159,7 +176,16 @@ public class PRules {
+         @Override
+         public @Nullable RelNode convert(RelNode relNode) {
+             /* Write your code here */
+-            return null;
++            final LogicalSort sort = (LogicalSort) relNode;
++            return new PSort(
++                    relNode.getCluster(),
++                    relNode.getTraitSet().replace(PConvention.INSTANCE),
++                    sort.getHints(),
++                    convert(sort.getInput(), sort.getInput().getTraitSet().
++                            replace(PConvention.INSTANCE)),
++                    sort.getCollation(),
++                    sort.offset,
++                    sort.fetch);
+         }
+     }
+ }
